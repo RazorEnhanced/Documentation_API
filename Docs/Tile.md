@@ -1,13 +1,13 @@
 # Tile    
 
 ## Properties  
-## Tile.X
-## Tile.Y 
+### Tile.X __Int32__
+### Tile.Y __Int32__ 
 ## Methods  
 ### Tile.Equals
 ``` python
 Tile.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Tile.GetHashCode
 ``` python

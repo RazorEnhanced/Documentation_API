@@ -6,12 +6,12 @@
 ### Restock.ChangeList
 ``` python
 Restock.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### Restock.Equals
 ``` python
 Restock.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Restock.FStart
 ``` python

@@ -1,13 +1,13 @@
 # Property    
 
 ## Properties  
-## Property.Args
-## Property.Number 
+### Property.Args __String__
+### Property.Number __Int32__ 
 ## Methods  
 ### Property.Equals
 ``` python
 Property.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Property.GetHashCode
 ``` python

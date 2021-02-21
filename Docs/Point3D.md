@@ -1,14 +1,14 @@
 # Point3D    
 
 ## Properties  
-## Point3D.X
-## Point3D.Y
-## Point3D.Z 
+### Point3D.X __Int32__
+### Point3D.Y __Int32__
+### Point3D.Z __Int32__ 
 ## Methods  
 ### Point3D.Equals
 ``` python
 Point3D.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Point3D.GetHashCode
 ``` python

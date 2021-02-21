@@ -18,18 +18,18 @@
 ### AutoDoc.Equals
 ``` python
 AutoDoc.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### AutoDoc.ExportMKDocs
 ``` python
 AutoDoc.ExportMKDocs(String path)
-  String path #
+  String path 
 ```
 ### AutoDoc.ExportPythonAPI
 ``` python
 AutoDoc.ExportPythonAPI(String path, Boolean pretty)
-  String path #
-  Boolean pretty #True
+  String path 
+  Boolean pretty True
 ```
 Export the API to disk. 
 See docs for more, lol.
@@ -51,14 +51,14 @@ AutoDoc.GetHashCode()
 ### AutoDoc.GetMethods
 ``` python
 AutoDoc.GetMethods(Boolean withClass, Boolean withNames, Boolean withTypes)
-  Boolean withClass #False
-  Boolean withNames #False
-  Boolean withTypes #False
+  Boolean withClass False
+  Boolean withNames False
+  Boolean withTypes False
 ```
 ### AutoDoc.GetProperties
 ``` python
 AutoDoc.GetProperties(Boolean withClass)
-  Boolean withClass #False
+  Boolean withClass False
 ```
 ### AutoDoc.GetPythonAPI
 ``` python
@@ -74,19 +74,19 @@ AutoDoc.GetType()
 ### AutoDoc.HasTag
 ``` python
 AutoDoc.HasTag(String tag, String text)
-  String tag #
-  String text #
+  String tag 
+  String text 
 ```
 ### AutoDoc.ParamType
 ``` python
 AutoDoc.ParamType(ParameterInfo param)
-  ParameterInfo param #
+  ParameterInfo param 
 ```
 ### AutoDoc.ReadClass
 ``` python
 AutoDoc.ReadClass(Type type, BindingFlags flags)
-  Type type #
-  BindingFlags flags #
+  Type type 
+  BindingFlags flags 
 ```
 ### AutoDoc.ToString
 ``` python

@@ -6,12 +6,12 @@
 ### Organizer.ChangeList
 ``` python
 Organizer.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### Organizer.Equals
 ``` python
 Organizer.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Organizer.FStart
 ``` python
@@ -36,10 +36,10 @@ Organizer.GetType()
 ### Organizer.RunOnce
 ``` python
 Organizer.RunOnce(String organizerName, Int32 sourceBag, Int32 destBag, Int32 dragDelay)
-  String organizerName #
-  Int32 sourceBag #
-  Int32 destBag #
-  Int32 dragDelay #
+  String organizerName 
+  Int32 sourceBag 
+  Int32 destBag 
+  Int32 dragDelay 
 ```
 ### Organizer.Status
 ``` python

@@ -6,7 +6,7 @@
 ### BandageHeal.Equals
 ``` python
 BandageHeal.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### BandageHeal.GetHashCode
 ``` python

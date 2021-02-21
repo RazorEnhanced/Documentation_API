@@ -6,7 +6,7 @@
 ### Dress.ChangeList
 ``` python
 Dress.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### Dress.DressFStart
 ``` python
@@ -26,7 +26,7 @@ Dress.DressStatus()
 ### Dress.Equals
 ``` python
 Dress.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Dress.GetHashCode
 ``` python

@@ -6,7 +6,7 @@
 ### BuyAgent.ChangeList
 ``` python
 BuyAgent.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### BuyAgent.Disable
 ``` python
@@ -21,7 +21,7 @@ BuyAgent.Enable()
 ### BuyAgent.Equals
 ``` python
 BuyAgent.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### BuyAgent.GetHashCode
 ``` python

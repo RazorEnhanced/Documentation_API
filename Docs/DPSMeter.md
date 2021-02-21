@@ -6,12 +6,12 @@
 ### DPSMeter.Equals
 ``` python
 DPSMeter.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### DPSMeter.GetDamage
 ``` python
 DPSMeter.GetDamage(Int32 serial)
-  Int32 serial #
+  Int32 serial 
 ```
 ### DPSMeter.GetHashCode
 ``` python

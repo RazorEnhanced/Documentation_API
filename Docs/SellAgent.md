@@ -6,7 +6,7 @@
 ### SellAgent.ChangeList
 ``` python
 SellAgent.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### SellAgent.Disable
 ``` python
@@ -21,7 +21,7 @@ SellAgent.Enable()
 ### SellAgent.Equals
 ``` python
 SellAgent.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### SellAgent.GetHashCode
 ``` python

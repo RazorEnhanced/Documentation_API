@@ -6,12 +6,12 @@
 ### Scavenger.ChangeList
 ``` python
 Scavenger.ChangeList(String listName)
-  String listName #
+  String listName 
 ```
 ### Scavenger.Equals
 ``` python
 Scavenger.Equals(Object obj)
-  Object obj #
+  Object obj 
 ```
 ### Scavenger.GetHashCode
 ``` python
@@ -36,9 +36,9 @@ Scavenger.ResetIgnore()
 ### Scavenger.RunOnce
 ``` python
 Scavenger.RunOnce(List`1 scavengerList, Int32 mseconds, Filter filter)
-  List`1 scavengerList #
-  Int32 mseconds #
-  Filter filter #
+  List`1 scavengerList 
+  Int32 mseconds 
+  Filter filter 
 ```
 ### Scavenger.Start
 ``` python
