@@ -3,8 +3,10 @@
 ## Properties  
  
 ## Methods  
+
+.. cfunction : Statics.CheckDeedHouse(Int32 x, Int32 y)
 ### Statics.CheckDeedHouse
-``` python
+```python
 Statics.CheckDeedHouse(Int32 x, Int32 y)
   Int32 x 
   Int32 y 
