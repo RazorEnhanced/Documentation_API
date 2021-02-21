@@ -1,5 +1,5 @@
 site_name: Razor Enhaced
-docs_dir: ./md/
+docs_dir: ./Docs/
 nav:
   - Classes:
     - AutoDoc: AutoDoc.md
