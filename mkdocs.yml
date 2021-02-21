@@ -1,5 +1,5 @@
 site_name: Razor Enhaced
-docs_dir: ./Docs/
+docs_dir: ./md/
 nav:
   - Classes:
     - AutoDoc: AutoDoc.md
@@ -38,4 +38,6 @@ nav:
 theme:
   name: readthedocs
 markdown_extensions:
-  - codehilite
+  - codehilite:
+      linenums: True
+      use_pygments: True
