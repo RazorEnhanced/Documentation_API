@@ -2,39 +2,39 @@ site_name: Razor Enhaced
 docs_dir: ./Docs/
 nav:
   - Classes:
-    - AutoDoc: ./Docs/AutoDoc.md
-    - Misc: ./Docs/Misc.md
-    - Item: ./Docs/Item.md
-    - Items: ./Docs/Items.md
-    - Mobile: ./Docs/Mobile.md
-    - Mobiles: ./Docs/Mobiles.md
-    - Player: ./Docs/Player.md
-    - Spells: ./Docs/Spells.md
-    - Gumps: ./Docs/Gumps.md
-    - Journal: ./Docs/Journal.md
-    - Target: ./Docs/Target.md
-    - Statics: ./Docs/Statics.md
-    - AutoLoot: ./Docs/AutoLoot.md
-    - Scavenger: ./Docs/Scavenger.md
-    - SellAgent: ./Docs/SellAgent.md
-    - BuyAgent: ./Docs/BuyAgent.md
-    - Organizer: ./Docs/Organizer.md
-    - Dress: ./Docs/Dress.md
-    - Friend: ./Docs/Friend.md
-    - Restock: ./Docs/Restock.md
-    - BandageHeal: ./Docs/BandageHeal.md
-    - PathFinding: ./Docs/PathFinding.md
-    - DPSMeter: ./Docs/DPSMeter.md
-    - Timer: ./Docs/Timer.md
-    - Vendor: ./Docs/Vendor.md
-    - Point2D: ./Docs/Point2D.md
-    - Point3D: ./Docs/Point3D.md
-    - Tile: ./Docs/Tile.md
-    - Property: ./Docs/Property.md
-    - Route: ./Docs/Route.md
-    - Filter: ./Docs/Filter.md
-    - Filter: ./Docs/Filter.md
-    - HotKeyEvent: ./Docs/HotKeyEvent.md
+    - AutoDoc: AutoDoc.md
+    - Misc: Misc.md
+    - Item: Item.md
+    - Items: Items.md
+    - Mobile: Mobile.md
+    - Mobiles: Mobiles.md
+    - Player: Player.md
+    - Spells: Spells.md
+    - Gumps: Gumps.md
+    - Journal: Journal.md
+    - Target: Target.md
+    - Statics: Statics.md
+    - AutoLoot: AutoLoot.md
+    - Scavenger: Scavenger.md
+    - SellAgent: SellAgent.md
+    - BuyAgent: BuyAgent.md
+    - Organizer: Organizer.md
+    - Dress: Dress.md
+    - Friend: Friend.md
+    - Restock: Restock.md
+    - BandageHeal: BandageHeal.md
+    - PathFinding: PathFinding.md
+    - DPSMeter: DPSMeter.md
+    - Timer: Timer.md
+    - Vendor: Vendor.md
+    - Point2D: Point2D.md
+    - Point3D: Point3D.md
+    - Tile: Tile.md
+    - Property: Property.md
+    - Route: Route.md
+    - Filter: Filter.md
+    - Filter: Filter.md
+    - HotKeyEvent: HotKeyEvent.md
 theme:
   name: readthedocs
 markdown_extensions:
