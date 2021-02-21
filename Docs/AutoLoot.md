@@ -4,69 +4,48 @@
  
 ## Methods  
 ### AutoLoot.ChangeList
-``` python
+:::python
 AutoLoot.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### AutoLoot.Equals
-``` python
+:::python
 AutoLoot.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### AutoLoot.GetHashCode
-``` python
+:::python
 AutoLoot.GetHashCode()
-
-```
 ### AutoLoot.GetList
-``` python
+:::python
 AutoLoot.GetList(String lootListName)
-  String lootListName 
-```
+  String lootListName
 ### AutoLoot.GetLootBag
-``` python
+:::python
 AutoLoot.GetLootBag()
-
-```
 ### AutoLoot.GetType
-``` python
+:::python
 AutoLoot.GetType()
-
-```
 ### AutoLoot.ResetIgnore
-``` python
+:::python
 AutoLoot.ResetIgnore()
-
-```
 ### AutoLoot.RunOnce
-``` python
+:::python
 AutoLoot.RunOnce(String lootListName, Int32 mseconds, Filter filter)
   String lootListName 
   Int32 mseconds 
-  Filter filter 
-```
+  Filter filter
 ### AutoLoot.SetNoOpenCorpse
-``` python
+:::python
 AutoLoot.SetNoOpenCorpse(Boolean value)
-  Boolean value 
-```
+  Boolean value
 ### AutoLoot.Start
-``` python
+:::python
 AutoLoot.Start()
-
-```
 ### AutoLoot.Status
-``` python
+:::python
 AutoLoot.Status()
-
-```
 ### AutoLoot.Stop
-``` python
+:::python
 AutoLoot.Stop()
-
-```
 ### AutoLoot.ToString
-``` python
+:::python
 AutoLoot.ToString()
-
-```

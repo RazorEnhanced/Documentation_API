@@ -5,22 +5,15 @@
 ### Property.Number __Int32__ 
 ## Methods  
 ### Property.Equals
-``` python
+:::python
 Property.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Property.GetHashCode
-``` python
+:::python
 Property.GetHashCode()
-
-```
 ### Property.GetType
-``` python
+:::python
 Property.GetType()
-
-```
 ### Property.ToString
-``` python
+:::python
 Property.ToString()
-
-```

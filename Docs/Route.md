@@ -11,22 +11,15 @@
 ### Route.Y __Int32__ 
 ## Methods  
 ### Route.Equals
-``` python
+:::python
 Route.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Route.GetHashCode
-``` python
+:::python
 Route.GetHashCode()
-
-```
 ### Route.GetType
-``` python
+:::python
 Route.GetType()
-
-```
 ### Route.ToString
-``` python
+:::python
 Route.ToString()
-
-```

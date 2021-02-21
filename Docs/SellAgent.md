@@ -4,42 +4,28 @@
  
 ## Methods  
 ### SellAgent.ChangeList
-``` python
+:::python
 SellAgent.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### SellAgent.Disable
-``` python
+:::python
 SellAgent.Disable()
-
-```
 ### SellAgent.Enable
-``` python
+:::python
 SellAgent.Enable()
-
-```
 ### SellAgent.Equals
-``` python
+:::python
 SellAgent.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### SellAgent.GetHashCode
-``` python
+:::python
 SellAgent.GetHashCode()
-
-```
 ### SellAgent.GetType
-``` python
+:::python
 SellAgent.GetType()
-
-```
 ### SellAgent.Status
-``` python
+:::python
 SellAgent.Status()
-
-```
 ### SellAgent.ToString
-``` python
+:::python
 SellAgent.ToString()
-
-```

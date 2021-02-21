@@ -5,22 +5,15 @@
 ### Point2D.Y __Int32__ 
 ## Methods  
 ### Point2D.Equals
-``` python
+:::python
 Point2D.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Point2D.GetHashCode
-``` python
+:::python
 Point2D.GetHashCode()
-
-```
 ### Point2D.GetType
-``` python
+:::python
 Point2D.GetType()
-
-```
 ### Point2D.ToString
-``` python
+:::python
 Point2D.ToString()
-
-```

@@ -4,42 +4,28 @@
  
 ## Methods  
 ### BuyAgent.ChangeList
-``` python
+:::python
 BuyAgent.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### BuyAgent.Disable
-``` python
+:::python
 BuyAgent.Disable()
-
-```
 ### BuyAgent.Enable
-``` python
+:::python
 BuyAgent.Enable()
-
-```
 ### BuyAgent.Equals
-``` python
+:::python
 BuyAgent.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### BuyAgent.GetHashCode
-``` python
+:::python
 BuyAgent.GetHashCode()
-
-```
 ### BuyAgent.GetType
-``` python
+:::python
 BuyAgent.GetType()
-
-```
 ### BuyAgent.Status
-``` python
+:::python
 BuyAgent.Status()
-
-```
 ### BuyAgent.ToString
-``` python
+:::python
 BuyAgent.ToString()
-
-```

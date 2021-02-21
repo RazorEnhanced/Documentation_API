@@ -38,4 +38,6 @@ nav:
 theme:
   name: readthedocs
 markdown_extensions:
-  - codehilite
+  - codehilite:
+    - linenos: true
+    - use_pygments: true

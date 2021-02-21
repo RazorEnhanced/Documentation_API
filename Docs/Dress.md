@@ -4,57 +4,37 @@
  
 ## Methods  
 ### Dress.ChangeList
-``` python
+:::python
 Dress.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### Dress.DressFStart
-``` python
+:::python
 Dress.DressFStart()
-
-```
 ### Dress.DressFStop
-``` python
+:::python
 Dress.DressFStop()
-
-```
 ### Dress.DressStatus
-``` python
+:::python
 Dress.DressStatus()
-
-```
 ### Dress.Equals
-``` python
+:::python
 Dress.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Dress.GetHashCode
-``` python
+:::python
 Dress.GetHashCode()
-
-```
 ### Dress.GetType
-``` python
+:::python
 Dress.GetType()
-
-```
 ### Dress.ToString
-``` python
+:::python
 Dress.ToString()
-
-```
 ### Dress.UnDressFStart
-``` python
+:::python
 Dress.UnDressFStart()
-
-```
 ### Dress.UnDressFStop
-``` python
+:::python
 Dress.UnDressFStop()
-
-```
 ### Dress.UnDressStatus
-``` python
+:::python
 Dress.UnDressStatus()
-
-```

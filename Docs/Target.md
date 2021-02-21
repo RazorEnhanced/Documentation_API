@@ -4,166 +4,121 @@
  
 ## Methods  
 ### Target.AttackTargetFromList
-``` python
+:::python
 Target.AttackTargetFromList(String targetid)
-  String targetid 
-```
+  String targetid
 ### Target.Cancel
-``` python
+:::python
 Target.Cancel()
-
-```
 ### Target.ClearLast
-``` python
+:::python
 Target.ClearLast()
-
-```
 ### Target.ClearLastandQueue
-``` python
+:::python
 Target.ClearLastandQueue()
-
-```
 ### Target.ClearQueue
-``` python
+:::python
 Target.ClearQueue()
-
-```
 ### Target.Equals
-``` python
+:::python
 Target.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Target.GetHashCode
-``` python
+:::python
 Target.GetHashCode()
-
-```
 ### Target.GetLast
-``` python
+:::python
 Target.GetLast()
-
-```
 ### Target.GetLastAttack
-``` python
+:::python
 Target.GetLastAttack()
-
-```
 ### Target.GetTargetFromList
-``` python
+:::python
 Target.GetTargetFromList(String targetid)
-  String targetid 
-```
+  String targetid
 ### Target.GetType
-``` python
+:::python
 Target.GetType()
-
-```
 ### Target.HasTarget
-``` python
+:::python
 Target.HasTarget()
-
-```
 ### Target.Last
-``` python
+:::python
 Target.Last()
-
-```
 ### Target.LastQueued
-``` python
+:::python
 Target.LastQueued()
-
-```
 ### Target.PerformTargetFromList
-``` python
+:::python
 Target.PerformTargetFromList(String targetid)
-  String targetid 
-```
+  String targetid
 ### Target.PromptGroundTarget
-``` python
+:::python
 Target.PromptGroundTarget(String message)
   String message Select Ground Position
-```
 ### Target.PromptTarget
-``` python
+:::python
 Target.PromptTarget(String message)
   String message Select Item or Mobile
-```
 ### Target.Self
-``` python
+:::python
 Target.Self()
-
-```
 ### Target.SelfQueued
-``` python
+:::python
 Target.SelfQueued()
-
-```
 ### Target.SetLast
-``` python
+:::python
 Target.SetLast(Int32 serial, Boolean wait)
   Int32 serial 
   Boolean wait True
-```
 ### Target.SetLast
-``` python
+:::python
 Target.SetLast(Mobile mob)
-  Mobile mob 
-```
+  Mobile mob
 ### Target.SetLastTargetFromList
-``` python
+:::python
 Target.SetLastTargetFromList(String targetid)
-  String targetid 
-```
+  String targetid
 ### Target.TargetExecute
-``` python
+:::python
 Target.TargetExecute(Int32 x, Int32 y, Int32 z)
   Int32 x 
   Int32 y 
-  Int32 z 
-```
+  Int32 z
 ### Target.TargetExecute
-``` python
+:::python
 Target.TargetExecute(Int32 x, Int32 y, Int32 z, Int32 gfx)
   Int32 x 
   Int32 y 
   Int32 z 
-  Int32 gfx 
-```
+  Int32 gfx
 ### Target.TargetExecute
-``` python
+:::python
 Target.TargetExecute(Mobile mobile)
-  Mobile mobile 
-```
+  Mobile mobile
 ### Target.TargetExecute
-``` python
+:::python
 Target.TargetExecute(Item item)
-  Item item 
-```
+  Item item
 ### Target.TargetExecute
-``` python
+:::python
 Target.TargetExecute(Int32 serial)
-  Int32 serial 
-```
+  Int32 serial
 ### Target.TargetExecuteRelative
-``` python
+:::python
 Target.TargetExecuteRelative(Mobile m, Int32 offset)
   Mobile m 
-  Int32 offset 
-```
+  Int32 offset
 ### Target.TargetExecuteRelative
-``` python
+:::python
 Target.TargetExecuteRelative(Int32 serial, Int32 offset)
   Int32 serial 
-  Int32 offset 
-```
+  Int32 offset
 ### Target.ToString
-``` python
+:::python
 Target.ToString()
-
-```
 ### Target.WaitForTarget
-``` python
+:::python
 Target.WaitForTarget(Int32 delay, Boolean noshow)
   Int32 delay 
   Boolean noshow False
-```

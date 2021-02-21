@@ -4,48 +4,37 @@
  
 ## Methods  
 ### PathFinding.Equals
-``` python
+:::python
 PathFinding.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### PathFinding.GetHashCode
-``` python
+:::python
 PathFinding.GetHashCode()
-
-```
 ### PathFinding.GetPath
-``` python
+:::python
 PathFinding.GetPath(Int32 x, Int32 y, Boolean ignoremob)
   Int32 x 
   Int32 y 
-  Boolean ignoremob 
-```
+  Boolean ignoremob
 ### PathFinding.GetType
-``` python
+:::python
 PathFinding.GetType()
-
-```
 ### PathFinding.Go
-``` python
+:::python
 PathFinding.Go(Route r)
-  Route r 
-```
+  Route r
 ### PathFinding.RunPath
-``` python
+:::python
 PathFinding.RunPath(List`1 path, Single timeout, Boolean debugMessage, Boolean useResync)
   List`1 path 
   Single timeout -1
   Boolean debugMessage False
   Boolean useResync True
-```
 ### PathFinding.Tile
-``` python
+:::python
 PathFinding.Tile(Int32 x, Int32 y)
   Int32 x 
-  Int32 y 
-```
+  Int32 y
 ### PathFinding.ToString
-``` python
+:::python
 PathFinding.ToString()
-
-```

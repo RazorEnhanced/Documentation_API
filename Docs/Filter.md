@@ -35,42 +35,28 @@
 ### Filter.Warmode __Int32__ 
 ## Methods  
 ### Filter.Equals
-``` python
+:::python
 Filter.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Filter.Equals
-``` python
+:::python
 Filter.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Filter.GetHashCode
-``` python
+:::python
 Filter.GetHashCode()
-
-```
 ### Filter.GetHashCode
-``` python
+:::python
 Filter.GetHashCode()
-
-```
 ### Filter.GetType
-``` python
+:::python
 Filter.GetType()
-
-```
 ### Filter.GetType
-``` python
+:::python
 Filter.GetType()
-
-```
 ### Filter.ToString
-``` python
+:::python
 Filter.ToString()
-
-```
 ### Filter.ToString
-``` python
+:::python
 Filter.ToString()
-
-```

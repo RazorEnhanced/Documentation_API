@@ -4,45 +4,34 @@
 ### Timer.Timers __ConcurrentDictionary`2__ 
 ## Methods  
 ### Timer.Check
-``` python
+:::python
 Timer.Check(String name)
-  String name 
-```
+  String name
 ### Timer.Create
-``` python
+:::python
 Timer.Create(String name, Int32 delay)
   String name 
-  Int32 delay 
-```
+  Int32 delay
 ### Timer.Create
-``` python
+:::python
 Timer.Create(String name, Int32 delay, String message)
   String name 
   Int32 delay 
-  String message 
-```
+  String message
 ### Timer.Equals
-``` python
+:::python
 Timer.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Timer.GetHashCode
-``` python
+:::python
 Timer.GetHashCode()
-
-```
 ### Timer.GetType
-``` python
+:::python
 Timer.GetType()
-
-```
 ### Timer.Remaining
-``` python
+:::python
 Timer.Remaining(String name)
-  String name 
-```
+  String name
 ### Timer.ToString
-``` python
+:::python
 Timer.ToString()
-
-```

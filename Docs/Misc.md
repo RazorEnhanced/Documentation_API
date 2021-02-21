@@ -4,430 +4,330 @@
 ### Misc.SharedScriptData __ConcurrentDictionary`2__ 
 ## Methods  
 ### Misc.Beep
-``` python
+:::python
 Misc.Beep()
-
-```
 ### Misc.CancelPrompt
-``` python
+:::python
 Misc.CancelPrompt()
-
-```
 ### Misc.CaptureNow
-``` python
+:::python
 Misc.CaptureNow()
-
-```
 ### Misc.CheckIgnoreObject
-``` python
+:::python
 Misc.CheckIgnoreObject(Int32 s)
-  Int32 s 
-```
+  Int32 s
 ### Misc.CheckIgnoreObject
-``` python
+:::python
 Misc.CheckIgnoreObject(Mobile m)
-  Mobile m 
-```
+  Mobile m
 ### Misc.CheckIgnoreObject
-``` python
+:::python
 Misc.CheckIgnoreObject(Item i)
-  Item i 
-```
+  Item i
 ### Misc.CheckSharedValue
-``` python
+:::python
 Misc.CheckSharedValue(String name)
-  String name 
-```
+  String name
 ### Misc.ClearIgnore
-``` python
+:::python
 Misc.ClearIgnore()
-
-```
 ### Misc.CloseBackpack
-``` python
+:::python
 Misc.CloseBackpack()
-
-```
 ### Misc.CloseMenu
-``` python
+:::python
 Misc.CloseMenu()
-
-```
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Int32 serial, String menuname)
   Int32 serial 
-  String menuname 
-```
+  String menuname
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Item item, String menuname)
   Item item 
-  String menuname 
-```
+  String menuname
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Mobile mob, String menuname)
   Mobile mob 
-  String menuname 
-```
+  String menuname
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Item item, Int32 idx)
   Item item 
-  Int32 idx 
-```
+  Int32 idx
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Mobile mob, Int32 idx)
   Mobile mob 
-  Int32 idx 
-```
+  Int32 idx
 ### Misc.ContextReply
-``` python
+:::python
 Misc.ContextReply(Int32 serial, Int32 idx)
   Int32 serial 
-  Int32 idx 
-```
+  Int32 idx
 ### Misc.CurrentScriptDirectory
-``` python
+:::python
 Misc.CurrentScriptDirectory()
-
-```
 ### Misc.Disconnect
-``` python
+:::python
 Misc.Disconnect()
-
-```
 ### Misc.DistanceSqrt
-``` python
+:::python
 Misc.DistanceSqrt(Point3D a, Point3D b)
   Point3D a 
-  Point3D b 
-```
+  Point3D b
 ### Misc.Equals
-``` python
+:::python
 Misc.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Misc.ExportPythonAPI
-``` python
+:::python
 Misc.ExportPythonAPI(String path, Boolean pretty)
   String path 
   Boolean pretty True
-```
+
+
 Return a string containing list RE Python API list in JSON format.
 ### Misc.FocusUOWindow
-``` python
+:::python
 Misc.FocusUOWindow()
-
-```
 ### Misc.GetContPosition
-``` python
+:::python
 Misc.GetContPosition()
-
-```
 ### Misc.GetHashCode
-``` python
+:::python
 Misc.GetHashCode()
-
-```
 ### Misc.GetMapInfo
-``` python
+:::python
 Misc.GetMapInfo(UInt32 serial)
-  UInt32 serial 
-```
+  UInt32 serial
 ### Misc.GetMenuTitle
-``` python
+:::python
 Misc.GetMenuTitle()
-
-```
 ### Misc.GetType
-``` python
+:::python
 Misc.GetType()
-
-```
 ### Misc.HasMenu
-``` python
+:::python
 Misc.HasMenu()
-
-```
 ### Misc.HasPrompt
-``` python
+:::python
 Misc.HasPrompt()
-
-```
 ### Misc.HasQueryString
-``` python
+:::python
 Misc.HasQueryString()
-
-```
 ### Misc.IgnoreObject
-``` python
+:::python
 Misc.IgnoreObject(Item i)
-  Item i 
-```
+  Item i
 ### Misc.IgnoreObject
-``` python
+:::python
 Misc.IgnoreObject(Mobile m)
-  Mobile m 
-```
+  Mobile m
 ### Misc.IgnoreObject
-``` python
+:::python
 Misc.IgnoreObject(Int32 s)
-  Int32 s 
-```
+  Int32 s
 ### Misc.LastHotKey
-``` python
+:::python
 Misc.LastHotKey()
 
-```
+
+
 Returns the latest HotKeyEvent recorded by razor.
 The HotKeyEvent has 2 properties:
 hke.Key: enum System.Windows.Forms.Keys
 hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's time.time()
 ### Misc.MenuContain
-``` python
+:::python
 Misc.MenuContain(String submenu)
-  String submenu 
-```
+  String submenu
 ### Misc.MenuResponse
-``` python
+:::python
 Misc.MenuResponse(String submenu)
-  String submenu 
-```
+  String submenu
 ### Misc.MouseLocation
-``` python
+:::python
 Misc.MouseLocation()
-
-```
 ### Misc.MouseMove
-``` python
+:::python
 Misc.MouseMove(Int32 posX, Int32 posY)
   Int32 posX 
-  Int32 posY 
-```
+  Int32 posY
 ### Misc.NextContPosition
-``` python
+:::python
 Misc.NextContPosition(Int32 x, Int32 y)
   Int32 x 
-  Int32 y 
-```
+  Int32 y
 ### Misc.NoOperation
-``` python
+:::python
 Misc.NoOperation()
-
-```
 ### Misc.NoRunStealthStatus
-``` python
+:::python
 Misc.NoRunStealthStatus()
-
-```
 ### Misc.NoRunStealthToggle
-``` python
+:::python
 Misc.NoRunStealthToggle(Boolean enable)
-  Boolean enable 
-```
+  Boolean enable
 ### Misc.Pause
-``` python
+:::python
 Misc.Pause(Int32 mseconds)
-  Int32 mseconds 
-```
+  Int32 mseconds
 ### Misc.PetRename
-``` python
+:::python
 Misc.PetRename(Int32 serial, String name)
   Int32 serial 
-  String name 
-```
+  String name
 ### Misc.PetRename
-``` python
+:::python
 Misc.PetRename(Mobile mob, String name)
   Mobile mob 
-  String name 
-```
+  String name
 ### Misc.QueryStringResponse
-``` python
+:::python
 Misc.QueryStringResponse(Boolean okcancel, String response)
   Boolean okcancel 
-  String response 
-```
+  String response
 ### Misc.ReadSharedValue
-``` python
+:::python
 Misc.ReadSharedValue(String name)
-  String name 
-```
+  String name
 ### Misc.RemoveSharedValue
-``` python
+:::python
 Misc.RemoveSharedValue(String name)
-  String name 
-```
+  String name
 ### Misc.ResetPrompt
-``` python
+:::python
 Misc.ResetPrompt()
-
-```
 ### Misc.ResponsePrompt
-``` python
+:::python
 Misc.ResponsePrompt(String text)
-  String text 
-```
+  String text
 ### Misc.Resync
-``` python
+:::python
 Misc.Resync()
-
-```
 ### Misc.ScriptRun
-``` python
+:::python
 Misc.ScriptRun(String scriptfile)
-  String scriptfile 
-```
+  String scriptfile
 ### Misc.ScriptStatus
-``` python
+:::python
 Misc.ScriptStatus(String scriptfile)
-  String scriptfile 
-```
+  String scriptfile
 ### Misc.ScriptStop
-``` python
+:::python
 Misc.ScriptStop(String scriptfile)
-  String scriptfile 
-```
+  String scriptfile
 ### Misc.ScriptStopAll
-``` python
+:::python
 Misc.ScriptStopAll()
-
-```
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Double msg)
-  Double msg 
-```
+  Double msg
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Int32 num, Int32 color)
   Int32 num 
-  Int32 color 
-```
+  Int32 color
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(String msg, Boolean wait)
   String msg 
   Boolean wait True
-```
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Boolean msg, Int32 color)
   Boolean msg 
-  Int32 color 
-```
+  Int32 color
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(UInt32 num, Int32 color)
   UInt32 num 
-  Int32 color 
-```
+  Int32 color
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Boolean msg)
-  Boolean msg 
-```
+  Boolean msg
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(UInt32 num)
-  UInt32 num 
-```
+  UInt32 num
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Object obj)
-  Object obj 
-```
+  Object obj
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Int32 num)
-  Int32 num 
-```
+  Int32 num
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Double msg, Int32 color)
   Double msg 
-  Int32 color 
-```
+  Int32 color
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Single num)
-  Single num 
-```
+  Single num
 ### Misc.SendMessage
-``` python
+:::python
 Misc.SendMessage(Object obj, Int32 color)
   Object obj 
-  Int32 color 
-```
+  Int32 color
 ### Misc.SendToClient
-``` python
+:::python
 Misc.SendToClient(String keys)
-  String keys 
-```
+  String keys
 ### Misc.SetSharedValue
-``` python
+:::python
 Misc.SetSharedValue(String name, Object value)
   String name 
-  Object value 
-```
+  Object value
 ### Misc.ShardName
-``` python
+:::python
 Misc.ShardName()
-
-```
 ### Misc.ToString
-``` python
+:::python
 Misc.ToString()
-
-```
 ### Misc.UnIgnoreObject
-``` python
+:::python
 Misc.UnIgnoreObject(Item i)
-  Item i 
-```
+  Item i
 ### Misc.UnIgnoreObject
-``` python
+:::python
 Misc.UnIgnoreObject(Int32 s)
-  Int32 s 
-```
+  Int32 s
 ### Misc.UnIgnoreObject
-``` python
+:::python
 Misc.UnIgnoreObject(Mobile m)
-  Mobile m 
-```
+  Mobile m
 ### Misc.WaitForContext
-``` python
+:::python
 Misc.WaitForContext(Item i, Int32 delay)
   Item i 
-  Int32 delay 
-```
+  Int32 delay
 ### Misc.WaitForContext
-``` python
+:::python
 Misc.WaitForContext(Mobile mob, Int32 delay)
   Mobile mob 
-  Int32 delay 
-```
+  Int32 delay
 ### Misc.WaitForContext
-``` python
+:::python
 Misc.WaitForContext(Int32 ser, Int32 delay)
   Int32 ser 
-  Int32 delay 
-```
+  Int32 delay
 ### Misc.WaitForMenu
-``` python
+:::python
 Misc.WaitForMenu(Int32 delay)
-  Int32 delay 
-```
+  Int32 delay
 ### Misc.WaitForPrompt
-``` python
+:::python
 Misc.WaitForPrompt(Int32 delay)
-  Int32 delay 
-```
+  Int32 delay
 ### Misc.WaitForQueryString
-``` python
+:::python
 Misc.WaitForQueryString(Int32 delay)
-  Int32 delay 
-```
+  Int32 delay

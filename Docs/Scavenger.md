@@ -4,59 +4,40 @@
  
 ## Methods  
 ### Scavenger.ChangeList
-``` python
+:::python
 Scavenger.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### Scavenger.Equals
-``` python
+:::python
 Scavenger.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Scavenger.GetHashCode
-``` python
+:::python
 Scavenger.GetHashCode()
-
-```
 ### Scavenger.GetScavengerBag
-``` python
+:::python
 Scavenger.GetScavengerBag()
-
-```
 ### Scavenger.GetType
-``` python
+:::python
 Scavenger.GetType()
-
-```
 ### Scavenger.ResetIgnore
-``` python
+:::python
 Scavenger.ResetIgnore()
-
-```
 ### Scavenger.RunOnce
-``` python
+:::python
 Scavenger.RunOnce(List`1 scavengerList, Int32 mseconds, Filter filter)
   List`1 scavengerList 
   Int32 mseconds 
-  Filter filter 
-```
+  Filter filter
 ### Scavenger.Start
-``` python
+:::python
 Scavenger.Start()
-
-```
 ### Scavenger.Status
-``` python
+:::python
 Scavenger.Status()
-
-```
 ### Scavenger.Stop
-``` python
+:::python
 Scavenger.Stop()
-
-```
 ### Scavenger.ToString
-``` python
+:::python
 Scavenger.ToString()
-
-```

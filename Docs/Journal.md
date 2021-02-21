@@ -4,101 +4,78 @@
  
 ## Methods  
 ### Journal.Clear
-``` python
+:::python
 Journal.Clear()
-
-```
 ### Journal.Equals
-``` python
+:::python
 Journal.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Journal.GetHashCode
-``` python
+:::python
 Journal.GetHashCode()
-
-```
 ### Journal.GetLineText
-``` python
+:::python
 Journal.GetLineText(String text, Boolean addname)
   String text 
   Boolean addname False
-```
 ### Journal.GetSpeechName
-``` python
+:::python
 Journal.GetSpeechName()
-
-```
 ### Journal.GetTextByColor
-``` python
+:::python
 Journal.GetTextByColor(Int32 color, Boolean addname)
   Int32 color 
   Boolean addname False
-```
 ### Journal.GetTextByName
-``` python
+:::python
 Journal.GetTextByName(String name)
-  String name 
-```
+  String name
 ### Journal.GetTextBySerial
-``` python
+:::python
 Journal.GetTextBySerial(Int32 serial)
-  Int32 serial 
-```
+  Int32 serial
 ### Journal.GetTextByType
-``` python
+:::python
 Journal.GetTextByType(String type, Boolean addname)
   String type 
   Boolean addname False
-```
 ### Journal.GetType
-``` python
+:::python
 Journal.GetType()
-
-```
 ### Journal.Search
-``` python
+:::python
 Journal.Search(String text)
-  String text 
-```
+  String text
 ### Journal.SearchByColor
-``` python
+:::python
 Journal.SearchByColor(String text, Int32 color)
   String text 
-  Int32 color 
-```
+  Int32 color
 ### Journal.SearchByName
-``` python
+:::python
 Journal.SearchByName(String text, String name)
   String text 
-  String name 
-```
+  String name
 ### Journal.SearchByType
-``` python
+:::python
 Journal.SearchByType(String text, String type)
   String text 
-  String type 
-```
+  String type
 ### Journal.ToString
-``` python
+:::python
 Journal.ToString()
-
-```
 ### Journal.WaitByName
-``` python
+:::python
 Journal.WaitByName(String name, Int32 delay)
   String name 
-  Int32 delay 
-```
+  Int32 delay
 ### Journal.WaitJournal
-``` python
+:::python
 Journal.WaitJournal(String text, Int32 delay)
   String text 
-  Int32 delay 
-```
+  Int32 delay
 ### Journal.WaitJournal
-``` python
+:::python
 Journal.WaitJournal(List`1 msgs, Int32 delay)
   List`1 msgs 
-  Int32 delay 
-```
+  Int32 delay

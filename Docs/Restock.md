@@ -4,42 +4,28 @@
  
 ## Methods  
 ### Restock.ChangeList
-``` python
+:::python
 Restock.ChangeList(String listName)
-  String listName 
-```
+  String listName
 ### Restock.Equals
-``` python
+:::python
 Restock.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Restock.FStart
-``` python
+:::python
 Restock.FStart()
-
-```
 ### Restock.FStop
-``` python
+:::python
 Restock.FStop()
-
-```
 ### Restock.GetHashCode
-``` python
+:::python
 Restock.GetHashCode()
-
-```
 ### Restock.GetType
-``` python
+:::python
 Restock.GetType()
-
-```
 ### Restock.Status
-``` python
+:::python
 Restock.Status()
-
-```
 ### Restock.ToString
-``` python
+:::python
 Restock.ToString()
-
-```

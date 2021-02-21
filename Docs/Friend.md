@@ -4,49 +4,36 @@
  
 ## Methods  
 ### Friend.AddFriendTarget
-``` python
+:::python
 Friend.AddFriendTarget()
-
-```
 ### Friend.AddPlayer
-``` python
+:::python
 Friend.AddPlayer(String selection, String name, Int32 serial)
   String selection 
   String name 
-  Int32 serial 
-```
+  Int32 serial
 ### Friend.ChangeList
-``` python
+:::python
 Friend.ChangeList(String nameList)
-  String nameList 
-```
+  String nameList
 ### Friend.Equals
-``` python
+:::python
 Friend.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Friend.GetHashCode
-``` python
+:::python
 Friend.GetHashCode()
-
-```
 ### Friend.GetList
-``` python
+:::python
 Friend.GetList(String nameList)
-  String nameList 
-```
+  String nameList
 ### Friend.GetType
-``` python
+:::python
 Friend.GetType()
-
-```
 ### Friend.IsFriend
-``` python
+:::python
 Friend.IsFriend(Int32 serial)
-  Int32 serial 
-```
+  Int32 serial
 ### Friend.ToString
-``` python
+:::python
 Friend.ToString()
-
-```

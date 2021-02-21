@@ -4,149 +4,119 @@
  
 ## Methods  
 ### Mobiles.ApplyFilter
-``` python
+:::python
 Mobiles.ApplyFilter(Filter filter)
-  Filter filter 
-```
+  Filter filter
 ### Mobiles.ContextExist
-``` python
+:::python
 Mobiles.ContextExist(Int32 serial, String name)
   Int32 serial 
-  String name 
-```
+  String name
 ### Mobiles.ContextExist
-``` python
+:::python
 Mobiles.ContextExist(Mobile mob, String name)
   Mobile mob 
-  String name 
-```
+  String name
 ### Mobiles.Equals
-``` python
+:::python
 Mobiles.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Mobiles.FindBySerial
-``` python
+:::python
 Mobiles.FindBySerial(Int32 serial)
-  Int32 serial 
-```
+  Int32 serial
 ### Mobiles.GetHashCode
-``` python
+:::python
 Mobiles.GetHashCode()
-
-```
 ### Mobiles.GetPropStringByIndex
-``` python
+:::python
 Mobiles.GetPropStringByIndex(Int32 serial, Int32 index)
   Int32 serial 
-  Int32 index 
-```
+  Int32 index
 ### Mobiles.GetPropStringByIndex
-``` python
+:::python
 Mobiles.GetPropStringByIndex(Mobile mob, Int32 index)
   Mobile mob 
-  Int32 index 
-```
+  Int32 index
 ### Mobiles.GetPropStringList
-``` python
+:::python
 Mobiles.GetPropStringList(Mobile mob)
-  Mobile mob 
-```
+  Mobile mob
 ### Mobiles.GetPropStringList
-``` python
+:::python
 Mobiles.GetPropStringList(Int32 serial)
-  Int32 serial 
-```
+  Int32 serial
 ### Mobiles.GetPropValue
-``` python
+:::python
 Mobiles.GetPropValue(Int32 serial, String name)
   Int32 serial 
-  String name 
-```
+  String name
 ### Mobiles.GetPropValue
-``` python
+:::python
 Mobiles.GetPropValue(Mobile mob, String name)
   Mobile mob 
-  String name 
-```
+  String name
 ### Mobiles.GetTrackingInfo
-``` python
+:::python
 Mobiles.GetTrackingInfo()
-
-```
 ### Mobiles.GetType
-``` python
+:::python
 Mobiles.GetType()
-
-```
 ### Mobiles.Message
-``` python
+:::python
 Mobiles.Message(Mobile mobile, Int32 hue, String message, Boolean wait)
   Mobile mobile 
   Int32 hue 
   String message 
   Boolean wait True
-```
 ### Mobiles.Message
-``` python
+:::python
 Mobiles.Message(Int32 serial, Int32 hue, String message, Boolean wait)
   Int32 serial 
   Int32 hue 
   String message 
   Boolean wait True
-```
 ### Mobiles.Select
-``` python
+:::python
 Mobiles.Select(List`1 mobiles, String selector)
   List`1 mobiles 
-  String selector 
-```
+  String selector
 ### Mobiles.SingleClick
-``` python
+:::python
 Mobiles.SingleClick(Int32 mobileserial)
-  Int32 mobileserial 
-```
+  Int32 mobileserial
 ### Mobiles.SingleClick
-``` python
+:::python
 Mobiles.SingleClick(Mobile mobile)
-  Mobile mobile 
-```
+  Mobile mobile
 ### Mobiles.ToString
-``` python
+:::python
 Mobiles.ToString()
-
-```
 ### Mobiles.UseMobile
-``` python
+:::python
 Mobiles.UseMobile(Int32 mobileserial)
-  Int32 mobileserial 
-```
+  Int32 mobileserial
 ### Mobiles.UseMobile
-``` python
+:::python
 Mobiles.UseMobile(Mobile mobile)
-  Mobile mobile 
-```
+  Mobile mobile
 ### Mobiles.WaitForProps
-``` python
+:::python
 Mobiles.WaitForProps(Int32 mobileserial, Int32 delay)
   Int32 mobileserial 
-  Int32 delay 
-```
+  Int32 delay
 ### Mobiles.WaitForProps
-``` python
+:::python
 Mobiles.WaitForProps(Mobile m, Int32 delay)
   Mobile m 
-  Int32 delay 
-```
+  Int32 delay
 ### Mobiles.WaitForStats
-``` python
+:::python
 Mobiles.WaitForStats(Int32 mobileserial, Int32 delay)
   Int32 mobileserial 
-  Int32 delay 
-```
+  Int32 delay
 ### Mobiles.WaitForStats
-``` python
+:::python
 Mobiles.WaitForStats(Mobile m, Int32 delay)
   Mobile m 
-  Int32 delay 
-```
+  Int32 delay

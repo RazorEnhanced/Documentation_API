@@ -7,27 +7,19 @@
 ### HotKeyEvent.UnixTimeBegin __DateTime__ 
 ## Methods  
 ### HotKeyEvent.AddEvent
-``` python
+:::python
 HotKeyEvent.AddEvent(Keys k)
-  Keys k 
-```
+  Keys k
 ### HotKeyEvent.Equals
-``` python
+:::python
 HotKeyEvent.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### HotKeyEvent.GetHashCode
-``` python
+:::python
 HotKeyEvent.GetHashCode()
-
-```
 ### HotKeyEvent.GetType
-``` python
+:::python
 HotKeyEvent.GetType()
-
-```
 ### HotKeyEvent.ToString
-``` python
+:::python
 HotKeyEvent.ToString()
-
-```

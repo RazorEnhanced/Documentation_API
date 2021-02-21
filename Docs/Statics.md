@@ -4,83 +4,66 @@
  
 ## Methods  
 ### Statics.CheckDeedHouse
-``` python
+:::python
 Statics.CheckDeedHouse(Int32 x, Int32 y)
   Int32 x 
-  Int32 y 
-```
+  Int32 y
 ### Statics.Equals
-``` python
+:::python
 Statics.Equals(Object obj)
-  Object obj 
-```
+  Object obj
 ### Statics.GetHashCode
-``` python
+:::python
 Statics.GetHashCode()
-
-```
 ### Statics.GetLandFlag
-``` python
+:::python
 Statics.GetLandFlag(Int32 itemid, String flagname)
   Int32 itemid 
-  String flagname 
-```
+  String flagname
 ### Statics.GetLandID
-``` python
+:::python
 Statics.GetLandID(Int32 x, Int32 y, Int32 map)
   Int32 x 
   Int32 y 
-  Int32 map 
-```
+  Int32 map
 ### Statics.GetLandName
-``` python
+:::python
 Statics.GetLandName(Int32 itemid)
-  Int32 itemid 
-```
+  Int32 itemid
 ### Statics.GetLandZ
-``` python
+:::python
 Statics.GetLandZ(Int32 x, Int32 y, Int32 map)
   Int32 x 
   Int32 y 
-  Int32 map 
-```
+  Int32 map
 ### Statics.GetStaticsLandInfo
-``` python
+:::python
 Statics.GetStaticsLandInfo(Int32 x, Int32 y, Int32 map)
   Int32 x 
   Int32 y 
-  Int32 map 
-```
+  Int32 map
 ### Statics.GetStaticsTileInfo
-``` python
+:::python
 Statics.GetStaticsTileInfo(Int32 x, Int32 y, Int32 map)
   Int32 x 
   Int32 y 
-  Int32 map 
-```
+  Int32 map
 ### Statics.GetTileFlag
-``` python
+:::python
 Statics.GetTileFlag(Int32 itemid, String flagname)
   Int32 itemid 
-  String flagname 
-```
+  String flagname
 ### Statics.GetTileHeight
-``` python
+:::python
 Statics.GetTileHeight(Int32 itemid)
-  Int32 itemid 
-```
+  Int32 itemid
 ### Statics.GetTileName
-``` python
+:::python
 Statics.GetTileName(Int32 itemid)
-  Int32 itemid 
-```
+  Int32 itemid
 ### Statics.GetType
-``` python
+:::python
 Statics.GetType()
-
-```
 ### Statics.ToString
-``` python
+:::python
 Statics.ToString()
-
-```
