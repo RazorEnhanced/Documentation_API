@@ -1,17 +1,57 @@
 # Restock
 
-`Restock.ChangeList(String listName)`
+## Restock.ChangeList
+```py
+Restock.ChangeList(String listName)
 
 - `String listName` 
+```
 
-`Restock.FStart()`
+## Restock.Equals
+```py
+Restock.Equals(Object obj)
+
+- `Object obj` 
+```
+
+## Restock.FStart
+```py
+Restock.FStart()
 
 
+```
 
-`Restock.FStop()`
+## Restock.FStop
+```py
+Restock.FStop()
 
 
+```
 
-`Restock.Status()`
+## Restock.GetHashCode
+```py
+Restock.GetHashCode()
 
 
+```
+
+## Restock.GetType
+```py
+Restock.GetType()
+
+
+```
+
+## Restock.Status
+```py
+Restock.Status()
+
+
+```
+
+## Restock.ToString
+```py
+Restock.ToString()
+
+
+```

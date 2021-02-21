@@ -1,39 +1,94 @@
 # AutoLoot
 
-`AutoLoot.ChangeList(String listName)`
+## AutoLoot.ChangeList
+```py
+AutoLoot.ChangeList(String listName)
 
 - `String listName` 
+```
 
-`AutoLoot.GetList(String lootListName)`
+## AutoLoot.Equals
+```py
+AutoLoot.Equals(Object obj)
+
+- `Object obj` 
+```
+
+## AutoLoot.GetHashCode
+```py
+AutoLoot.GetHashCode()
+
+
+```
+
+## AutoLoot.GetList
+```py
+AutoLoot.GetList(String lootListName)
 
 - `String lootListName` 
+```
 
-`AutoLoot.GetLootBag()`
-
-
-
-`AutoLoot.ResetIgnore()`
-
+## AutoLoot.GetLootBag
+```py
+AutoLoot.GetLootBag()
 
 
-`AutoLoot.RunOnce(String lootListName, Int32 mseconds, Filter filter)`
+```
+
+## AutoLoot.GetType
+```py
+AutoLoot.GetType()
+
+
+```
+
+## AutoLoot.ResetIgnore
+```py
+AutoLoot.ResetIgnore()
+
+
+```
+
+## AutoLoot.RunOnce
+```py
+AutoLoot.RunOnce(String lootListName, Int32 mseconds, Filter filter)
 
 - `String lootListName` 
 - `Int32 mseconds` 
 - `Filter filter` 
+```
 
-`AutoLoot.SetNoOpenCorpse(Boolean value)`
+## AutoLoot.SetNoOpenCorpse
+```py
+AutoLoot.SetNoOpenCorpse(Boolean value)
 
 - `Boolean value` 
+```
 
-`AutoLoot.Start()`
-
-
-
-`AutoLoot.Status()`
-
+## AutoLoot.Start
+```py
+AutoLoot.Start()
 
 
-`AutoLoot.Stop()`
+```
+
+## AutoLoot.Status
+```py
+AutoLoot.Status()
 
 
+```
+
+## AutoLoot.Stop
+```py
+AutoLoot.Stop()
+
+
+```
+
+## AutoLoot.ToString
+```py
+AutoLoot.ToString()
+
+
+```

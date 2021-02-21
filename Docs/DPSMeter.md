@@ -1,21 +1,64 @@
 # DPSMeter
 
-`DPSMeter.GetDamage(Int32 serial)`
+## DPSMeter.Equals
+```py
+DPSMeter.Equals(Object obj)
+
+- `Object obj` 
+```
+
+## DPSMeter.GetDamage
+```py
+DPSMeter.GetDamage(Int32 serial)
 
 - `Int32 serial` 
+```
 
-`DPSMeter.Pause()`
-
-
-
-`DPSMeter.Start()`
-
+## DPSMeter.GetHashCode
+```py
+DPSMeter.GetHashCode()
 
 
-`DPSMeter.Status()`
+```
+
+## DPSMeter.GetType
+```py
+DPSMeter.GetType()
 
 
+```
 
-`DPSMeter.Stop()`
+## DPSMeter.Pause
+```py
+DPSMeter.Pause()
 
 
+```
+
+## DPSMeter.Start
+```py
+DPSMeter.Start()
+
+
+```
+
+## DPSMeter.Status
+```py
+DPSMeter.Status()
+
+
+```
+
+## DPSMeter.Stop
+```py
+DPSMeter.Stop()
+
+
+```
+
+## DPSMeter.ToString
+```py
+DPSMeter.ToString()
+
+
+```
