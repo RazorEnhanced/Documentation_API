@@ -35,4 +35,4 @@ nav:
     - Filter: Filter.md
     - HotKeyEvent: HotKeyEvent.md
 theme:
-  name: material
+  name: readthedocs
