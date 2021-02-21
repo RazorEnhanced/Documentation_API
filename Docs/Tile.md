@@ -1,17 +1,19 @@
-# Tile
+# Tile    
 
-- Tile.X
-- Tile.Y## Tile.Equals
+## Properties  
+### Tile.X
+### Tile.Y 
+## Methods  
+### Tile.Equals
 ```py
 Tile.Equals(Object obj)
-
-- `Object obj````
-## Tile.GetHashCode
+- Object **obj** ____```
+### Tile.GetHashCode
 ```py
 Tile.GetHashCode()```
-## Tile.GetType
+### Tile.GetType
 ```py
 Tile.GetType()```
-## Tile.ToString
+### Tile.ToString
 ```py
 Tile.ToString()```

@@ -1,30 +1,31 @@
-# BuyAgent
+# BuyAgent    
 
-## BuyAgent.ChangeList
+## Properties  
+ 
+## Methods  
+### BuyAgent.ChangeList
 ```py
 BuyAgent.ChangeList(String listName)
-
-- `String listName````
-## BuyAgent.Disable
+- String **listName** ____```
+### BuyAgent.Disable
 ```py
 BuyAgent.Disable()```
-## BuyAgent.Enable
+### BuyAgent.Enable
 ```py
 BuyAgent.Enable()```
-## BuyAgent.Equals
+### BuyAgent.Equals
 ```py
 BuyAgent.Equals(Object obj)
-
-- `Object obj````
-## BuyAgent.GetHashCode
+- Object **obj** ____```
+### BuyAgent.GetHashCode
 ```py
 BuyAgent.GetHashCode()```
-## BuyAgent.GetType
+### BuyAgent.GetType
 ```py
 BuyAgent.GetType()```
-## BuyAgent.Status
+### BuyAgent.Status
 ```py
 BuyAgent.Status()```
-## BuyAgent.ToString
+### BuyAgent.ToString
 ```py
 BuyAgent.ToString()```

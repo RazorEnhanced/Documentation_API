@@ -1,30 +1,31 @@
-# SellAgent
+# SellAgent    
 
-## SellAgent.ChangeList
+## Properties  
+ 
+## Methods  
+### SellAgent.ChangeList
 ```py
 SellAgent.ChangeList(String listName)
-
-- `String listName````
-## SellAgent.Disable
+- String **listName** ____```
+### SellAgent.Disable
 ```py
 SellAgent.Disable()```
-## SellAgent.Enable
+### SellAgent.Enable
 ```py
 SellAgent.Enable()```
-## SellAgent.Equals
+### SellAgent.Equals
 ```py
 SellAgent.Equals(Object obj)
-
-- `Object obj````
-## SellAgent.GetHashCode
+- Object **obj** ____```
+### SellAgent.GetHashCode
 ```py
 SellAgent.GetHashCode()```
-## SellAgent.GetType
+### SellAgent.GetType
 ```py
 SellAgent.GetType()```
-## SellAgent.Status
+### SellAgent.Status
 ```py
 SellAgent.Status()```
-## SellAgent.ToString
+### SellAgent.ToString
 ```py
 SellAgent.ToString()```

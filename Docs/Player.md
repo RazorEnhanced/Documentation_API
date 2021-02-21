@@ -1,446 +1,388 @@
-# Player
+# Player    
 
-- Player.AR
-- Player.Backpack
-- Player.Bank
-- Player.Body
-- Player.Buffs
-- Player.ColdResistance
-- Player.DamageChanceIncrease
-- Player.DefenseChanceIncrease
-- Player.Dex
-- Player.DexterityIncrease
-- Player.Direction
-- Player.EnergyResistance
-- Player.EnhancePotions
-- Player.FasterCasting
-- Player.FasterCastRecovery
-- Player.Female
-- Player.FireResistance
-- Player.Followers
-- Player.FollowersMax
-- Player.Gold
-- Player.HasSpecial
-- Player.HitPointsIncrease
-- Player.HitPointsRegeneration
-- Player.Hits
-- Player.HitsMax
-- Player.InParty
-- Player.Int
-- Player.IntelligenceIncrease
-- Player.IsGhost
-- Player.LowerManaCost
-- Player.LowerReagentCost
-- Player.Luck
-- Player.Mana
-- Player.ManaIncrease
-- Player.ManaMax
-- Player.ManaRegeneration
-- Player.Map
-- Player.MaximumHitPointsIncrease
-- Player.MaximumManaIncrease
-- Player.MaximumStaminaIncrease
-- Player.MaxWeight
-- Player.MobileID
-- Player.Mount
-- Player.Name
-- Player.Notoriety
-- Player.Paralized
-- Player.Poisoned
-- Player.PoisonResistance
-- Player.Position
-- Player.Quiver
-- Player.ReflectPhysicalDamage
-- Player.Serial
-- Player.SpellDamageIncrease
-- Player.Stam
-- Player.StaminaIncrease
-- Player.StaminaRegeneration
-- Player.StamMax
-- Player.StatCap
-- Player.StaticMount
-- Player.Str
-- Player.StrengthIncrease
-- Player.SwingSpeedIncrease
-- Player.Visible
-- Player.WarMode
-- Player.Weight
-- Player.YellowHits## Player.Attack
+## Properties  
+### Player.AR
+### Player.Backpack
+### Player.Bank
+### Player.Body
+### Player.Buffs
+### Player.ColdResistance
+### Player.DamageChanceIncrease
+### Player.DefenseChanceIncrease
+### Player.Dex
+### Player.DexterityIncrease
+### Player.Direction
+### Player.EnergyResistance
+### Player.EnhancePotions
+### Player.FasterCasting
+### Player.FasterCastRecovery
+### Player.Female
+### Player.FireResistance
+### Player.Followers
+### Player.FollowersMax
+### Player.Gold
+### Player.HasSpecial
+### Player.HitPointsIncrease
+### Player.HitPointsRegeneration
+### Player.Hits
+### Player.HitsMax
+### Player.InParty
+### Player.Int
+### Player.IntelligenceIncrease
+### Player.IsGhost
+### Player.LowerManaCost
+### Player.LowerReagentCost
+### Player.Luck
+### Player.Mana
+### Player.ManaIncrease
+### Player.ManaMax
+### Player.ManaRegeneration
+### Player.Map
+### Player.MaximumHitPointsIncrease
+### Player.MaximumManaIncrease
+### Player.MaximumStaminaIncrease
+### Player.MaxWeight
+### Player.MobileID
+### Player.Mount
+### Player.Name
+### Player.Notoriety
+### Player.Paralized
+### Player.Poisoned
+### Player.PoisonResistance
+### Player.Position
+### Player.Quiver
+### Player.ReflectPhysicalDamage
+### Player.Serial
+### Player.SpellDamageIncrease
+### Player.Stam
+### Player.StaminaIncrease
+### Player.StaminaRegeneration
+### Player.StamMax
+### Player.StatCap
+### Player.StaticMount
+### Player.Str
+### Player.StrengthIncrease
+### Player.SwingSpeedIncrease
+### Player.Visible
+### Player.WarMode
+### Player.Weight
+### Player.YellowHits 
+## Methods  
+### Player.Attack
 ```py
 Player.Attack(Mobile m)
-
-- `Mobile m````
-## Player.Attack
+- Mobile **m** ____```
+### Player.Attack
 ```py
 Player.Attack(Int32 serial)
-
-- `Int32 serial````
-## Player.AttackLast
+- Int32 **serial** ____```
+### Player.AttackLast
 ```py
 Player.AttackLast()```
-## Player.BuffsExist
+### Player.BuffsExist
 ```py
 Player.BuffsExist(String buffname)
-
-- `String buffname````
-## Player.ChatAlliance
+- String **buffname** ____```
+### Player.ChatAlliance
 ```py
 Player.ChatAlliance(String msg)
-
-- `String msg````
-## Player.ChatAlliance
+- String **msg** ____```
+### Player.ChatAlliance
 ```py
 Player.ChatAlliance(Int32 num)
-
-- `Int32 num````
-## Player.ChatChannel
+- Int32 **num** ____```
+### Player.ChatChannel
 ```py
 Player.ChatChannel(Int32 num)
-
-- `Int32 num````
-## Player.ChatChannel
+- Int32 **num** ____```
+### Player.ChatChannel
 ```py
 Player.ChatChannel(String msg)
-
-- `String msg````
-## Player.ChatEmote
+- String **msg** ____```
+### Player.ChatEmote
 ```py
 Player.ChatEmote(Int32 hue, Int32 num)
-
-- `Int32 hue` 
-- `Int32 num````
-## Player.ChatEmote
+- Int32 **hue** ____
+- Int32 **num** ____```
+### Player.ChatEmote
 ```py
 Player.ChatEmote(Int32 hue, String msg)
-
-- `Int32 hue` 
-- `String msg````
-## Player.ChatGuild
+- Int32 **hue** ____
+- String **msg** ____```
+### Player.ChatGuild
 ```py
 Player.ChatGuild(String msg)
-
-- `String msg````
-## Player.ChatGuild
+- String **msg** ____```
+### Player.ChatGuild
 ```py
 Player.ChatGuild(Int32 num)
-
-- `Int32 num````
-## Player.ChatParty
+- Int32 **num** ____```
+### Player.ChatParty
 ```py
 Player.ChatParty(String msg, Int32 serial)
-
-- `String msg` 
-- `Int32 serial` 0```
-## Player.ChatSay
+- String **msg** ____
+- Int32 **serial** __0__```
+### Player.ChatSay
 ```py
 Player.ChatSay(Int32 hue, String msg)
-
-- `Int32 hue` 
-- `String msg````
-## Player.ChatSay
+- Int32 **hue** ____
+- String **msg** ____```
+### Player.ChatSay
 ```py
 Player.ChatSay(Int32 hue, Int32 num)
-
-- `Int32 hue` 
-- `Int32 num````
-## Player.ChatWhisper
+- Int32 **hue** ____
+- Int32 **num** ____```
+### Player.ChatWhisper
 ```py
 Player.ChatWhisper(Int32 hue, Int32 num)
-
-- `Int32 hue` 
-- `Int32 num````
-## Player.ChatWhisper
+- Int32 **hue** ____
+- Int32 **num** ____```
+### Player.ChatWhisper
 ```py
 Player.ChatWhisper(Int32 hue, String msg)
-
-- `Int32 hue` 
-- `String msg````
-## Player.ChatYell
+- Int32 **hue** ____
+- String **msg** ____```
+### Player.ChatYell
 ```py
 Player.ChatYell(Int32 hue, Int32 num)
-
-- `Int32 hue` 
-- `Int32 num````
-## Player.ChatYell
+- Int32 **hue** ____
+- Int32 **num** ____```
+### Player.ChatYell
 ```py
 Player.ChatYell(Int32 hue, String msg)
-
-- `Int32 hue` 
-- `String msg````
-## Player.CheckLayer
+- Int32 **hue** ____
+- String **msg** ____```
+### Player.CheckLayer
 ```py
 Player.CheckLayer(String layer)
-
-- `String layer````
-## Player.DistanceTo
+- String **layer** ____```
+### Player.DistanceTo
 ```py
 Player.DistanceTo(Item i)
-
-- `Item i````
-## Player.DistanceTo
+- Item **i** ____```
+### Player.DistanceTo
 ```py
 Player.DistanceTo(Mobile m)
-
-- `Mobile m````
-## Player.Equals
+- Mobile **m** ____```
+### Player.Equals
 ```py
 Player.Equals(Object obj)
-
-- `Object obj````
-## Player.EquipItem
+- Object **obj** ____```
+### Player.EquipItem
 ```py
 Player.EquipItem(Int32 serial)
-
-- `Int32 serial````
-## Player.EquipItem
+- Int32 **serial** ____```
+### Player.EquipItem
 ```py
 Player.EquipItem(Item item)
-
-- `Item item````
-## Player.EquipUO3D
+- Item **item** ____```
+### Player.EquipUO3D
 ```py
 Player.EquipUO3D(List`1 serials)
-
-- `List`1 serials````
-## Player.Fly
+- List`1 **serials** ____```
+### Player.Fly
 ```py
 Player.Fly(Boolean on)
-
-- `Boolean on````
-## Player.GetHashCode
+- Boolean **on** ____```
+### Player.GetHashCode
 ```py
 Player.GetHashCode()```
-## Player.GetItemOnLayer
+### Player.GetItemOnLayer
 ```py
 Player.GetItemOnLayer(String layer)
-
-- `String layer````
-## Player.GetPropStringByIndex
+- String **layer** ____```
+### Player.GetPropStringByIndex
 ```py
 Player.GetPropStringByIndex(Int32 index)
-
-- `Int32 index````
-## Player.GetPropStringList
+- Int32 **index** ____```
+### Player.GetPropStringList
 ```py
 Player.GetPropStringList()```
-## Player.GetPropValue
+### Player.GetPropValue
 ```py
 Player.GetPropValue(String name)
-
-- `String name````
-## Player.GetRealSkillValue
+- String **name** ____```
+### Player.GetRealSkillValue
 ```py
 Player.GetRealSkillValue(String skillname)
-
-- `String skillname````
-## Player.GetSkillCap
+- String **skillname** ____```
+### Player.GetSkillCap
 ```py
 Player.GetSkillCap(String skillname)
-
-- `String skillname````
-## Player.GetSkillStatus
+- String **skillname** ____```
+### Player.GetSkillStatus
 ```py
 Player.GetSkillStatus(String skillname)
-
-- `String skillname````
-## Player.GetSkillValue
+- String **skillname** ____```
+### Player.GetSkillValue
 ```py
 Player.GetSkillValue(String skillname)
-
-- `String skillname````
-## Player.GetStatStatus
+- String **skillname** ____```
+### Player.GetStatStatus
 ```py
 Player.GetStatStatus(String statname)
-
-- `String statname````
-## Player.GetType
+- String **statname** ____```
+### Player.GetType
 ```py
 Player.GetType()```
-## Player.GuildButton
+### Player.GuildButton
 ```py
 Player.GuildButton()```
-## Player.HeadMessage
+### Player.HeadMessage
 ```py
 Player.HeadMessage(Int32 hue, Int32 num)
-
-- `Int32 hue` 
-- `Int32 num````
-## Player.HeadMessage
+- Int32 **hue** ____
+- Int32 **num** ____```
+### Player.HeadMessage
 ```py
 Player.HeadMessage(Int32 hue, String message)
-
-- `Int32 hue` 
-- `String message````
-## Player.InRangeItem
+- Int32 **hue** ____
+- String **message** ____```
+### Player.InRangeItem
 ```py
 Player.InRangeItem(Int32 itemserial, Int32 range)
-
-- `Int32 itemserial` 
-- `Int32 range````
-## Player.InRangeItem
+- Int32 **itemserial** ____
+- Int32 **range** ____```
+### Player.InRangeItem
 ```py
 Player.InRangeItem(Item i, Int32 range)
-
-- `Item i` 
-- `Int32 range````
-## Player.InRangeMobile
+- Item **i** ____
+- Int32 **range** ____```
+### Player.InRangeMobile
 ```py
 Player.InRangeMobile(Mobile mob, Int32 range)
-
-- `Mobile mob` 
-- `Int32 range````
-## Player.InRangeMobile
+- Mobile **mob** ____
+- Int32 **range** ____```
+### Player.InRangeMobile
 ```py
 Player.InRangeMobile(Int32 mobserial, Int32 range)
-
-- `Int32 mobserial` 
-- `Int32 range````
-## Player.InvokeVirtue
+- Int32 **mobserial** ____
+- Int32 **range** ____```
+### Player.InvokeVirtue
 ```py
 Player.InvokeVirtue(String virtue)
-
-- `String virtue````
-## Player.KickMember
+- String **virtue** ____```
+### Player.KickMember
 ```py
 Player.KickMember(Int32 serial)
-
-- `Int32 serial````
-## Player.LeaveParty
+- Int32 **serial** ____```
+### Player.LeaveParty
 ```py
 Player.LeaveParty()```
-## Player.MapSay
+### Player.MapSay
 ```py
 Player.MapSay(String msg)
-
-- `String msg````
-## Player.MapSay
+- String **msg** ____```
+### Player.MapSay
 ```py
 Player.MapSay(Int32 num)
-
-- `Int32 num````
-## Player.PartyAccept
+- Int32 **num** ____```
+### Player.PartyAccept
 ```py
 Player.PartyAccept(Int32 serial)
-
-- `Int32 serial` 0```
-## Player.PartyCanLoot
+- Int32 **serial** __0__```
+### Player.PartyCanLoot
 ```py
 Player.PartyCanLoot(Boolean CanLoot)
-
-- `Boolean CanLoot````
-## Player.PartyInvite
+- Boolean **CanLoot** ____```
+### Player.PartyInvite
 ```py
 Player.PartyInvite()```
-## Player.PathFindTo
+### Player.PathFindTo
 ```py
 Player.PathFindTo(Int32 x, Int32 y, Int32 z)
-
-- `Int32 x` 
-- `Int32 y` 
-- `Int32 z````
-## Player.PathFindTo
+- Int32 **x** ____
+- Int32 **y** ____
+- Int32 **z** ____```
+### Player.PathFindTo
 ```py
 Player.PathFindTo(Point3D Location)
-
-- `Point3D Location````
-## Player.QuestButton
+- Point3D **Location** ____```
+### Player.QuestButton
 ```py
 Player.QuestButton()```
-## Player.Run
+### Player.Run
 ```py
 Player.Run(String direction, Boolean checkPosition)
-
-- `String direction` 
-- `Boolean checkPosition` True```
-## Player.SetSkillStatus
+- String **direction** ____
+- Boolean **checkPosition** __True__```
+### Player.SetSkillStatus
 ```py
 Player.SetSkillStatus(String skillname, Int32 status)
-
-- `String skillname` 
-- `Int32 status````
-## Player.SetStatStatus
+- String **skillname** ____
+- Int32 **status** ____```
+### Player.SetStatStatus
 ```py
 Player.SetStatStatus(String statname, Int32 status)
-
-- `String statname` 
-- `Int32 status````
-## Player.SetWarMode
+- String **statname** ____
+- Int32 **status** ____```
+### Player.SetWarMode
 ```py
 Player.SetWarMode(Boolean warflag)
-
-- `Boolean warflag````
-## Player.SpellIsEnabled
+- Boolean **warflag** ____```
+### Player.SpellIsEnabled
 ```py
 Player.SpellIsEnabled(String spell)
-
-- `String spell````
-## Player.SumAttribute
+- String **spell** ____```
+### Player.SumAttribute
 ```py
 Player.SumAttribute(String attributename)
-
-- `String attributename````
-## Player.ToggleAlwaysRun
+- String **attributename** ____```
+### Player.ToggleAlwaysRun
 ```py
 Player.ToggleAlwaysRun()```
-## Player.ToString
+### Player.ToString
 ```py
 Player.ToString()```
-## Player.UnEquipItemByLayer
+### Player.UnEquipItemByLayer
 ```py
 Player.UnEquipItemByLayer(String layer, Boolean wait)
-
-- `String layer` 
-- `Boolean wait` True```
-## Player.UseSkill
+- String **layer** ____
+- Boolean **wait** __True__```
+### Player.UseSkill
 ```py
 Player.UseSkill(String skillname, Boolean wait)
-
-- `String skillname` 
-- `Boolean wait````
-## Player.UseSkill
+- String **skillname** ____
+- Boolean **wait** ____```
+### Player.UseSkill
 ```py
 Player.UseSkill(String skillname)
-
-- `String skillname````
-## Player.UseSkill
+- String **skillname** ____```
+### Player.UseSkill
 ```py
 Player.UseSkill(String skillname, Int32 targetSerial, Boolean wait)
-
-- `String skillname` 
-- `Int32 targetSerial` 
-- `Boolean wait` True```
-## Player.UseSkill
+- String **skillname** ____
+- Int32 **targetSerial** ____
+- Boolean **wait** __True__```
+### Player.UseSkill
 ```py
 Player.UseSkill(String skillname, EnhancedEntity target, Boolean wait)
-
-- `String skillname` 
-- `EnhancedEntity target` 
-- `Boolean wait` True```
+- String **skillname** ____
+- EnhancedEntity **target** ____
+- Boolean **wait** __True__```
 //////
-## Player.UseSkillOnly
+### Player.UseSkillOnly
 ```py
 Player.UseSkillOnly(String skillname, Boolean wait)
-
-- `String skillname` 
-- `Boolean wait````
-## Player.Walk
+- String **skillname** ____
+- Boolean **wait** ____```
+### Player.Walk
 ```py
 Player.Walk(String direction, Boolean checkPosition)
-
-- `String direction` 
-- `Boolean checkPosition` True```
-## Player.WeaponClearSA
+- String **direction** ____
+- Boolean **checkPosition** __True__```
+### Player.WeaponClearSA
 ```py
 Player.WeaponClearSA()```
-## Player.WeaponDisarmSA
+### Player.WeaponDisarmSA
 ```py
 Player.WeaponDisarmSA()```
-## Player.WeaponPrimarySA
+### Player.WeaponPrimarySA
 ```py
 Player.WeaponPrimarySA()```
-## Player.WeaponSecondarySA
+### Player.WeaponSecondarySA
 ```py
 Player.WeaponSecondarySA()```
-## Player.WeaponStunSA
+### Player.WeaponStunSA
 ```py
 Player.WeaponStunSA()```

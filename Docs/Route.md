@@ -1,16 +1,18 @@
-# Route
+# Route    
 
-## Route.Equals
+## Properties  
+ 
+## Methods  
+### Route.Equals
 ```py
 Route.Equals(Object obj)
-
-- `Object obj````
-## Route.GetHashCode
+- Object **obj** ____```
+### Route.GetHashCode
 ```py
 Route.GetHashCode()```
-## Route.GetType
+### Route.GetType
 ```py
 Route.GetType()```
-## Route.ToString
+### Route.ToString
 ```py
 Route.ToString()```

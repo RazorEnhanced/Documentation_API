@@ -1,53 +1,51 @@
-# AutoLoot
+# AutoLoot    
 
-## AutoLoot.ChangeList
+## Properties  
+ 
+## Methods  
+### AutoLoot.ChangeList
 ```py
 AutoLoot.ChangeList(String listName)
-
-- `String listName````
-## AutoLoot.Equals
+- String **listName** ____```
+### AutoLoot.Equals
 ```py
 AutoLoot.Equals(Object obj)
-
-- `Object obj````
-## AutoLoot.GetHashCode
+- Object **obj** ____```
+### AutoLoot.GetHashCode
 ```py
 AutoLoot.GetHashCode()```
-## AutoLoot.GetList
+### AutoLoot.GetList
 ```py
 AutoLoot.GetList(String lootListName)
-
-- `String lootListName````
-## AutoLoot.GetLootBag
+- String **lootListName** ____```
+### AutoLoot.GetLootBag
 ```py
 AutoLoot.GetLootBag()```
-## AutoLoot.GetType
+### AutoLoot.GetType
 ```py
 AutoLoot.GetType()```
-## AutoLoot.ResetIgnore
+### AutoLoot.ResetIgnore
 ```py
 AutoLoot.ResetIgnore()```
-## AutoLoot.RunOnce
+### AutoLoot.RunOnce
 ```py
 AutoLoot.RunOnce(String lootListName, Int32 mseconds, Filter filter)
-
-- `String lootListName` 
-- `Int32 mseconds` 
-- `Filter filter````
-## AutoLoot.SetNoOpenCorpse
+- String **lootListName** ____
+- Int32 **mseconds** ____
+- Filter **filter** ____```
+### AutoLoot.SetNoOpenCorpse
 ```py
 AutoLoot.SetNoOpenCorpse(Boolean value)
-
-- `Boolean value````
-## AutoLoot.Start
+- Boolean **value** ____```
+### AutoLoot.Start
 ```py
 AutoLoot.Start()```
-## AutoLoot.Status
+### AutoLoot.Status
 ```py
 AutoLoot.Status()```
-## AutoLoot.Stop
+### AutoLoot.Stop
 ```py
 AutoLoot.Stop()```
-## AutoLoot.ToString
+### AutoLoot.ToString
 ```py
 AutoLoot.ToString()```

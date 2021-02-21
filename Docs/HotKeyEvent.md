@@ -1,21 +1,22 @@
-# HotKeyEvent
+# HotKeyEvent    
 
-## HotKeyEvent.AddEvent
+## Properties  
+ 
+## Methods  
+### HotKeyEvent.AddEvent
 ```py
 HotKeyEvent.AddEvent(Keys k)
-
-- `Keys k````
-## HotKeyEvent.Equals
+- Keys **k** ____```
+### HotKeyEvent.Equals
 ```py
 HotKeyEvent.Equals(Object obj)
-
-- `Object obj````
-## HotKeyEvent.GetHashCode
+- Object **obj** ____```
+### HotKeyEvent.GetHashCode
 ```py
 HotKeyEvent.GetHashCode()```
-## HotKeyEvent.GetType
+### HotKeyEvent.GetType
 ```py
 HotKeyEvent.GetType()```
-## HotKeyEvent.ToString
+### HotKeyEvent.ToString
 ```py
 HotKeyEvent.ToString()```

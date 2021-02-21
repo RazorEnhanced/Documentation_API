@@ -1,91 +1,84 @@
-# Gumps
+# Gumps    
 
-## Gumps.CloseGump
+## Properties  
+ 
+## Methods  
+### Gumps.CloseGump
 ```py
 Gumps.CloseGump(UInt32 gumpid)
-
-- `UInt32 gumpid````
-## Gumps.CurrentGump
+- UInt32 **gumpid** ____```
+### Gumps.CurrentGump
 ```py
 Gumps.CurrentGump()```
-## Gumps.Equals
+### Gumps.Equals
 ```py
 Gumps.Equals(Object obj)
-
-- `Object obj````
-## Gumps.GetHashCode
+- Object **obj** ____```
+### Gumps.GetHashCode
 ```py
 Gumps.GetHashCode()```
-## Gumps.GetType
+### Gumps.GetType
 ```py
 Gumps.GetType()```
-## Gumps.HasGump
+### Gumps.HasGump
 ```py
 Gumps.HasGump()```
-## Gumps.LastGumpGetLine
+### Gumps.LastGumpGetLine
 ```py
 Gumps.LastGumpGetLine(Int32 line)
-
-- `Int32 line````
-## Gumps.LastGumpGetLineList
+- Int32 **line** ____```
+### Gumps.LastGumpGetLineList
 ```py
 Gumps.LastGumpGetLineList()```
-## Gumps.LastGumpRawData
+### Gumps.LastGumpRawData
 ```py
 Gumps.LastGumpRawData()```
-## Gumps.LastGumpTextExist
+### Gumps.LastGumpTextExist
 ```py
 Gumps.LastGumpTextExist(String text)
-
-- `String text````
-## Gumps.LastGumpTextExistByLine
+- String **text** ____```
+### Gumps.LastGumpTextExistByLine
 ```py
 Gumps.LastGumpTextExistByLine(Int32 line, String text)
-
-- `Int32 line` 
-- `String text````
-## Gumps.LastGumpTile
+- Int32 **line** ____
+- String **text** ____```
+### Gumps.LastGumpTile
 ```py
 Gumps.LastGumpTile()```
-## Gumps.ResetGump
+### Gumps.ResetGump
 ```py
 Gumps.ResetGump()```
-## Gumps.SendAction
+### Gumps.SendAction
 ```py
 Gumps.SendAction(UInt32 gumpid, Int32 buttonid)
-
-- `UInt32 gumpid` 
-- `Int32 buttonid````
-## Gumps.SendAdvancedAction
+- UInt32 **gumpid** ____
+- Int32 **buttonid** ____```
+### Gumps.SendAdvancedAction
 ```py
 Gumps.SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 entryID, List`1 entryS)
-
-- `UInt32 gumpid` 
-- `Int32 buttonid` 
-- `List`1 entryID` 
-- `List`1 entryS````
-## Gumps.SendAdvancedAction
+- UInt32 **gumpid** ____
+- Int32 **buttonid** ____
+- List`1 **entryID** ____
+- List`1 **entryS** ____```
+### Gumps.SendAdvancedAction
 ```py
 Gumps.SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 switchs, List`1 entryID, List`1 entryS)
-
-- `UInt32 gumpid` 
-- `Int32 buttonid` 
-- `List`1 switchs` 
-- `List`1 entryID` 
-- `List`1 entryS````
-## Gumps.SendAdvancedAction
+- UInt32 **gumpid** ____
+- Int32 **buttonid** ____
+- List`1 **switchs** ____
+- List`1 **entryID** ____
+- List`1 **entryS** ____```
+### Gumps.SendAdvancedAction
 ```py
 Gumps.SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 switchs)
-
-- `UInt32 gumpid` 
-- `Int32 buttonid` 
-- `List`1 switchs````
-## Gumps.ToString
+- UInt32 **gumpid** ____
+- Int32 **buttonid** ____
+- List`1 **switchs** ____```
+### Gumps.ToString
 ```py
 Gumps.ToString()```
-## Gumps.WaitForGump
+### Gumps.WaitForGump
 ```py
 Gumps.WaitForGump(UInt32 gumpid, Int32 delay)
-
-- `UInt32 gumpid` 
-- `Int32 delay````
+- UInt32 **gumpid** ____
+- Int32 **delay** ____```

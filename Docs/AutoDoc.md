@@ -1,4 +1,4 @@
-# AutoDoc
+# AutoDoc  
             <summary>
             Automatically generate the Python API
             DOING:
@@ -10,29 +10,24 @@
             2. Wiki Documentation
             3. razor.py 
             </summary>
-        
+          
 
-## AutoDoc.Equals
+## Properties  
+ 
+## Methods  
+### AutoDoc.Equals
 ```py
 AutoDoc.Equals(Object obj)
-
-- `Object obj````
-## AutoDoc.ExportHTML
-```py
-AutoDoc.ExportHTML(String path)
-
-- `String path````
-## AutoDoc.ExportMKDocs
+- Object **obj** ____```
+### AutoDoc.ExportMKDocs
 ```py
 AutoDoc.ExportMKDocs(String path)
-
-- `String path````
-## AutoDoc.ExportPythonAPI
+- String **path** ____```
+### AutoDoc.ExportPythonAPI
 ```py
 AutoDoc.ExportPythonAPI(String path, Boolean pretty)
-
-- `String path` 
-- `Boolean pretty` True```
+- String **path** ____
+- Boolean **pretty** __True__```
 Export the API to disk. 
 See docs for more, lol.
     1-
@@ -40,48 +35,43 @@ See docs for more, lol.
     3-
 
 end.
-## AutoDoc.GetClasses
+### AutoDoc.GetClasses
 ```py
 AutoDoc.GetClasses()```
-## AutoDoc.GetHashCode
+### AutoDoc.GetHashCode
 ```py
 AutoDoc.GetHashCode()```
-## AutoDoc.GetMethods
+### AutoDoc.GetMethods
 ```py
 AutoDoc.GetMethods(Boolean withClass, Boolean withNames, Boolean withTypes)
-
-- `Boolean withClass` False
-- `Boolean withNames` False
-- `Boolean withTypes` False```
-## AutoDoc.GetProperties
+- Boolean **withClass** __False__
+- Boolean **withNames** __False__
+- Boolean **withTypes** __False__```
+### AutoDoc.GetProperties
 ```py
 AutoDoc.GetProperties(Boolean withClass)
-
-- `Boolean withClass` False```
-## AutoDoc.GetPythonAPI
+- Boolean **withClass** __False__```
+### AutoDoc.GetPythonAPI
 ```py
 AutoDoc.GetPythonAPI()```
 Use reflection to generete the Python API List
-## AutoDoc.GetType
+### AutoDoc.GetType
 ```py
 AutoDoc.GetType()```
-## AutoDoc.HasTag
+### AutoDoc.HasTag
 ```py
 AutoDoc.HasTag(String tag, String text)
-
-- `String tag` 
-- `String text````
-## AutoDoc.ParamType
+- String **tag** ____
+- String **text** ____```
+### AutoDoc.ParamType
 ```py
 AutoDoc.ParamType(ParameterInfo param)
-
-- `ParameterInfo param````
-## AutoDoc.ReadClass
+- ParameterInfo **param** ____```
+### AutoDoc.ReadClass
 ```py
 AutoDoc.ReadClass(Type type, BindingFlags flags)
-
-- `Type type` 
-- `BindingFlags flags````
-## AutoDoc.ToString
+- Type **type** ____
+- BindingFlags **flags** ____```
+### AutoDoc.ToString
 ```py
 AutoDoc.ToString()```

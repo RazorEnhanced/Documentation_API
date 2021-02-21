@@ -1,39 +1,40 @@
-# Dress
+# Dress    
 
-## Dress.ChangeList
+## Properties  
+ 
+## Methods  
+### Dress.ChangeList
 ```py
 Dress.ChangeList(String listName)
-
-- `String listName````
-## Dress.DressFStart
+- String **listName** ____```
+### Dress.DressFStart
 ```py
 Dress.DressFStart()```
-## Dress.DressFStop
+### Dress.DressFStop
 ```py
 Dress.DressFStop()```
-## Dress.DressStatus
+### Dress.DressStatus
 ```py
 Dress.DressStatus()```
-## Dress.Equals
+### Dress.Equals
 ```py
 Dress.Equals(Object obj)
-
-- `Object obj````
-## Dress.GetHashCode
+- Object **obj** ____```
+### Dress.GetHashCode
 ```py
 Dress.GetHashCode()```
-## Dress.GetType
+### Dress.GetType
 ```py
 Dress.GetType()```
-## Dress.ToString
+### Dress.ToString
 ```py
 Dress.ToString()```
-## Dress.UnDressFStart
+### Dress.UnDressFStart
 ```py
 Dress.UnDressFStart()```
-## Dress.UnDressFStop
+### Dress.UnDressFStop
 ```py
 Dress.UnDressFStop()```
-## Dress.UnDressStatus
+### Dress.UnDressStatus
 ```py
 Dress.UnDressStatus()```
