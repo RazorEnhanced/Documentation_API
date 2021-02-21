@@ -36,6 +36,6 @@ nav:
     - Filter: Filter.md
     - HotKeyEvent: HotKeyEvent.md
 theme:
-  name: readthedocs
+  name: mkdocs
 markdown_extensions:
   - codehilite
