@@ -1,31 +1,31 @@
 # Restock    
 
-## Properties  
+### Properties  
  
-## Methods  
-### Restock.ChangeList
-```py
+### Methods  
+## Restock.ChangeList
+```python
 Restock.ChangeList(String listName)
 - String **listName** ____```
-### Restock.Equals
-```py
+## Restock.Equals
+```python
 Restock.Equals(Object obj)
 - Object **obj** ____```
-### Restock.FStart
-```py
+## Restock.FStart
+```python
 Restock.FStart()```
-### Restock.FStop
-```py
+## Restock.FStop
+```python
 Restock.FStop()```
-### Restock.GetHashCode
-```py
+## Restock.GetHashCode
+```python
 Restock.GetHashCode()```
-### Restock.GetType
-```py
+## Restock.GetType
+```python
 Restock.GetType()```
-### Restock.Status
-```py
+## Restock.Status
+```python
 Restock.Status()```
-### Restock.ToString
-```py
+## Restock.ToString
+```python
 Restock.ToString()```

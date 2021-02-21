@@ -1,38 +1,38 @@
 # Organizer    
 
-## Properties  
+### Properties  
  
-## Methods  
-### Organizer.ChangeList
-```py
+### Methods  
+## Organizer.ChangeList
+```python
 Organizer.ChangeList(String listName)
 - String **listName** ____```
-### Organizer.Equals
-```py
+## Organizer.Equals
+```python
 Organizer.Equals(Object obj)
 - Object **obj** ____```
-### Organizer.FStart
-```py
+## Organizer.FStart
+```python
 Organizer.FStart()```
-### Organizer.FStop
-```py
+## Organizer.FStop
+```python
 Organizer.FStop()```
-### Organizer.GetHashCode
-```py
+## Organizer.GetHashCode
+```python
 Organizer.GetHashCode()```
-### Organizer.GetType
-```py
+## Organizer.GetType
+```python
 Organizer.GetType()```
-### Organizer.RunOnce
-```py
+## Organizer.RunOnce
+```python
 Organizer.RunOnce(String organizerName, Int32 sourceBag, Int32 destBag, Int32 dragDelay)
 - String **organizerName** ____
 - Int32 **sourceBag** ____
 - Int32 **destBag** ____
 - Int32 **dragDelay** ____```
-### Organizer.Status
-```py
+## Organizer.Status
+```python
 Organizer.Status()```
-### Organizer.ToString
-```py
+## Organizer.ToString
+```python
 Organizer.ToString()```

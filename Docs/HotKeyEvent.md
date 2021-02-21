@@ -1,22 +1,25 @@
 # HotKeyEvent    
 
-## Properties  
- 
-## Methods  
-### HotKeyEvent.AddEvent
-```py
+### Properties  
+## HotKeyEvent.HotKey
+## HotKeyEvent.LastEvent
+## HotKeyEvent.Timestamp
+## HotKeyEvent.UnixTimeBegin 
+### Methods  
+## HotKeyEvent.AddEvent
+```python
 HotKeyEvent.AddEvent(Keys k)
 - Keys **k** ____```
-### HotKeyEvent.Equals
-```py
+## HotKeyEvent.Equals
+```python
 HotKeyEvent.Equals(Object obj)
 - Object **obj** ____```
-### HotKeyEvent.GetHashCode
-```py
+## HotKeyEvent.GetHashCode
+```python
 HotKeyEvent.GetHashCode()```
-### HotKeyEvent.GetType
-```py
+## HotKeyEvent.GetType
+```python
 HotKeyEvent.GetType()```
-### HotKeyEvent.ToString
-```py
+## HotKeyEvent.ToString
+```python
 HotKeyEvent.ToString()```

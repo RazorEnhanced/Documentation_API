@@ -1,34 +1,34 @@
 # DPSMeter    
 
-## Properties  
+### Properties  
  
-## Methods  
-### DPSMeter.Equals
-```py
+### Methods  
+## DPSMeter.Equals
+```python
 DPSMeter.Equals(Object obj)
 - Object **obj** ____```
-### DPSMeter.GetDamage
-```py
+## DPSMeter.GetDamage
+```python
 DPSMeter.GetDamage(Int32 serial)
 - Int32 **serial** ____```
-### DPSMeter.GetHashCode
-```py
+## DPSMeter.GetHashCode
+```python
 DPSMeter.GetHashCode()```
-### DPSMeter.GetType
-```py
+## DPSMeter.GetType
+```python
 DPSMeter.GetType()```
-### DPSMeter.Pause
-```py
+## DPSMeter.Pause
+```python
 DPSMeter.Pause()```
-### DPSMeter.Start
-```py
+## DPSMeter.Start
+```python
 DPSMeter.Start()```
-### DPSMeter.Status
-```py
+## DPSMeter.Status
+```python
 DPSMeter.Status()```
-### DPSMeter.Stop
-```py
+## DPSMeter.Stop
+```python
 DPSMeter.Stop()```
-### DPSMeter.ToString
-```py
+## DPSMeter.ToString
+```python
 DPSMeter.ToString()```

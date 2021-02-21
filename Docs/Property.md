@@ -1,19 +1,19 @@
 # Property    
 
-## Properties  
-### Property.Args
-### Property.Number 
-## Methods  
-### Property.Equals
-```py
+### Properties  
+## Property.Args
+## Property.Number 
+### Methods  
+## Property.Equals
+```python
 Property.Equals(Object obj)
 - Object **obj** ____```
-### Property.GetHashCode
-```py
+## Property.GetHashCode
+```python
 Property.GetHashCode()```
-### Property.GetType
-```py
+## Property.GetType
+```python
 Property.GetType()```
-### Property.ToString
-```py
+## Property.ToString
+```python
 Property.ToString()```

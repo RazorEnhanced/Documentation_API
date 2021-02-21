@@ -1,18 +1,25 @@
 # Route    
 
-## Properties  
- 
-## Methods  
-### Route.Equals
-```py
+### Properties  
+## Route.DebugMessage
+## Route.IgnoreMobile
+## Route.MaxRetry
+## Route.StopIfStuck
+## Route.Timeout
+## Route.UseResync
+## Route.X
+## Route.Y 
+### Methods  
+## Route.Equals
+```python
 Route.Equals(Object obj)
 - Object **obj** ____```
-### Route.GetHashCode
-```py
+## Route.GetHashCode
+```python
 Route.GetHashCode()```
-### Route.GetType
-```py
+## Route.GetType
+```python
 Route.GetType()```
-### Route.ToString
-```py
+## Route.ToString
+```python
 Route.ToString()```
