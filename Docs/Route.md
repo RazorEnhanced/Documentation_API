@@ -1,6 +1,6 @@
 # Route    
 
-### Properties  
+## Properties  
 ## Route.DebugMessage
 ## Route.IgnoreMobile
 ## Route.MaxRetry
@@ -9,13 +9,24 @@
 ## Route.UseResync
 ## Route.X
 ## Route.Y 
-### Methods  
-## Route.Equals
+## Methods  
+### Route.Equals
+``` python
 Route.Equals(Object obj)
-        Object obj #
-## Route.GetHashCode
+  Object obj #
+```
+### Route.GetHashCode
+``` python
 Route.GetHashCode()
-## Route.GetType
+
+```
+### Route.GetType
+``` python
 Route.GetType()
-## Route.ToString
+
+```
+### Route.ToString
+``` python
 Route.ToString()
+
+```

@@ -1,6 +1,6 @@
 # Filter    
 
-### Properties  
+## Properties  
 ## Filter.Blessed
 ## Filter.Bodies
 ## Filter.CheckIgnoreObject
@@ -33,22 +33,44 @@
 ## Filter.Serials
 ## Filter.Serials
 ## Filter.Warmode 
-### Methods  
-## Filter.Equals
+## Methods  
+### Filter.Equals
+``` python
 Filter.Equals(Object obj)
-        Object obj #
-## Filter.Equals
+  Object obj #
+```
+### Filter.Equals
+``` python
 Filter.Equals(Object obj)
-        Object obj #
-## Filter.GetHashCode
+  Object obj #
+```
+### Filter.GetHashCode
+``` python
 Filter.GetHashCode()
-## Filter.GetHashCode
+
+```
+### Filter.GetHashCode
+``` python
 Filter.GetHashCode()
-## Filter.GetType
+
+```
+### Filter.GetType
+``` python
 Filter.GetType()
-## Filter.GetType
+
+```
+### Filter.GetType
+``` python
 Filter.GetType()
-## Filter.ToString
+
+```
+### Filter.ToString
+``` python
 Filter.ToString()
-## Filter.ToString
+
+```
+### Filter.ToString
+``` python
 Filter.ToString()
+
+```

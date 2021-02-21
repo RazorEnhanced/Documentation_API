@@ -1,32 +1,62 @@
 # Scavenger    
 
-### Properties  
+## Properties  
  
-### Methods  
-## Scavenger.ChangeList
+## Methods  
+### Scavenger.ChangeList
+``` python
 Scavenger.ChangeList(String listName)
-        String listName #
-## Scavenger.Equals
+  String listName #
+```
+### Scavenger.Equals
+``` python
 Scavenger.Equals(Object obj)
-        Object obj #
-## Scavenger.GetHashCode
+  Object obj #
+```
+### Scavenger.GetHashCode
+``` python
 Scavenger.GetHashCode()
-## Scavenger.GetScavengerBag
+
+```
+### Scavenger.GetScavengerBag
+``` python
 Scavenger.GetScavengerBag()
-## Scavenger.GetType
+
+```
+### Scavenger.GetType
+``` python
 Scavenger.GetType()
-## Scavenger.ResetIgnore
+
+```
+### Scavenger.ResetIgnore
+``` python
 Scavenger.ResetIgnore()
-## Scavenger.RunOnce
+
+```
+### Scavenger.RunOnce
+``` python
 Scavenger.RunOnce(List`1 scavengerList, Int32 mseconds, Filter filter)
-        List`1 scavengerList #
-        Int32 mseconds #
-        Filter filter #
-## Scavenger.Start
+  List`1 scavengerList #
+  Int32 mseconds #
+  Filter filter #
+```
+### Scavenger.Start
+``` python
 Scavenger.Start()
-## Scavenger.Status
+
+```
+### Scavenger.Status
+``` python
 Scavenger.Status()
-## Scavenger.Stop
+
+```
+### Scavenger.Stop
+``` python
 Scavenger.Stop()
-## Scavenger.ToString
+
+```
+### Scavenger.ToString
+``` python
 Scavenger.ToString()
+
+```

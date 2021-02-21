@@ -1,29 +1,48 @@
 # Timer    
 
-### Properties  
+## Properties  
 ## Timer.Timers 
-### Methods  
-## Timer.Check
+## Methods  
+### Timer.Check
+``` python
 Timer.Check(String name)
-        String name #
-## Timer.Create
+  String name #
+```
+### Timer.Create
+``` python
 Timer.Create(String name, Int32 delay)
-        String name #
-        Int32 delay #
-## Timer.Create
+  String name #
+  Int32 delay #
+```
+### Timer.Create
+``` python
 Timer.Create(String name, Int32 delay, String message)
-        String name #
-        Int32 delay #
-        String message #
-## Timer.Equals
+  String name #
+  Int32 delay #
+  String message #
+```
+### Timer.Equals
+``` python
 Timer.Equals(Object obj)
-        Object obj #
-## Timer.GetHashCode
+  Object obj #
+```
+### Timer.GetHashCode
+``` python
 Timer.GetHashCode()
-## Timer.GetType
+
+```
+### Timer.GetType
+``` python
 Timer.GetType()
-## Timer.Remaining
+
+```
+### Timer.Remaining
+``` python
 Timer.Remaining(String name)
-        String name #
-## Timer.ToString
+  String name #
+```
+### Timer.ToString
+``` python
 Timer.ToString()
+
+```

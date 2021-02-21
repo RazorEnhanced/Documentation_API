@@ -1,30 +1,52 @@
 # Friend    
 
-### Properties  
+## Properties  
  
-### Methods  
-## Friend.AddFriendTarget
+## Methods  
+### Friend.AddFriendTarget
+``` python
 Friend.AddFriendTarget()
-## Friend.AddPlayer
+
+```
+### Friend.AddPlayer
+``` python
 Friend.AddPlayer(String selection, String name, Int32 serial)
-        String selection #
-        String name #
-        Int32 serial #
-## Friend.ChangeList
+  String selection #
+  String name #
+  Int32 serial #
+```
+### Friend.ChangeList
+``` python
 Friend.ChangeList(String nameList)
-        String nameList #
-## Friend.Equals
+  String nameList #
+```
+### Friend.Equals
+``` python
 Friend.Equals(Object obj)
-        Object obj #
-## Friend.GetHashCode
+  Object obj #
+```
+### Friend.GetHashCode
+``` python
 Friend.GetHashCode()
-## Friend.GetList
+
+```
+### Friend.GetList
+``` python
 Friend.GetList(String nameList)
-        String nameList #
-## Friend.GetType
+  String nameList #
+```
+### Friend.GetType
+``` python
 Friend.GetType()
-## Friend.IsFriend
+
+```
+### Friend.IsFriend
+``` python
 Friend.IsFriend(Int32 serial)
-        Int32 serial #
-## Friend.ToString
+  Int32 serial #
+```
+### Friend.ToString
+``` python
 Friend.ToString()
+
+```

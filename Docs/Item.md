@@ -1,6 +1,6 @@
 # Item    
 
-### Properties  
+## Properties  
 ## Item.Amount
 ## Item.BuyDesc
 ## Item.Container
@@ -37,21 +37,39 @@
 ## Item.Updated
 ## Item.Visible
 ## Item.Weight 
-### Methods  
-## Item.DistanceTo
+## Methods  
+### Item.DistanceTo
+``` python
 Item.DistanceTo(Mobile m)
-        Mobile m #
-## Item.Equals
+  Mobile m #
+```
+### Item.Equals
+``` python
 Item.Equals(Object obj)
-        Object obj #
-## Item.GetHashCode
+  Object obj #
+```
+### Item.GetHashCode
+``` python
 Item.GetHashCode()
-## Item.GetType
+
+```
+### Item.GetType
+``` python
 Item.GetType()
-## Item.GetWorldPosition
+
+```
+### Item.GetWorldPosition
+``` python
 Item.GetWorldPosition()
-## Item.IsChildOf
+
+```
+### Item.IsChildOf
+``` python
 Item.IsChildOf(Object parent)
-        Object parent #
-## Item.ToString
+  Object parent #
+```
+### Item.ToString
+``` python
 Item.ToString()
+
+```

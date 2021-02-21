@@ -1,6 +1,6 @@
 # Player    
 
-### Properties  
+## Properties  
 ## Player.AR
 ## Player.Backpack
 ## Player.Bank
@@ -67,246 +67,413 @@
 ## Player.WarMode
 ## Player.Weight
 ## Player.YellowHits 
-### Methods  
-## Player.Attack
+## Methods  
+### Player.Attack
+``` python
 Player.Attack(Mobile m)
-        Mobile m #
-## Player.Attack
+  Mobile m #
+```
+### Player.Attack
+``` python
 Player.Attack(Int32 serial)
-        Int32 serial #
-## Player.AttackLast
+  Int32 serial #
+```
+### Player.AttackLast
+``` python
 Player.AttackLast()
-## Player.BuffsExist
+
+```
+### Player.BuffsExist
+``` python
 Player.BuffsExist(String buffname)
-        String buffname #
-## Player.ChatAlliance
+  String buffname #
+```
+### Player.ChatAlliance
+``` python
 Player.ChatAlliance(String msg)
-        String msg #
-## Player.ChatAlliance
+  String msg #
+```
+### Player.ChatAlliance
+``` python
 Player.ChatAlliance(Int32 num)
-        Int32 num #
-## Player.ChatChannel
+  Int32 num #
+```
+### Player.ChatChannel
+``` python
 Player.ChatChannel(Int32 num)
-        Int32 num #
-## Player.ChatChannel
+  Int32 num #
+```
+### Player.ChatChannel
+``` python
 Player.ChatChannel(String msg)
-        String msg #
-## Player.ChatEmote
+  String msg #
+```
+### Player.ChatEmote
+``` python
 Player.ChatEmote(Int32 hue, Int32 num)
-        Int32 hue #
-        Int32 num #
-## Player.ChatEmote
+  Int32 hue #
+  Int32 num #
+```
+### Player.ChatEmote
+``` python
 Player.ChatEmote(Int32 hue, String msg)
-        Int32 hue #
-        String msg #
-## Player.ChatGuild
+  Int32 hue #
+  String msg #
+```
+### Player.ChatGuild
+``` python
 Player.ChatGuild(String msg)
-        String msg #
-## Player.ChatGuild
+  String msg #
+```
+### Player.ChatGuild
+``` python
 Player.ChatGuild(Int32 num)
-        Int32 num #
-## Player.ChatParty
+  Int32 num #
+```
+### Player.ChatParty
+``` python
 Player.ChatParty(String msg, Int32 serial)
-        String msg #
-        Int32 serial #0
-## Player.ChatSay
+  String msg #
+  Int32 serial #0
+```
+### Player.ChatSay
+``` python
 Player.ChatSay(Int32 hue, String msg)
-        Int32 hue #
-        String msg #
-## Player.ChatSay
+  Int32 hue #
+  String msg #
+```
+### Player.ChatSay
+``` python
 Player.ChatSay(Int32 hue, Int32 num)
-        Int32 hue #
-        Int32 num #
-## Player.ChatWhisper
+  Int32 hue #
+  Int32 num #
+```
+### Player.ChatWhisper
+``` python
 Player.ChatWhisper(Int32 hue, Int32 num)
-        Int32 hue #
-        Int32 num #
-## Player.ChatWhisper
+  Int32 hue #
+  Int32 num #
+```
+### Player.ChatWhisper
+``` python
 Player.ChatWhisper(Int32 hue, String msg)
-        Int32 hue #
-        String msg #
-## Player.ChatYell
+  Int32 hue #
+  String msg #
+```
+### Player.ChatYell
+``` python
 Player.ChatYell(Int32 hue, Int32 num)
-        Int32 hue #
-        Int32 num #
-## Player.ChatYell
+  Int32 hue #
+  Int32 num #
+```
+### Player.ChatYell
+``` python
 Player.ChatYell(Int32 hue, String msg)
-        Int32 hue #
-        String msg #
-## Player.CheckLayer
+  Int32 hue #
+  String msg #
+```
+### Player.CheckLayer
+``` python
 Player.CheckLayer(String layer)
-        String layer #
-## Player.DistanceTo
+  String layer #
+```
+### Player.DistanceTo
+``` python
 Player.DistanceTo(Item i)
-        Item i #
-## Player.DistanceTo
+  Item i #
+```
+### Player.DistanceTo
+``` python
 Player.DistanceTo(Mobile m)
-        Mobile m #
-## Player.Equals
+  Mobile m #
+```
+### Player.Equals
+``` python
 Player.Equals(Object obj)
-        Object obj #
-## Player.EquipItem
+  Object obj #
+```
+### Player.EquipItem
+``` python
 Player.EquipItem(Int32 serial)
-        Int32 serial #
-## Player.EquipItem
+  Int32 serial #
+```
+### Player.EquipItem
+``` python
 Player.EquipItem(Item item)
-        Item item #
-## Player.EquipUO3D
+  Item item #
+```
+### Player.EquipUO3D
+``` python
 Player.EquipUO3D(List`1 serials)
-        List`1 serials #
-## Player.Fly
+  List`1 serials #
+```
+### Player.Fly
+``` python
 Player.Fly(Boolean on)
-        Boolean on #
-## Player.GetHashCode
+  Boolean on #
+```
+### Player.GetHashCode
+``` python
 Player.GetHashCode()
-## Player.GetItemOnLayer
+
+```
+### Player.GetItemOnLayer
+``` python
 Player.GetItemOnLayer(String layer)
-        String layer #
-## Player.GetPropStringByIndex
+  String layer #
+```
+### Player.GetPropStringByIndex
+``` python
 Player.GetPropStringByIndex(Int32 index)
-        Int32 index #
-## Player.GetPropStringList
+  Int32 index #
+```
+### Player.GetPropStringList
+``` python
 Player.GetPropStringList()
-## Player.GetPropValue
+
+```
+### Player.GetPropValue
+``` python
 Player.GetPropValue(String name)
-        String name #
-## Player.GetRealSkillValue
+  String name #
+```
+### Player.GetRealSkillValue
+``` python
 Player.GetRealSkillValue(String skillname)
-        String skillname #
-## Player.GetSkillCap
+  String skillname #
+```
+### Player.GetSkillCap
+``` python
 Player.GetSkillCap(String skillname)
-        String skillname #
-## Player.GetSkillStatus
+  String skillname #
+```
+### Player.GetSkillStatus
+``` python
 Player.GetSkillStatus(String skillname)
-        String skillname #
-## Player.GetSkillValue
+  String skillname #
+```
+### Player.GetSkillValue
+``` python
 Player.GetSkillValue(String skillname)
-        String skillname #
-## Player.GetStatStatus
+  String skillname #
+```
+### Player.GetStatStatus
+``` python
 Player.GetStatStatus(String statname)
-        String statname #
-## Player.GetType
+  String statname #
+```
+### Player.GetType
+``` python
 Player.GetType()
-## Player.GuildButton
+
+```
+### Player.GuildButton
+``` python
 Player.GuildButton()
-## Player.HeadMessage
+
+```
+### Player.HeadMessage
+``` python
 Player.HeadMessage(Int32 hue, Int32 num)
-        Int32 hue #
-        Int32 num #
-## Player.HeadMessage
+  Int32 hue #
+  Int32 num #
+```
+### Player.HeadMessage
+``` python
 Player.HeadMessage(Int32 hue, String message)
-        Int32 hue #
-        String message #
-## Player.InRangeItem
+  Int32 hue #
+  String message #
+```
+### Player.InRangeItem
+``` python
 Player.InRangeItem(Int32 itemserial, Int32 range)
-        Int32 itemserial #
-        Int32 range #
-## Player.InRangeItem
+  Int32 itemserial #
+  Int32 range #
+```
+### Player.InRangeItem
+``` python
 Player.InRangeItem(Item i, Int32 range)
-        Item i #
-        Int32 range #
-## Player.InRangeMobile
+  Item i #
+  Int32 range #
+```
+### Player.InRangeMobile
+``` python
 Player.InRangeMobile(Mobile mob, Int32 range)
-        Mobile mob #
-        Int32 range #
-## Player.InRangeMobile
+  Mobile mob #
+  Int32 range #
+```
+### Player.InRangeMobile
+``` python
 Player.InRangeMobile(Int32 mobserial, Int32 range)
-        Int32 mobserial #
-        Int32 range #
-## Player.InvokeVirtue
+  Int32 mobserial #
+  Int32 range #
+```
+### Player.InvokeVirtue
+``` python
 Player.InvokeVirtue(String virtue)
-        String virtue #
-## Player.KickMember
+  String virtue #
+```
+### Player.KickMember
+``` python
 Player.KickMember(Int32 serial)
-        Int32 serial #
-## Player.LeaveParty
+  Int32 serial #
+```
+### Player.LeaveParty
+``` python
 Player.LeaveParty()
-## Player.MapSay
+
+```
+### Player.MapSay
+``` python
 Player.MapSay(String msg)
-        String msg #
-## Player.MapSay
+  String msg #
+```
+### Player.MapSay
+``` python
 Player.MapSay(Int32 num)
-        Int32 num #
-## Player.PartyAccept
+  Int32 num #
+```
+### Player.PartyAccept
+``` python
 Player.PartyAccept(Int32 serial)
-        Int32 serial #0
-## Player.PartyCanLoot
+  Int32 serial #0
+```
+### Player.PartyCanLoot
+``` python
 Player.PartyCanLoot(Boolean CanLoot)
-        Boolean CanLoot #
-## Player.PartyInvite
+  Boolean CanLoot #
+```
+### Player.PartyInvite
+``` python
 Player.PartyInvite()
-## Player.PathFindTo
+
+```
+### Player.PathFindTo
+``` python
 Player.PathFindTo(Int32 x, Int32 y, Int32 z)
-        Int32 x #
-        Int32 y #
-        Int32 z #
-## Player.PathFindTo
+  Int32 x #
+  Int32 y #
+  Int32 z #
+```
+### Player.PathFindTo
+``` python
 Player.PathFindTo(Point3D Location)
-        Point3D Location #
-## Player.QuestButton
+  Point3D Location #
+```
+### Player.QuestButton
+``` python
 Player.QuestButton()
-## Player.Run
+
+```
+### Player.Run
+``` python
 Player.Run(String direction, Boolean checkPosition)
-        String direction #
-        Boolean checkPosition #True
-## Player.SetSkillStatus
+  String direction #
+  Boolean checkPosition #True
+```
+### Player.SetSkillStatus
+``` python
 Player.SetSkillStatus(String skillname, Int32 status)
-        String skillname #
-        Int32 status #
-## Player.SetStatStatus
+  String skillname #
+  Int32 status #
+```
+### Player.SetStatStatus
+``` python
 Player.SetStatStatus(String statname, Int32 status)
-        String statname #
-        Int32 status #
-## Player.SetWarMode
+  String statname #
+  Int32 status #
+```
+### Player.SetWarMode
+``` python
 Player.SetWarMode(Boolean warflag)
-        Boolean warflag #
-## Player.SpellIsEnabled
+  Boolean warflag #
+```
+### Player.SpellIsEnabled
+``` python
 Player.SpellIsEnabled(String spell)
-        String spell #
-## Player.SumAttribute
+  String spell #
+```
+### Player.SumAttribute
+``` python
 Player.SumAttribute(String attributename)
-        String attributename #
-## Player.ToggleAlwaysRun
+  String attributename #
+```
+### Player.ToggleAlwaysRun
+``` python
 Player.ToggleAlwaysRun()
-## Player.ToString
+
+```
+### Player.ToString
+``` python
 Player.ToString()
-## Player.UnEquipItemByLayer
+
+```
+### Player.UnEquipItemByLayer
+``` python
 Player.UnEquipItemByLayer(String layer, Boolean wait)
-        String layer #
-        Boolean wait #True
-## Player.UseSkill
+  String layer #
+  Boolean wait #True
+```
+### Player.UseSkill
+``` python
 Player.UseSkill(String skillname, Boolean wait)
-        String skillname #
-        Boolean wait #
-## Player.UseSkill
+  String skillname #
+  Boolean wait #
+```
+### Player.UseSkill
+``` python
 Player.UseSkill(String skillname)
-        String skillname #
-## Player.UseSkill
+  String skillname #
+```
+### Player.UseSkill
+``` python
 Player.UseSkill(String skillname, Int32 targetSerial, Boolean wait)
-        String skillname #
-        Int32 targetSerial #
-        Boolean wait #True
-## Player.UseSkill
+  String skillname #
+  Int32 targetSerial #
+  Boolean wait #True
+```
+### Player.UseSkill
+``` python
 Player.UseSkill(String skillname, EnhancedEntity target, Boolean wait)
-        String skillname #
-        EnhancedEntity target #
-        Boolean wait #True
+  String skillname #
+  EnhancedEntity target #
+  Boolean wait #True
+```
 //////
-## Player.UseSkillOnly
+### Player.UseSkillOnly
+``` python
 Player.UseSkillOnly(String skillname, Boolean wait)
-        String skillname #
-        Boolean wait #
-## Player.Walk
+  String skillname #
+  Boolean wait #
+```
+### Player.Walk
+``` python
 Player.Walk(String direction, Boolean checkPosition)
-        String direction #
-        Boolean checkPosition #True
-## Player.WeaponClearSA
+  String direction #
+  Boolean checkPosition #True
+```
+### Player.WeaponClearSA
+``` python
 Player.WeaponClearSA()
-## Player.WeaponDisarmSA
+
+```
+### Player.WeaponDisarmSA
+``` python
 Player.WeaponDisarmSA()
-## Player.WeaponPrimarySA
+
+```
+### Player.WeaponPrimarySA
+``` python
 Player.WeaponPrimarySA()
-## Player.WeaponSecondarySA
+
+```
+### Player.WeaponSecondarySA
+``` python
 Player.WeaponSecondarySA()
-## Player.WeaponStunSA
+
+```
+### Player.WeaponStunSA
+``` python
 Player.WeaponStunSA()
+
+```

@@ -37,3 +37,5 @@ nav:
     - HotKeyEvent: HotKeyEvent.md
 theme:
   name: readthedocs
+markdown_extensions:
+  - smarty
