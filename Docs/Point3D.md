@@ -7,15 +7,6 @@
 Point3D.Equals(Object obj)
 
 - `Object obj````
-## Point3D.get_X
-```py
-Point3D.get_X()```
-## Point3D.get_Y
-```py
-Point3D.get_Y()```
-## Point3D.get_Z
-```py
-Point3D.get_Z()```
 ## Point3D.GetHashCode
 ```py
 Point3D.GetHashCode()```

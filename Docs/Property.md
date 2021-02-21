@@ -6,12 +6,6 @@
 Property.Equals(Object obj)
 
 - `Object obj````
-## Property.get_Args
-```py
-Property.get_Args()```
-## Property.get_Number
-```py
-Property.get_Number()```
 ## Property.GetHashCode
 ```py
 Property.GetHashCode()```

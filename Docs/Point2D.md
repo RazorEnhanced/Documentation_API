@@ -6,12 +6,6 @@
 Point2D.Equals(Object obj)
 
 - `Object obj````
-## Point2D.get_X
-```py
-Point2D.get_X()```
-## Point2D.get_Y
-```py
-Point2D.get_Y()```
 ## Point2D.GetHashCode
 ```py
 Point2D.GetHashCode()```

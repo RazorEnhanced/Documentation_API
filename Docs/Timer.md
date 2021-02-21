@@ -23,9 +23,6 @@ Timer.Create(String name, Int32 delay, String message)
 Timer.Equals(Object obj)
 
 - `Object obj````
-## Timer.get_Timers
-```py
-Timer.get_Timers()```
 ## Timer.GetHashCode
 ```py
 Timer.GetHashCode()```
@@ -37,11 +34,6 @@ Timer.GetType()```
 Timer.Remaining(String name)
 
 - `String name````
-## Timer.set_Timers
-```py
-Timer.set_Timers(ConcurrentDictionary`2 value)
-
-- `ConcurrentDictionary`2 value````
 ## Timer.ToString
 ```py
 Timer.ToString()```

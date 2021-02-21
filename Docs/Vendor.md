@@ -18,28 +18,12 @@ Vendor.BuyList(Int32 vendorSerial)
 Vendor.Equals(Object obj)
 
 - `Object obj````
-## Vendor.get_LastBuyList
-```py
-Vendor.get_LastBuyList()```
-## Vendor.get_LastVendor
-```py
-Vendor.get_LastVendor()```
 ## Vendor.GetHashCode
 ```py
 Vendor.GetHashCode()```
 ## Vendor.GetType
 ```py
 Vendor.GetType()```
-## Vendor.set_LastBuyList
-```py
-Vendor.set_LastBuyList(List`1 value)
-
-- `List`1 value````
-## Vendor.set_LastVendor
-```py
-Vendor.set_LastVendor(Mobile value)
-
-- `Mobile value````
 ## Vendor.StoreBuyList
 ```py
 Vendor.StoreBuyList(PacketReader p, PacketHandlerEventArgs args)
