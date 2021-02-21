@@ -1,0 +1,38 @@
+site_name: Razor Enhaced
+nav:
+  - Classes:
+    - AutoDoc: AutoDoc.md
+    - Misc: Misc.md
+    - Item: Item.md
+    - Items: Items.md
+    - Mobile: Mobile.md
+    - Mobiles: Mobiles.md
+    - Player: Player.md
+    - Spells: Spells.md
+    - Gumps: Gumps.md
+    - Journal: Journal.md
+    - Target: Target.md
+    - Statics: Statics.md
+    - AutoLoot: AutoLoot.md
+    - Scavenger: Scavenger.md
+    - SellAgent: SellAgent.md
+    - BuyAgent: BuyAgent.md
+    - Organizer: Organizer.md
+    - Dress: Dress.md
+    - Friend: Friend.md
+    - Restock: Restock.md
+    - BandageHeal: BandageHeal.md
+    - PathFinding: PathFinding.md
+    - DPSMeter: DPSMeter.md
+    - Timer: Timer.md
+    - Vendor: Vendor.md
+    - Point2D: Point2D.md
+    - Point3D: Point3D.md
+    - Tile: Tile.md
+    - Property: Property.md
+    - Route: Route.md
+    - Filter: Filter.md
+    - Filter: Filter.md
+    - HotKeyEvent: HotKeyEvent.md
+theme:
+  name: material
