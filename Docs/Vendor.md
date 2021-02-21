@@ -5,30 +5,23 @@
 ## Vendor.LastVendor 
 ### Methods  
 ## Vendor.Buy
-```python
 Vendor.Buy(Int32 vendorSerial, Int32 itemID, Int32 amount)
-- Int32 **vendorSerial** ____
-- Int32 **itemID** ____
-- Int32 **amount** ____```
+        Int32 vendorSerial #
+        Int32 itemID #
+        Int32 amount #
 ## Vendor.BuyList
-```python
 Vendor.BuyList(Int32 vendorSerial)
-- Int32 **vendorSerial** ____```
+        Int32 vendorSerial #
 ## Vendor.Equals
-```python
 Vendor.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Vendor.GetHashCode
-```python
-Vendor.GetHashCode()```
+Vendor.GetHashCode()
 ## Vendor.GetType
-```python
-Vendor.GetType()```
+Vendor.GetType()
 ## Vendor.StoreBuyList
-```python
 Vendor.StoreBuyList(PacketReader p, PacketHandlerEventArgs args)
-- PacketReader **p** ____
-- PacketHandlerEventArgs **args** ____```
+        PacketReader p #
+        PacketHandlerEventArgs args #
 ## Vendor.ToString
-```python
-Vendor.ToString()```
+Vendor.ToString()

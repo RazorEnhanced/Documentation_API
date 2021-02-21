@@ -35,28 +35,20 @@
 ## Filter.Warmode 
 ### Methods  
 ## Filter.Equals
-```python
 Filter.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Filter.Equals
-```python
 Filter.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Filter.GetHashCode
-```python
-Filter.GetHashCode()```
+Filter.GetHashCode()
 ## Filter.GetHashCode
-```python
-Filter.GetHashCode()```
+Filter.GetHashCode()
 ## Filter.GetType
-```python
-Filter.GetType()```
+Filter.GetType()
 ## Filter.GetType
-```python
-Filter.GetType()```
+Filter.GetType()
 ## Filter.ToString
-```python
-Filter.ToString()```
+Filter.ToString()
 ## Filter.ToString
-```python
-Filter.ToString()```
+Filter.ToString()

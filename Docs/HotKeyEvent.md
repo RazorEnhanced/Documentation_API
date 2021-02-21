@@ -7,19 +7,14 @@
 ## HotKeyEvent.UnixTimeBegin 
 ### Methods  
 ## HotKeyEvent.AddEvent
-```python
 HotKeyEvent.AddEvent(Keys k)
-- Keys **k** ____```
+        Keys k #
 ## HotKeyEvent.Equals
-```python
 HotKeyEvent.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## HotKeyEvent.GetHashCode
-```python
-HotKeyEvent.GetHashCode()```
+HotKeyEvent.GetHashCode()
 ## HotKeyEvent.GetType
-```python
-HotKeyEvent.GetType()```
+HotKeyEvent.GetType()
 ## HotKeyEvent.ToString
-```python
-HotKeyEvent.ToString()```
+HotKeyEvent.ToString()

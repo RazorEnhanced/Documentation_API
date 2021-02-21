@@ -5,15 +5,11 @@
 ## Tile.Y 
 ### Methods  
 ## Tile.Equals
-```python
 Tile.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Tile.GetHashCode
-```python
-Tile.GetHashCode()```
+Tile.GetHashCode()
 ## Tile.GetType
-```python
-Tile.GetType()```
+Tile.GetType()
 ## Tile.ToString
-```python
-Tile.ToString()```
+Tile.ToString()

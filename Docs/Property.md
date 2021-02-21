@@ -5,15 +5,11 @@
 ## Property.Number 
 ### Methods  
 ## Property.Equals
-```python
 Property.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Property.GetHashCode
-```python
-Property.GetHashCode()```
+Property.GetHashCode()
 ## Property.GetType
-```python
-Property.GetType()```
+Property.GetType()
 ## Property.ToString
-```python
-Property.ToString()```
+Property.ToString()

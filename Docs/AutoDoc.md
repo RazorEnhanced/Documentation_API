@@ -16,18 +16,15 @@
  
 ### Methods  
 ## AutoDoc.Equals
-```python
 AutoDoc.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## AutoDoc.ExportMKDocs
-```python
 AutoDoc.ExportMKDocs(String path)
-- String **path** ____```
+        String path #
 ## AutoDoc.ExportPythonAPI
-```python
 AutoDoc.ExportPythonAPI(String path, Boolean pretty)
-- String **path** ____
-- Boolean **pretty** __True__```
+        String path #
+        Boolean pretty #True
 Export the API to disk. 
 See docs for more, lol.
     1-
@@ -36,42 +33,32 @@ See docs for more, lol.
 
 end.
 ## AutoDoc.GetClasses
-```python
-AutoDoc.GetClasses()```
+AutoDoc.GetClasses()
 ## AutoDoc.GetHashCode
-```python
-AutoDoc.GetHashCode()```
+AutoDoc.GetHashCode()
 ## AutoDoc.GetMethods
-```python
 AutoDoc.GetMethods(Boolean withClass, Boolean withNames, Boolean withTypes)
-- Boolean **withClass** __False__
-- Boolean **withNames** __False__
-- Boolean **withTypes** __False__```
+        Boolean withClass #False
+        Boolean withNames #False
+        Boolean withTypes #False
 ## AutoDoc.GetProperties
-```python
 AutoDoc.GetProperties(Boolean withClass)
-- Boolean **withClass** __False__```
+        Boolean withClass #False
 ## AutoDoc.GetPythonAPI
-```python
-AutoDoc.GetPythonAPI()```
+AutoDoc.GetPythonAPI()
 Use reflection to generete the Python API List
 ## AutoDoc.GetType
-```python
-AutoDoc.GetType()```
+AutoDoc.GetType()
 ## AutoDoc.HasTag
-```python
 AutoDoc.HasTag(String tag, String text)
-- String **tag** ____
-- String **text** ____```
+        String tag #
+        String text #
 ## AutoDoc.ParamType
-```python
 AutoDoc.ParamType(ParameterInfo param)
-- ParameterInfo **param** ____```
+        ParameterInfo param #
 ## AutoDoc.ReadClass
-```python
 AutoDoc.ReadClass(Type type, BindingFlags flags)
-- Type **type** ____
-- BindingFlags **flags** ____```
+        Type type #
+        BindingFlags flags #
 ## AutoDoc.ToString
-```python
-AutoDoc.ToString()```
+AutoDoc.ToString()

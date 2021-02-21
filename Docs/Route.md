@@ -11,15 +11,11 @@
 ## Route.Y 
 ### Methods  
 ## Route.Equals
-```python
 Route.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Route.GetHashCode
-```python
-Route.GetHashCode()```
+Route.GetHashCode()
 ## Route.GetType
-```python
-Route.GetType()```
+Route.GetType()
 ## Route.ToString
-```python
-Route.ToString()```
+Route.ToString()

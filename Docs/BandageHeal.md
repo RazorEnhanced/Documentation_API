@@ -4,24 +4,17 @@
  
 ### Methods  
 ## BandageHeal.Equals
-```python
 BandageHeal.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## BandageHeal.GetHashCode
-```python
-BandageHeal.GetHashCode()```
+BandageHeal.GetHashCode()
 ## BandageHeal.GetType
-```python
-BandageHeal.GetType()```
+BandageHeal.GetType()
 ## BandageHeal.Start
-```python
-BandageHeal.Start()```
+BandageHeal.Start()
 ## BandageHeal.Status
-```python
-BandageHeal.Status()```
+BandageHeal.Status()
 ## BandageHeal.Stop
-```python
-BandageHeal.Stop()```
+BandageHeal.Stop()
 ## BandageHeal.ToString
-```python
-BandageHeal.ToString()```
+BandageHeal.ToString()

@@ -4,35 +4,26 @@
  
 ### Methods  
 ## Organizer.ChangeList
-```python
 Organizer.ChangeList(String listName)
-- String **listName** ____```
+        String listName #
 ## Organizer.Equals
-```python
 Organizer.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Organizer.FStart
-```python
-Organizer.FStart()```
+Organizer.FStart()
 ## Organizer.FStop
-```python
-Organizer.FStop()```
+Organizer.FStop()
 ## Organizer.GetHashCode
-```python
-Organizer.GetHashCode()```
+Organizer.GetHashCode()
 ## Organizer.GetType
-```python
-Organizer.GetType()```
+Organizer.GetType()
 ## Organizer.RunOnce
-```python
 Organizer.RunOnce(String organizerName, Int32 sourceBag, Int32 destBag, Int32 dragDelay)
-- String **organizerName** ____
-- Int32 **sourceBag** ____
-- Int32 **destBag** ____
-- Int32 **dragDelay** ____```
+        String organizerName #
+        Int32 sourceBag #
+        Int32 destBag #
+        Int32 dragDelay #
 ## Organizer.Status
-```python
-Organizer.Status()```
+Organizer.Status()
 ## Organizer.ToString
-```python
-Organizer.ToString()```
+Organizer.ToString()

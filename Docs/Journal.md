@@ -4,78 +4,60 @@
  
 ### Methods  
 ## Journal.Clear
-```python
-Journal.Clear()```
+Journal.Clear()
 ## Journal.Equals
-```python
 Journal.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Journal.GetHashCode
-```python
-Journal.GetHashCode()```
+Journal.GetHashCode()
 ## Journal.GetLineText
-```python
 Journal.GetLineText(String text, Boolean addname)
-- String **text** ____
-- Boolean **addname** __False__```
+        String text #
+        Boolean addname #False
 ## Journal.GetSpeechName
-```python
-Journal.GetSpeechName()```
+Journal.GetSpeechName()
 ## Journal.GetTextByColor
-```python
 Journal.GetTextByColor(Int32 color, Boolean addname)
-- Int32 **color** ____
-- Boolean **addname** __False__```
+        Int32 color #
+        Boolean addname #False
 ## Journal.GetTextByName
-```python
 Journal.GetTextByName(String name)
-- String **name** ____```
+        String name #
 ## Journal.GetTextBySerial
-```python
 Journal.GetTextBySerial(Int32 serial)
-- Int32 **serial** ____```
+        Int32 serial #
 ## Journal.GetTextByType
-```python
 Journal.GetTextByType(String type, Boolean addname)
-- String **type** ____
-- Boolean **addname** __False__```
+        String type #
+        Boolean addname #False
 ## Journal.GetType
-```python
-Journal.GetType()```
+Journal.GetType()
 ## Journal.Search
-```python
 Journal.Search(String text)
-- String **text** ____```
+        String text #
 ## Journal.SearchByColor
-```python
 Journal.SearchByColor(String text, Int32 color)
-- String **text** ____
-- Int32 **color** ____```
+        String text #
+        Int32 color #
 ## Journal.SearchByName
-```python
 Journal.SearchByName(String text, String name)
-- String **text** ____
-- String **name** ____```
+        String text #
+        String name #
 ## Journal.SearchByType
-```python
 Journal.SearchByType(String text, String type)
-- String **text** ____
-- String **type** ____```
+        String text #
+        String type #
 ## Journal.ToString
-```python
-Journal.ToString()```
+Journal.ToString()
 ## Journal.WaitByName
-```python
 Journal.WaitByName(String name, Int32 delay)
-- String **name** ____
-- Int32 **delay** ____```
+        String name #
+        Int32 delay #
 ## Journal.WaitJournal
-```python
 Journal.WaitJournal(String text, Int32 delay)
-- String **text** ____
-- Int32 **delay** ____```
+        String text #
+        Int32 delay #
 ## Journal.WaitJournal
-```python
 Journal.WaitJournal(List`1 msgs, Int32 delay)
-- List`1 **msgs** ____
-- Int32 **delay** ____```
+        List`1 msgs #
+        Int32 delay #

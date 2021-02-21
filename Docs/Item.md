@@ -39,26 +39,19 @@
 ## Item.Weight 
 ### Methods  
 ## Item.DistanceTo
-```python
 Item.DistanceTo(Mobile m)
-- Mobile **m** ____```
+        Mobile m #
 ## Item.Equals
-```python
 Item.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Item.GetHashCode
-```python
-Item.GetHashCode()```
+Item.GetHashCode()
 ## Item.GetType
-```python
-Item.GetType()```
+Item.GetType()
 ## Item.GetWorldPosition
-```python
-Item.GetWorldPosition()```
+Item.GetWorldPosition()
 ## Item.IsChildOf
-```python
 Item.IsChildOf(Object parent)
-- Object **parent** ____```
+        Object parent #
 ## Item.ToString
-```python
-Item.ToString()```
+Item.ToString()

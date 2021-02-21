@@ -36,23 +36,17 @@
 ## Mobile.YellowHits 
 ### Methods  
 ## Mobile.DistanceTo
-```python
 Mobile.DistanceTo(Mobile m)
-- Mobile **m** ____```
+        Mobile m #
 ## Mobile.Equals
-```python
 Mobile.Equals(Object obj)
-- Object **obj** ____```
+        Object obj #
 ## Mobile.GetHashCode
-```python
-Mobile.GetHashCode()```
+Mobile.GetHashCode()
 ## Mobile.GetItemOnLayer
-```python
 Mobile.GetItemOnLayer(String layer)
-- String **layer** ____```
+        String layer #
 ## Mobile.GetType
-```python
-Mobile.GetType()```
+Mobile.GetType()
 ## Mobile.ToString
-```python
-Mobile.ToString()```
+Mobile.ToString()
