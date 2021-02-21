@@ -4,77 +4,40 @@
 ```py
 Scavenger.ChangeList(String listName)
 
-- `String listName` 
-```
-
+- `String listName````
 ## Scavenger.Equals
 ```py
 Scavenger.Equals(Object obj)
 
-- `Object obj` 
-```
-
+- `Object obj````
 ## Scavenger.GetHashCode
 ```py
-Scavenger.GetHashCode()
-
-
-```
-
+Scavenger.GetHashCode()```
 ## Scavenger.GetScavengerBag
 ```py
-Scavenger.GetScavengerBag()
-
-
-```
-
+Scavenger.GetScavengerBag()```
 ## Scavenger.GetType
 ```py
-Scavenger.GetType()
-
-
-```
-
+Scavenger.GetType()```
 ## Scavenger.ResetIgnore
 ```py
-Scavenger.ResetIgnore()
-
-
-```
-
+Scavenger.ResetIgnore()```
 ## Scavenger.RunOnce
 ```py
 Scavenger.RunOnce(List`1 scavengerList, Int32 mseconds, Filter filter)
 
 - `List`1 scavengerList` 
 - `Int32 mseconds` 
-- `Filter filter` 
-```
-
+- `Filter filter````
 ## Scavenger.Start
 ```py
-Scavenger.Start()
-
-
-```
-
+Scavenger.Start()```
 ## Scavenger.Status
 ```py
-Scavenger.Status()
-
-
-```
-
+Scavenger.Status()```
 ## Scavenger.Stop
 ```py
-Scavenger.Stop()
-
-
-```
-
+Scavenger.Stop()```
 ## Scavenger.ToString
 ```py
-Scavenger.ToString()
-
-
-```
+Scavenger.ToString()```

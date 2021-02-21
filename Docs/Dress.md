@@ -4,75 +4,36 @@
 ```py
 Dress.ChangeList(String listName)
 
-- `String listName` 
-```
-
+- `String listName````
 ## Dress.DressFStart
 ```py
-Dress.DressFStart()
-
-
-```
-
+Dress.DressFStart()```
 ## Dress.DressFStop
 ```py
-Dress.DressFStop()
-
-
-```
-
+Dress.DressFStop()```
 ## Dress.DressStatus
 ```py
-Dress.DressStatus()
-
-
-```
-
+Dress.DressStatus()```
 ## Dress.Equals
 ```py
 Dress.Equals(Object obj)
 
-- `Object obj` 
-```
-
+- `Object obj````
 ## Dress.GetHashCode
 ```py
-Dress.GetHashCode()
-
-
-```
-
+Dress.GetHashCode()```
 ## Dress.GetType
 ```py
-Dress.GetType()
-
-
-```
-
+Dress.GetType()```
 ## Dress.ToString
 ```py
-Dress.ToString()
-
-
-```
-
+Dress.ToString()```
 ## Dress.UnDressFStart
 ```py
-Dress.UnDressFStart()
-
-
-```
-
+Dress.UnDressFStart()```
 ## Dress.UnDressFStop
 ```py
-Dress.UnDressFStop()
-
-
-```
-
+Dress.UnDressFStop()```
 ## Dress.UnDressStatus
 ```py
-Dress.UnDressStatus()
-
-
-```
+Dress.UnDressStatus()```

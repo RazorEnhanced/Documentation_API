@@ -4,54 +4,27 @@
 ```py
 SellAgent.ChangeList(String listName)
 
-- `String listName` 
-```
-
+- `String listName````
 ## SellAgent.Disable
 ```py
-SellAgent.Disable()
-
-
-```
-
+SellAgent.Disable()```
 ## SellAgent.Enable
 ```py
-SellAgent.Enable()
-
-
-```
-
+SellAgent.Enable()```
 ## SellAgent.Equals
 ```py
 SellAgent.Equals(Object obj)
 
-- `Object obj` 
-```
-
+- `Object obj````
 ## SellAgent.GetHashCode
 ```py
-SellAgent.GetHashCode()
-
-
-```
-
+SellAgent.GetHashCode()```
 ## SellAgent.GetType
 ```py
-SellAgent.GetType()
-
-
-```
-
+SellAgent.GetType()```
 ## SellAgent.Status
 ```py
-SellAgent.Status()
-
-
-```
-
+SellAgent.Status()```
 ## SellAgent.ToString
 ```py
-SellAgent.ToString()
-
-
-```
+SellAgent.ToString()```

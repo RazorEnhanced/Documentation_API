@@ -1,44 +1,23 @@
 # Property
 
-- `Property.Args`
-- `Property.Number`## Property.Equals
+- Property.Args
+- Property.Number## Property.Equals
 ```py
 Property.Equals(Object obj)
 
-- `Object obj` 
-```
-
+- `Object obj````
 ## Property.get_Args
 ```py
-Property.get_Args()
-
-
-```
-
+Property.get_Args()```
 ## Property.get_Number
 ```py
-Property.get_Number()
-
-
-```
-
+Property.get_Number()```
 ## Property.GetHashCode
 ```py
-Property.GetHashCode()
-
-
-```
-
+Property.GetHashCode()```
 ## Property.GetType
 ```py
-Property.GetType()
-
-
-```
-
+Property.GetType()```
 ## Property.ToString
 ```py
-Property.ToString()
-
-
-```
+Property.ToString()```
