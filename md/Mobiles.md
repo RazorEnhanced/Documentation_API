@@ -5,144 +5,144 @@
 ## Methods  
 ### Mobiles.ApplyFilter
 ```
-ApplyFilter(Filter filter) -> List`1
+Mobiles.ApplyFilter(filter) -> List`1
 ```
-- __Filter__ **filter**
+- **filter**: Filter
 ### Mobiles.ContextExist
 ```
-ContextExist(Int32 serial, String name) -> Int32
+Mobiles.ContextExist(serial, name) -> Int32
 ```
-- __Int32__ **serial** 
-- __String__ **name**
+- **serial**: Int32 
+- **name**: String
 ### Mobiles.ContextExist
 ```
-ContextExist(Mobile mob, String name) -> Int32
+Mobiles.ContextExist(mob, name) -> Int32
 ```
-- __Mobile__ **mob** 
-- __String__ **name**
+- **mob**: Mobile 
+- **name**: String
 ### Mobiles.Equals
 ```
-Equals(Object obj) -> Boolean
+Mobiles.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Mobiles.FindBySerial
 ```
-FindBySerial(Int32 serial) -> Mobile
+Mobiles.FindBySerial(serial) -> Mobile
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Mobiles.GetHashCode
 ```
-GetHashCode() -> Int32
+Mobiles.GetHashCode() -> Int32
 ```
 ### Mobiles.GetPropStringByIndex
 ```
-GetPropStringByIndex(Int32 serial, Int32 index) -> String
+Mobiles.GetPropStringByIndex(serial, index) -> String
 ```
-- __Int32__ **serial** 
-- __Int32__ **index**
+- **serial**: Int32 
+- **index**: Int32
 ### Mobiles.GetPropStringByIndex
 ```
-GetPropStringByIndex(Mobile mob, Int32 index) -> String
+Mobiles.GetPropStringByIndex(mob, index) -> String
 ```
-- __Mobile__ **mob** 
-- __Int32__ **index**
+- **mob**: Mobile 
+- **index**: Int32
 ### Mobiles.GetPropStringList
 ```
-GetPropStringList(Mobile mob) -> List`1
+Mobiles.GetPropStringList(mob) -> List`1
 ```
-- __Mobile__ **mob**
+- **mob**: Mobile
 ### Mobiles.GetPropStringList
 ```
-GetPropStringList(Int32 serial) -> List`1
+Mobiles.GetPropStringList(serial) -> List`1
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Mobiles.GetPropValue
 ```
-GetPropValue(Int32 serial, String name) -> Single
+Mobiles.GetPropValue(serial, name) -> Single
 ```
-- __Int32__ **serial** 
-- __String__ **name**
+- **serial**: Int32 
+- **name**: String
 ### Mobiles.GetPropValue
 ```
-GetPropValue(Mobile mob, String name) -> Single
+Mobiles.GetPropValue(mob, name) -> Single
 ```
-- __Mobile__ **mob** 
-- __String__ **name**
+- **mob**: Mobile 
+- **name**: String
 ### Mobiles.GetTrackingInfo
 ```
-GetTrackingInfo() -> LastTrackingInfo
+Mobiles.GetTrackingInfo() -> LastTrackingInfo
 ```
 ### Mobiles.GetType
 ```
-GetType() -> Type
+Mobiles.GetType() -> Type
 ```
 ### Mobiles.Message
 ```
-Message(Mobile mobile, Int32 hue, String message, Boolean wait) -> Void
+Mobiles.Message(mobile, hue, message, wait) -> Void
 ```
-- __Mobile__ **mobile** 
-- __Int32__ **hue** 
-- __String__ **message** 
-- __Boolean__ **wait** True
+- **mobile**: Mobile 
+- **hue**: Int32 
+- **message**: String 
+- **wait**: Boolean True
 ### Mobiles.Message
 ```
-Message(Int32 serial, Int32 hue, String message, Boolean wait) -> Void
+Mobiles.Message(serial, hue, message, wait) -> Void
 ```
-- __Int32__ **serial** 
-- __Int32__ **hue** 
-- __String__ **message** 
-- __Boolean__ **wait** True
+- **serial**: Int32 
+- **hue**: Int32 
+- **message**: String 
+- **wait**: Boolean True
 ### Mobiles.Select
 ```
-Select(List`1 mobiles, String selector) -> Mobile
+Mobiles.Select(mobiles, selector) -> Mobile
 ```
-- __List`1__ **mobiles** 
-- __String__ **selector**
+- **mobiles**: List`1 
+- **selector**: String
 ### Mobiles.SingleClick
 ```
-SingleClick(Int32 mobileserial) -> Void
+Mobiles.SingleClick(mobileserial) -> Void
 ```
-- __Int32__ **mobileserial**
+- **mobileserial**: Int32
 ### Mobiles.SingleClick
 ```
-SingleClick(Mobile mobile) -> Void
+Mobiles.SingleClick(mobile) -> Void
 ```
-- __Mobile__ **mobile**
+- **mobile**: Mobile
 ### Mobiles.ToString
 ```
-ToString() -> String
+Mobiles.ToString() -> String
 ```
 ### Mobiles.UseMobile
 ```
-UseMobile(Int32 mobileserial) -> Void
+Mobiles.UseMobile(mobileserial) -> Void
 ```
-- __Int32__ **mobileserial**
+- **mobileserial**: Int32
 ### Mobiles.UseMobile
 ```
-UseMobile(Mobile mobile) -> Void
+Mobiles.UseMobile(mobile) -> Void
 ```
-- __Mobile__ **mobile**
+- **mobile**: Mobile
 ### Mobiles.WaitForProps
 ```
-WaitForProps(Int32 mobileserial, Int32 delay) -> Void
+Mobiles.WaitForProps(mobileserial, delay) -> Void
 ```
-- __Int32__ **mobileserial** 
-- __Int32__ **delay**
+- **mobileserial**: Int32 
+- **delay**: Int32
 ### Mobiles.WaitForProps
 ```
-WaitForProps(Mobile m, Int32 delay) -> Void
+Mobiles.WaitForProps(m, delay) -> Void
 ```
-- __Mobile__ **m** 
-- __Int32__ **delay**
+- **m**: Mobile 
+- **delay**: Int32
 ### Mobiles.WaitForStats
 ```
-WaitForStats(Int32 mobileserial, Int32 delay) -> Void
+Mobiles.WaitForStats(mobileserial, delay) -> Void
 ```
-- __Int32__ **mobileserial** 
-- __Int32__ **delay**
+- **mobileserial**: Int32 
+- **delay**: Int32
 ### Mobiles.WaitForStats
 ```
-WaitForStats(Mobile m, Int32 delay) -> Void
+Mobiles.WaitForStats(m, delay) -> Void
 ```
-- __Mobile__ **m** 
-- __Int32__ **delay**
+- **m**: Mobile 
+- **delay**: Int32

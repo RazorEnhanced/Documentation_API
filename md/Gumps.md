@@ -5,99 +5,99 @@
 ## Methods  
 ### Gumps.CloseGump
 ```
-CloseGump(UInt32 gumpid) -> Void
+Gumps.CloseGump(gumpid) -> Void
 ```
-- __UInt32__ **gumpid**
+- **gumpid**: UInt32
 ### Gumps.CurrentGump
 ```
-CurrentGump() -> UInt32
+Gumps.CurrentGump() -> UInt32
 ```
 ### Gumps.Equals
 ```
-Equals(Object obj) -> Boolean
+Gumps.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Gumps.GetHashCode
 ```
-GetHashCode() -> Int32
+Gumps.GetHashCode() -> Int32
 ```
 ### Gumps.GetType
 ```
-GetType() -> Type
+Gumps.GetType() -> Type
 ```
 ### Gumps.HasGump
 ```
-HasGump() -> Boolean
+Gumps.HasGump() -> Boolean
 ```
 ### Gumps.LastGumpGetLine
 ```
-LastGumpGetLine(Int32 line) -> String
+Gumps.LastGumpGetLine(line) -> String
 ```
-- __Int32__ **line**
+- **line**: Int32
 ### Gumps.LastGumpGetLineList
 ```
-LastGumpGetLineList() -> List`1
+Gumps.LastGumpGetLineList() -> List`1
 ```
 ### Gumps.LastGumpRawData
 ```
-LastGumpRawData() -> String
+Gumps.LastGumpRawData() -> String
 ```
 ### Gumps.LastGumpTextExist
 ```
-LastGumpTextExist(String text) -> Boolean
+Gumps.LastGumpTextExist(text) -> Boolean
 ```
-- __String__ **text**
+- **text**: String
 ### Gumps.LastGumpTextExistByLine
 ```
-LastGumpTextExistByLine(Int32 line, String text) -> Boolean
+Gumps.LastGumpTextExistByLine(line, text) -> Boolean
 ```
-- __Int32__ **line** 
-- __String__ **text**
+- **line**: Int32 
+- **text**: String
 ### Gumps.LastGumpTile
 ```
-LastGumpTile() -> List`1
+Gumps.LastGumpTile() -> List`1
 ```
 ### Gumps.ResetGump
 ```
-ResetGump() -> Void
+Gumps.ResetGump() -> Void
 ```
 ### Gumps.SendAction
 ```
-SendAction(UInt32 gumpid, Int32 buttonid) -> Void
+Gumps.SendAction(gumpid, buttonid) -> Void
 ```
-- __UInt32__ **gumpid** 
-- __Int32__ **buttonid**
+- **gumpid**: UInt32 
+- **buttonid**: Int32
 ### Gumps.SendAdvancedAction
 ```
-SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 entryID, List`1 entryS) -> Void
+Gumps.SendAdvancedAction(gumpid, buttonid, entryID, entryS) -> Void
 ```
-- __UInt32__ **gumpid** 
-- __Int32__ **buttonid** 
-- __List`1__ **entryID** 
-- __List`1__ **entryS**
+- **gumpid**: UInt32 
+- **buttonid**: Int32 
+- **entryID**: List`1 
+- **entryS**: List`1
 ### Gumps.SendAdvancedAction
 ```
-SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 switchs, List`1 entryID, List`1 entryS) -> Void
+Gumps.SendAdvancedAction(gumpid, buttonid, switchs, entryID, entryS) -> Void
 ```
-- __UInt32__ **gumpid** 
-- __Int32__ **buttonid** 
-- __List`1__ **switchs** 
-- __List`1__ **entryID** 
-- __List`1__ **entryS**
+- **gumpid**: UInt32 
+- **buttonid**: Int32 
+- **switchs**: List`1 
+- **entryID**: List`1 
+- **entryS**: List`1
 ### Gumps.SendAdvancedAction
 ```
-SendAdvancedAction(UInt32 gumpid, Int32 buttonid, List`1 switchs) -> Void
+Gumps.SendAdvancedAction(gumpid, buttonid, switchs) -> Void
 ```
-- __UInt32__ **gumpid** 
-- __Int32__ **buttonid** 
-- __List`1__ **switchs**
+- **gumpid**: UInt32 
+- **buttonid**: Int32 
+- **switchs**: List`1
 ### Gumps.ToString
 ```
-ToString() -> String
+Gumps.ToString() -> String
 ```
 ### Gumps.WaitForGump
 ```
-WaitForGump(UInt32 gumpid, Int32 delay) -> Void
+Gumps.WaitForGump(gumpid, delay) -> Void
 ```
-- __UInt32__ **gumpid** 
-- __Int32__ **delay**
+- **gumpid**: UInt32 
+- **delay**: Int32

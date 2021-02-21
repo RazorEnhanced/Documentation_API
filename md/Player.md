@@ -70,395 +70,395 @@
 ## Methods  
 ### Player.Attack
 ```
-Attack(Mobile m) -> Void
+Player.Attack(m) -> Void
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Player.Attack
 ```
-Attack(Int32 serial) -> Void
+Player.Attack(serial) -> Void
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Player.AttackLast
 ```
-AttackLast() -> Void
+Player.AttackLast() -> Void
 ```
 ### Player.BuffsExist
 ```
-BuffsExist(String buffname) -> Boolean
+Player.BuffsExist(buffname) -> Boolean
 ```
-- __String__ **buffname**
+- **buffname**: String
 ### Player.ChatAlliance
 ```
-ChatAlliance(String msg) -> Void
+Player.ChatAlliance(msg) -> Void
 ```
-- __String__ **msg**
+- **msg**: String
 ### Player.ChatAlliance
 ```
-ChatAlliance(Int32 num) -> Void
+Player.ChatAlliance(num) -> Void
 ```
-- __Int32__ **num**
+- **num**: Int32
 ### Player.ChatChannel
 ```
-ChatChannel(Int32 num) -> Void
+Player.ChatChannel(num) -> Void
 ```
-- __Int32__ **num**
+- **num**: Int32
 ### Player.ChatChannel
 ```
-ChatChannel(String msg) -> Void
+Player.ChatChannel(msg) -> Void
 ```
-- __String__ **msg**
+- **msg**: String
 ### Player.ChatEmote
 ```
-ChatEmote(Int32 hue, Int32 num) -> Void
+Player.ChatEmote(hue, num) -> Void
 ```
-- __Int32__ **hue** 
-- __Int32__ **num**
+- **hue**: Int32 
+- **num**: Int32
 ### Player.ChatEmote
 ```
-ChatEmote(Int32 hue, String msg) -> Void
+Player.ChatEmote(hue, msg) -> Void
 ```
-- __Int32__ **hue** 
-- __String__ **msg**
+- **hue**: Int32 
+- **msg**: String
 ### Player.ChatGuild
 ```
-ChatGuild(String msg) -> Void
+Player.ChatGuild(msg) -> Void
 ```
-- __String__ **msg**
+- **msg**: String
 ### Player.ChatGuild
 ```
-ChatGuild(Int32 num) -> Void
+Player.ChatGuild(num) -> Void
 ```
-- __Int32__ **num**
+- **num**: Int32
 ### Player.ChatParty
 ```
-ChatParty(String msg, Int32 serial) -> Void
+Player.ChatParty(msg, serial) -> Void
 ```
-- __String__ **msg** 
-- __Int32__ **serial** 0
+- **msg**: String 
+- **serial**: Int32 0
 ### Player.ChatSay
 ```
-ChatSay(Int32 hue, String msg) -> Void
+Player.ChatSay(hue, msg) -> Void
 ```
-- __Int32__ **hue** 
-- __String__ **msg**
+- **hue**: Int32 
+- **msg**: String
 ### Player.ChatSay
 ```
-ChatSay(Int32 hue, Int32 num) -> Void
+Player.ChatSay(hue, num) -> Void
 ```
-- __Int32__ **hue** 
-- __Int32__ **num**
+- **hue**: Int32 
+- **num**: Int32
 ### Player.ChatWhisper
 ```
-ChatWhisper(Int32 hue, Int32 num) -> Void
+Player.ChatWhisper(hue, num) -> Void
 ```
-- __Int32__ **hue** 
-- __Int32__ **num**
+- **hue**: Int32 
+- **num**: Int32
 ### Player.ChatWhisper
 ```
-ChatWhisper(Int32 hue, String msg) -> Void
+Player.ChatWhisper(hue, msg) -> Void
 ```
-- __Int32__ **hue** 
-- __String__ **msg**
+- **hue**: Int32 
+- **msg**: String
 ### Player.ChatYell
 ```
-ChatYell(Int32 hue, Int32 num) -> Void
+Player.ChatYell(hue, num) -> Void
 ```
-- __Int32__ **hue** 
-- __Int32__ **num**
+- **hue**: Int32 
+- **num**: Int32
 ### Player.ChatYell
 ```
-ChatYell(Int32 hue, String msg) -> Void
+Player.ChatYell(hue, msg) -> Void
 ```
-- __Int32__ **hue** 
-- __String__ **msg**
+- **hue**: Int32 
+- **msg**: String
 ### Player.CheckLayer
 ```
-CheckLayer(String layer) -> Boolean
+Player.CheckLayer(layer) -> Boolean
 ```
-- __String__ **layer**
+- **layer**: String
 ### Player.DistanceTo
 ```
-DistanceTo(Item i) -> Int32
+Player.DistanceTo(i) -> Int32
 ```
-- __Item__ **i**
+- **i**: Item
 ### Player.DistanceTo
 ```
-DistanceTo(Mobile m) -> Int32
+Player.DistanceTo(m) -> Int32
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Player.Equals
 ```
-Equals(Object obj) -> Boolean
+Player.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Player.EquipItem
 ```
-EquipItem(Int32 serial) -> Void
+Player.EquipItem(serial) -> Void
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Player.EquipItem
 ```
-EquipItem(Item item) -> Void
+Player.EquipItem(item) -> Void
 ```
-- __Item__ **item**
+- **item**: Item
 ### Player.EquipUO3D
 ```
-EquipUO3D(List`1 serials) -> Void
+Player.EquipUO3D(serials) -> Void
 ```
-- __List`1__ **serials**
+- **serials**: List`1
 ### Player.Fly
 ```
-Fly(Boolean on) -> Void
+Player.Fly(on) -> Void
 ```
-- __Boolean__ **on**
+- **on**: Boolean
 ### Player.GetHashCode
 ```
-GetHashCode() -> Int32
+Player.GetHashCode() -> Int32
 ```
 ### Player.GetItemOnLayer
 ```
-GetItemOnLayer(String layer) -> Item
+Player.GetItemOnLayer(layer) -> Item
 ```
-- __String__ **layer**
+- **layer**: String
 ### Player.GetPropStringByIndex
 ```
-GetPropStringByIndex(Int32 index) -> String
+Player.GetPropStringByIndex(index) -> String
 ```
-- __Int32__ **index**
+- **index**: Int32
 ### Player.GetPropStringList
 ```
-GetPropStringList() -> List`1
+Player.GetPropStringList() -> List`1
 ```
 ### Player.GetPropValue
 ```
-GetPropValue(String name) -> Int32
+Player.GetPropValue(name) -> Int32
 ```
-- __String__ **name**
+- **name**: String
 ### Player.GetRealSkillValue
 ```
-GetRealSkillValue(String skillname) -> Double
+Player.GetRealSkillValue(skillname) -> Double
 ```
-- __String__ **skillname**
+- **skillname**: String
 ### Player.GetSkillCap
 ```
-GetSkillCap(String skillname) -> Double
+Player.GetSkillCap(skillname) -> Double
 ```
-- __String__ **skillname**
+- **skillname**: String
 ### Player.GetSkillStatus
 ```
-GetSkillStatus(String skillname) -> Int32
+Player.GetSkillStatus(skillname) -> Int32
 ```
-- __String__ **skillname**
+- **skillname**: String
 ### Player.GetSkillValue
 ```
-GetSkillValue(String skillname) -> Double
+Player.GetSkillValue(skillname) -> Double
 ```
-- __String__ **skillname**
+- **skillname**: String
 ### Player.GetStatStatus
 ```
-GetStatStatus(String statname) -> Int32
+Player.GetStatStatus(statname) -> Int32
 ```
-- __String__ **statname**
+- **statname**: String
 ### Player.GetType
 ```
-GetType() -> Type
+Player.GetType() -> Type
 ```
 ### Player.GuildButton
 ```
-GuildButton() -> Void
+Player.GuildButton() -> Void
 ```
 ### Player.HeadMessage
 ```
-HeadMessage(Int32 hue, Int32 num) -> Void
+Player.HeadMessage(hue, num) -> Void
 ```
-- __Int32__ **hue** 
-- __Int32__ **num**
+- **hue**: Int32 
+- **num**: Int32
 ### Player.HeadMessage
 ```
-HeadMessage(Int32 hue, String message) -> Void
+Player.HeadMessage(hue, message) -> Void
 ```
-- __Int32__ **hue** 
-- __String__ **message**
+- **hue**: Int32 
+- **message**: String
 ### Player.InRangeItem
 ```
-InRangeItem(Int32 itemserial, Int32 range) -> Boolean
+Player.InRangeItem(itemserial, range) -> Boolean
 ```
-- __Int32__ **itemserial** 
-- __Int32__ **range**
+- **itemserial**: Int32 
+- **range**: Int32
 ### Player.InRangeItem
 ```
-InRangeItem(Item i, Int32 range) -> Boolean
+Player.InRangeItem(i, range) -> Boolean
 ```
-- __Item__ **i** 
-- __Int32__ **range**
+- **i**: Item 
+- **range**: Int32
 ### Player.InRangeMobile
 ```
-InRangeMobile(Mobile mob, Int32 range) -> Boolean
+Player.InRangeMobile(mob, range) -> Boolean
 ```
-- __Mobile__ **mob** 
-- __Int32__ **range**
+- **mob**: Mobile 
+- **range**: Int32
 ### Player.InRangeMobile
 ```
-InRangeMobile(Int32 mobserial, Int32 range) -> Boolean
+Player.InRangeMobile(mobserial, range) -> Boolean
 ```
-- __Int32__ **mobserial** 
-- __Int32__ **range**
+- **mobserial**: Int32 
+- **range**: Int32
 ### Player.InvokeVirtue
 ```
-InvokeVirtue(String virtue) -> Void
+Player.InvokeVirtue(virtue) -> Void
 ```
-- __String__ **virtue**
+- **virtue**: String
 ### Player.KickMember
 ```
-KickMember(Int32 serial) -> Void
+Player.KickMember(serial) -> Void
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Player.LeaveParty
 ```
-LeaveParty() -> Void
+Player.LeaveParty() -> Void
 ```
 ### Player.MapSay
 ```
-MapSay(String msg) -> Void
+Player.MapSay(msg) -> Void
 ```
-- __String__ **msg**
+- **msg**: String
 ### Player.MapSay
 ```
-MapSay(Int32 num) -> Void
+Player.MapSay(num) -> Void
 ```
-- __Int32__ **num**
+- **num**: Int32
 ### Player.PartyAccept
 ```
-PartyAccept(Int32 serial) -> Void
+Player.PartyAccept(serial) -> Void
 ```
-- __Int32__ **serial** 0
+- **serial**: Int32 0
 ### Player.PartyCanLoot
 ```
-PartyCanLoot(Boolean CanLoot) -> Void
+Player.PartyCanLoot(CanLoot) -> Void
 ```
-- __Boolean__ **CanLoot**
+- **CanLoot**: Boolean
 ### Player.PartyInvite
 ```
-PartyInvite() -> Void
+Player.PartyInvite() -> Void
 ```
 ### Player.PathFindTo
 ```
-PathFindTo(Int32 x, Int32 y, Int32 z) -> Void
+Player.PathFindTo(x, y, z) -> Void
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **z**
+- **x**: Int32 
+- **y**: Int32 
+- **z**: Int32
 ### Player.PathFindTo
 ```
-PathFindTo(Point3D Location) -> Void
+Player.PathFindTo(Location) -> Void
 ```
-- __Point3D__ **Location**
+- **Location**: Point3D
 ### Player.QuestButton
 ```
-QuestButton() -> Void
+Player.QuestButton() -> Void
 ```
 ### Player.Run
 ```
-Run(String direction, Boolean checkPosition) -> Boolean
+Player.Run(direction, checkPosition) -> Boolean
 ```
-- __String__ **direction** 
-- __Boolean__ **checkPosition** True
+- **direction**: String 
+- **checkPosition**: Boolean True
 ### Player.SetSkillStatus
 ```
-SetSkillStatus(String skillname, Int32 status) -> Void
+Player.SetSkillStatus(skillname, status) -> Void
 ```
-- __String__ **skillname** 
-- __Int32__ **status**
+- **skillname**: String 
+- **status**: Int32
 ### Player.SetStatStatus
 ```
-SetStatStatus(String statname, Int32 status) -> Void
+Player.SetStatStatus(statname, status) -> Void
 ```
-- __String__ **statname** 
-- __Int32__ **status**
+- **statname**: String 
+- **status**: Int32
 ### Player.SetWarMode
 ```
-SetWarMode(Boolean warflag) -> Void
+Player.SetWarMode(warflag) -> Void
 ```
-- __Boolean__ **warflag**
+- **warflag**: Boolean
 ### Player.SpellIsEnabled
 ```
-SpellIsEnabled(String spell) -> Boolean
+Player.SpellIsEnabled(spell) -> Boolean
 ```
-- __String__ **spell**
+- **spell**: String
 ### Player.SumAttribute
 ```
-SumAttribute(String attributename) -> Single
+Player.SumAttribute(attributename) -> Single
 ```
-- __String__ **attributename**
+- **attributename**: String
 ### Player.ToggleAlwaysRun
 ```
-ToggleAlwaysRun() -> Void
+Player.ToggleAlwaysRun() -> Void
 ```
 ### Player.ToString
 ```
-ToString() -> String
+Player.ToString() -> String
 ```
 ### Player.UnEquipItemByLayer
 ```
-UnEquipItemByLayer(String layer, Boolean wait) -> Void
+Player.UnEquipItemByLayer(layer, wait) -> Void
 ```
-- __String__ **layer** 
-- __Boolean__ **wait** True
+- **layer**: String 
+- **wait**: Boolean True
 ### Player.UseSkill
 ```
-UseSkill(String skillname, Boolean wait) -> Void
+Player.UseSkill(skillname, wait) -> Void
 ```
-- __String__ **skillname** 
-- __Boolean__ **wait**
+- **skillname**: String 
+- **wait**: Boolean
 ### Player.UseSkill
 ```
-UseSkill(String skillname) -> Void
+Player.UseSkill(skillname) -> Void
 ```
-- __String__ **skillname**
+- **skillname**: String
 ### Player.UseSkill
 ```
-UseSkill(String skillname, Int32 targetSerial, Boolean wait) -> Void
+Player.UseSkill(skillname, targetSerial, wait) -> Void
 ```
-- __String__ **skillname** 
-- __Int32__ **targetSerial** 
-- __Boolean__ **wait** True
+- **skillname**: String 
+- **targetSerial**: Int32 
+- **wait**: Boolean True
 ### Player.UseSkill
 ```
-UseSkill(String skillname, EnhancedEntity target, Boolean wait) -> Void
+Player.UseSkill(skillname, target, wait) -> Void
 ```
-- __String__ **skillname** 
-- __EnhancedEntity__ **target** 
-- __Boolean__ **wait** True
+- **skillname**: String 
+- **target**: EnhancedEntity 
+- **wait**: Boolean True
 //////
 ### Player.UseSkillOnly
 ```
-UseSkillOnly(String skillname, Boolean wait) -> Void
+Player.UseSkillOnly(skillname, wait) -> Void
 ```
-- __String__ **skillname** 
-- __Boolean__ **wait**
+- **skillname**: String 
+- **wait**: Boolean
 ### Player.Walk
 ```
-Walk(String direction, Boolean checkPosition) -> Boolean
+Player.Walk(direction, checkPosition) -> Boolean
 ```
-- __String__ **direction** 
-- __Boolean__ **checkPosition** True
+- **direction**: String 
+- **checkPosition**: Boolean True
 ### Player.WeaponClearSA
 ```
-WeaponClearSA() -> Void
+Player.WeaponClearSA() -> Void
 ```
 ### Player.WeaponDisarmSA
 ```
-WeaponDisarmSA() -> Void
+Player.WeaponDisarmSA() -> Void
 ```
 ### Player.WeaponPrimarySA
 ```
-WeaponPrimarySA() -> Void
+Player.WeaponPrimarySA() -> Void
 ```
 ### Player.WeaponSecondarySA
 ```
-WeaponSecondarySA() -> Void
+Player.WeaponSecondarySA() -> Void
 ```
 ### Player.WeaponStunSA
 ```
-WeaponStunSA() -> Void
+Player.WeaponStunSA() -> Void
 ```

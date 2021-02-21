@@ -40,32 +40,32 @@
 ## Methods  
 ### Item.DistanceTo
 ```
-DistanceTo(Mobile m) -> Int32
+Item.DistanceTo(m) -> Int32
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Item.Equals
 ```
-Equals(Object obj) -> Boolean
+Item.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Item.GetHashCode
 ```
-GetHashCode() -> Int32
+Item.GetHashCode() -> Int32
 ```
 ### Item.GetType
 ```
-GetType() -> Type
+Item.GetType() -> Type
 ```
 ### Item.GetWorldPosition
 ```
-GetWorldPosition() -> Point3D
+Item.GetWorldPosition() -> Point3D
 ```
 ### Item.IsChildOf
 ```
-IsChildOf(Object parent) -> Boolean
+Item.IsChildOf(parent) -> Boolean
 ```
-- __Object__ **parent**
+- **parent**: Object
 ### Item.ToString
 ```
-ToString() -> String
+Item.ToString() -> String
 ```

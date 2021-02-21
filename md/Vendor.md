@@ -6,36 +6,36 @@
 ## Methods  
 ### Vendor.Buy
 ```
-Buy(Int32 vendorSerial, Int32 itemID, Int32 amount) -> Void
+Vendor.Buy(vendorSerial, itemID, amount) -> Void
 ```
-- __Int32__ **vendorSerial** 
-- __Int32__ **itemID** 
-- __Int32__ **amount**
+- **vendorSerial**: Int32 
+- **itemID**: Int32 
+- **amount**: Int32
 ### Vendor.BuyList
 ```
-BuyList(Int32 vendorSerial) -> List`1
+Vendor.BuyList(vendorSerial) -> List`1
 ```
-- __Int32__ **vendorSerial**
+- **vendorSerial**: Int32
 ### Vendor.Equals
 ```
-Equals(Object obj) -> Boolean
+Vendor.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Vendor.GetHashCode
 ```
-GetHashCode() -> Int32
+Vendor.GetHashCode() -> Int32
 ```
 ### Vendor.GetType
 ```
-GetType() -> Type
+Vendor.GetType() -> Type
 ```
 ### Vendor.StoreBuyList
 ```
-StoreBuyList(PacketReader p, PacketHandlerEventArgs args) -> Void
+Vendor.StoreBuyList(p, args) -> Void
 ```
-- __PacketReader__ **p** 
-- __PacketHandlerEventArgs__ **args**
+- **p**: PacketReader 
+- **args**: PacketHandlerEventArgs
 ### Vendor.ToString
 ```
-ToString() -> String
+Vendor.ToString() -> String
 ```

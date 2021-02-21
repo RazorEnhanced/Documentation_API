@@ -6,18 +6,18 @@
 ## Methods  
 ### Property.Equals
 ```
-Equals(Object obj) -> Boolean
+Property.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Property.GetHashCode
 ```
-GetHashCode() -> Int32
+Property.GetHashCode() -> Int32
 ```
 ### Property.GetType
 ```
-GetType() -> Type
+Property.GetType() -> Type
 ```
 ### Property.ToString
 ```
-ToString() -> String
+Property.ToString() -> String
 ```

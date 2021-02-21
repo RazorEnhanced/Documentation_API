@@ -5,35 +5,35 @@
 ## Methods  
 ### Restock.ChangeList
 ```
-ChangeList(String listName) -> Void
+Restock.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### Restock.Equals
 ```
-Equals(Object obj) -> Boolean
+Restock.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Restock.FStart
 ```
-FStart() -> Void
+Restock.FStart() -> Void
 ```
 ### Restock.FStop
 ```
-FStop() -> Void
+Restock.FStop() -> Void
 ```
 ### Restock.GetHashCode
 ```
-GetHashCode() -> Int32
+Restock.GetHashCode() -> Int32
 ```
 ### Restock.GetType
 ```
-GetType() -> Type
+Restock.GetType() -> Type
 ```
 ### Restock.Status
 ```
-Status() -> Boolean
+Restock.Status() -> Boolean
 ```
 ### Restock.ToString
 ```
-ToString() -> String
+Restock.ToString() -> String
 ```

@@ -17,20 +17,20 @@
 ## Methods  
 ### AutoDoc.Equals
 ```
-Equals(Object obj) -> Boolean
+AutoDoc.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### AutoDoc.ExportMKDocs
 ```
-ExportMKDocs(String path) -> Void
+AutoDoc.ExportMKDocs(path) -> Void
 ```
-- __String__ **path**
+- **path**: String
 ### AutoDoc.ExportPythonAPI
 ```
-ExportPythonAPI(String path, Boolean pretty) -> Void
+AutoDoc.ExportPythonAPI(path, pretty) -> Void
 ```
-- __String__ **path** 
-- __Boolean__ **pretty** True
+- **path**: String 
+- **pretty**: Boolean True
 Export the API to disk. 
 See docs for more, lol.
     1-
@@ -40,51 +40,51 @@ See docs for more, lol.
 end.
 ### AutoDoc.GetClasses
 ```
-GetClasses() -> List`1
+AutoDoc.GetClasses() -> List`1
 ```
 ### AutoDoc.GetHashCode
 ```
-GetHashCode() -> Int32
+AutoDoc.GetHashCode() -> Int32
 ```
 ### AutoDoc.GetMethods
 ```
-GetMethods(Boolean withClass, Boolean withNames, Boolean withTypes) -> List`1
+AutoDoc.GetMethods(withClass, withNames, withTypes) -> List`1
 ```
-- __Boolean__ **withClass** False
-- __Boolean__ **withNames** False
-- __Boolean__ **withTypes** False
+- **withClass**: Boolean False
+- **withNames**: Boolean False
+- **withTypes**: Boolean False
 ### AutoDoc.GetProperties
 ```
-GetProperties(Boolean withClass) -> List`1
+AutoDoc.GetProperties(withClass) -> List`1
 ```
-- __Boolean__ **withClass** False
+- **withClass**: Boolean False
 ### AutoDoc.GetPythonAPI
 ```
-GetPythonAPI() -> List`1
+AutoDoc.GetPythonAPI() -> List`1
 ```
 Use reflection to generete the Python API List
 ### AutoDoc.GetType
 ```
-GetType() -> Type
+AutoDoc.GetType() -> Type
 ```
 ### AutoDoc.HasTag
 ```
-HasTag(String tag, String text) -> Boolean
+AutoDoc.HasTag(tag, text) -> Boolean
 ```
-- __String__ **tag** 
-- __String__ **text**
+- **tag**: String 
+- **text**: String
 ### AutoDoc.ParamType
 ```
-ParamType(ParameterInfo param) -> String
+AutoDoc.ParamType(param) -> String
 ```
-- __ParameterInfo__ **param**
+- **param**: ParameterInfo
 ### AutoDoc.ReadClass
 ```
-ReadClass(Type type, BindingFlags flags) -> List`1
+AutoDoc.ReadClass(type, flags) -> List`1
 ```
-- __Type__ **type** 
-- __BindingFlags__ **flags**
+- **type**: Type 
+- **flags**: BindingFlags
 ### AutoDoc.ToString
 ```
-ToString() -> String
+AutoDoc.ToString() -> String
 ```

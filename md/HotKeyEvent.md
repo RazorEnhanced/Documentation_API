@@ -8,23 +8,23 @@
 ## Methods  
 ### HotKeyEvent.AddEvent
 ```
-AddEvent(Keys k) -> HotKeyEvent
+HotKeyEvent.AddEvent(k) -> HotKeyEvent
 ```
-- __Keys__ **k**
+- **k**: Keys
 ### HotKeyEvent.Equals
 ```
-Equals(Object obj) -> Boolean
+HotKeyEvent.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### HotKeyEvent.GetHashCode
 ```
-GetHashCode() -> Int32
+HotKeyEvent.GetHashCode() -> Int32
 ```
 ### HotKeyEvent.GetType
 ```
-GetType() -> Type
+HotKeyEvent.GetType() -> Type
 ```
 ### HotKeyEvent.ToString
 ```
-ToString() -> String
+HotKeyEvent.ToString() -> String
 ```

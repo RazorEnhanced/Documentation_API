@@ -5,47 +5,47 @@
 ## Methods  
 ### Dress.ChangeList
 ```
-ChangeList(String listName) -> Void
+Dress.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### Dress.DressFStart
 ```
-DressFStart() -> Void
+Dress.DressFStart() -> Void
 ```
 ### Dress.DressFStop
 ```
-DressFStop() -> Void
+Dress.DressFStop() -> Void
 ```
 ### Dress.DressStatus
 ```
-DressStatus() -> Boolean
+Dress.DressStatus() -> Boolean
 ```
 ### Dress.Equals
 ```
-Equals(Object obj) -> Boolean
+Dress.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Dress.GetHashCode
 ```
-GetHashCode() -> Int32
+Dress.GetHashCode() -> Int32
 ```
 ### Dress.GetType
 ```
-GetType() -> Type
+Dress.GetType() -> Type
 ```
 ### Dress.ToString
 ```
-ToString() -> String
+Dress.ToString() -> String
 ```
 ### Dress.UnDressFStart
 ```
-UnDressFStart() -> Void
+Dress.UnDressFStart() -> Void
 ```
 ### Dress.UnDressFStop
 ```
-UnDressFStop() -> Void
+Dress.UnDressFStop() -> Void
 ```
 ### Dress.UnDressStatus
 ```
-UnDressStatus() -> Boolean
+Dress.UnDressStatus() -> Boolean
 ```

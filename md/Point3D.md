@@ -7,18 +7,18 @@
 ## Methods  
 ### Point3D.Equals
 ```
-Equals(Object obj) -> Boolean
+Point3D.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Point3D.GetHashCode
 ```
-GetHashCode() -> Int32
+Point3D.GetHashCode() -> Int32
 ```
 ### Point3D.GetType
 ```
-GetType() -> Type
+Point3D.GetType() -> Type
 ```
 ### Point3D.ToString
 ```
-ToString() -> String
+Point3D.ToString() -> String
 ```

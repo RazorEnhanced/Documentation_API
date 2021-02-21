@@ -5,79 +5,79 @@
 ## Methods  
 ### Statics.CheckDeedHouse
 ```
-CheckDeedHouse(Int32 x, Int32 y) -> Boolean
+Statics.CheckDeedHouse(x, y) -> Boolean
 ```
-- __Int32__ **x** 
-- __Int32__ **y**
+- **x**: Int32 
+- **y**: Int32
 ### Statics.Equals
 ```
-Equals(Object obj) -> Boolean
+Statics.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Statics.GetHashCode
 ```
-GetHashCode() -> Int32
+Statics.GetHashCode() -> Int32
 ```
 ### Statics.GetLandFlag
 ```
-GetLandFlag(Int32 itemid, String flagname) -> Boolean
+Statics.GetLandFlag(itemid, flagname) -> Boolean
 ```
-- __Int32__ **itemid** 
-- __String__ **flagname**
+- **itemid**: Int32 
+- **flagname**: String
 ### Statics.GetLandID
 ```
-GetLandID(Int32 x, Int32 y, Int32 map) -> Int32
+Statics.GetLandID(x, y, map) -> Int32
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **map**
+- **x**: Int32 
+- **y**: Int32 
+- **map**: Int32
 ### Statics.GetLandName
 ```
-GetLandName(Int32 itemid) -> String
+Statics.GetLandName(itemid) -> String
 ```
-- __Int32__ **itemid**
+- **itemid**: Int32
 ### Statics.GetLandZ
 ```
-GetLandZ(Int32 x, Int32 y, Int32 map) -> Int32
+Statics.GetLandZ(x, y, map) -> Int32
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **map**
+- **x**: Int32 
+- **y**: Int32 
+- **map**: Int32
 ### Statics.GetStaticsLandInfo
 ```
-GetStaticsLandInfo(Int32 x, Int32 y, Int32 map) -> TileInfo
+Statics.GetStaticsLandInfo(x, y, map) -> TileInfo
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **map**
+- **x**: Int32 
+- **y**: Int32 
+- **map**: Int32
 ### Statics.GetStaticsTileInfo
 ```
-GetStaticsTileInfo(Int32 x, Int32 y, Int32 map) -> List`1
+Statics.GetStaticsTileInfo(x, y, map) -> List`1
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **map**
+- **x**: Int32 
+- **y**: Int32 
+- **map**: Int32
 ### Statics.GetTileFlag
 ```
-GetTileFlag(Int32 itemid, String flagname) -> Boolean
+Statics.GetTileFlag(itemid, flagname) -> Boolean
 ```
-- __Int32__ **itemid** 
-- __String__ **flagname**
+- **itemid**: Int32 
+- **flagname**: String
 ### Statics.GetTileHeight
 ```
-GetTileHeight(Int32 itemid) -> Int32
+Statics.GetTileHeight(itemid) -> Int32
 ```
-- __Int32__ **itemid**
+- **itemid**: Int32
 ### Statics.GetTileName
 ```
-GetTileName(Int32 itemid) -> String
+Statics.GetTileName(itemid) -> String
 ```
-- __Int32__ **itemid**
+- **itemid**: Int32
 ### Statics.GetType
 ```
-GetType() -> Type
+Statics.GetType() -> Type
 ```
 ### Statics.ToString
 ```
-ToString() -> String
+Statics.ToString() -> String
 ```

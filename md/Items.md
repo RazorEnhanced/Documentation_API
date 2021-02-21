@@ -5,355 +5,355 @@
 ## Methods  
 ### Items.ApplyFilter
 ```
-ApplyFilter(Filter filter) -> List`1
+Items.ApplyFilter(filter) -> List`1
 ```
-- __Filter__ **filter**
+- **filter**: Filter
 ### Items.BackpackCount
 ```
-BackpackCount(Int32 itemid, Int32 color) -> Int32
+Items.BackpackCount(itemid, color) -> Int32
 ```
-- __Int32__ **itemid** 
-- __Int32__ **color** -1
+- **itemid**: Int32 
+- **color**: Int32 -1
 ### Items.ContainerCount
 ```
-ContainerCount(Item container, Int32 itemid, Int32 color) -> Int32
+Items.ContainerCount(container, itemid, color) -> Int32
 ```
-- __Item__ **container** 
-- __Int32__ **itemid** 
-- __Int32__ **color** -1
+- **container**: Item 
+- **itemid**: Int32 
+- **color**: Int32 -1
 ### Items.ContainerCount
 ```
-ContainerCount(Int32 serial, Int32 itemid, Int32 color) -> Int32
+Items.ContainerCount(serial, itemid, color) -> Int32
 ```
-- __Int32__ **serial** 
-- __Int32__ **itemid** 
-- __Int32__ **color** -1
+- **serial**: Int32 
+- **itemid**: Int32 
+- **color**: Int32 -1
 ### Items.ContextExist
 ```
-ContextExist(Int32 serial, String name) -> Int32
+Items.ContextExist(serial, name) -> Int32
 ```
-- __Int32__ **serial** 
-- __String__ **name**
+- **serial**: Int32 
+- **name**: String
 ### Items.ContextExist
 ```
-ContextExist(Item i, String name) -> Int32
+Items.ContextExist(i, name) -> Int32
 ```
-- __Item__ **i** 
-- __String__ **name**
+- **i**: Item 
+- **name**: String
 ### Items.DropFromHand
 ```
-DropFromHand(Item item, Item bag) -> Void
+Items.DropFromHand(item, bag) -> Void
 ```
-- __Item__ **item** 
-- __Item__ **bag**
+- **item**: Item 
+- **bag**: Item
 ### Items.DropItemGroundSelf
 ```
-DropItemGroundSelf(Int32 serialitem, Int32 amount) -> Void
+Items.DropItemGroundSelf(serialitem, amount) -> Void
 ```
-- __Int32__ **serialitem** 
-- __Int32__ **amount** 0
+- **serialitem**: Int32 
+- **amount**: Int32 0
 ### Items.DropItemGroundSelf
 ```
-DropItemGroundSelf(Item item, Int32 amount) -> Void
+Items.DropItemGroundSelf(item, amount) -> Void
 ```
-- __Item__ **item** 
-- __Int32__ **amount** 0
+- **item**: Item 
+- **amount**: Int32 0
 ### Items.Equals
 ```
-Equals(Object obj) -> Boolean
+Items.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Items.FindByID
 ```
-FindByID(Int32 itemid, Int32 color, Int32 container) -> Item
+Items.FindByID(itemid, color, container) -> Item
 ```
-- __Int32__ **itemid** 
-- __Int32__ **color** 
-- __Int32__ **container**
+- **itemid**: Int32 
+- **color**: Int32 
+- **container**: Int32
 ### Items.FindBySerial
 ```
-FindBySerial(Int32 serial) -> Item
+Items.FindBySerial(serial) -> Item
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Items.GetHashCode
 ```
-GetHashCode() -> Int32
+Items.GetHashCode() -> Int32
 ```
 ### Items.GetPropStringByIndex
 ```
-GetPropStringByIndex(Int32 serial, Int32 index) -> String
+Items.GetPropStringByIndex(serial, index) -> String
 ```
-- __Int32__ **serial** 
-- __Int32__ **index**
+- **serial**: Int32 
+- **index**: Int32
 ### Items.GetPropStringByIndex
 ```
-GetPropStringByIndex(Item item, Int32 index) -> String
+Items.GetPropStringByIndex(item, index) -> String
 ```
-- __Item__ **item** 
-- __Int32__ **index**
+- **item**: Item 
+- **index**: Int32
 ### Items.GetPropStringList
 ```
-GetPropStringList(Item item) -> List`1
+Items.GetPropStringList(item) -> List`1
 ```
-- __Item__ **item**
+- **item**: Item
 ### Items.GetPropStringList
 ```
-GetPropStringList(Int32 serial) -> List`1
+Items.GetPropStringList(serial) -> List`1
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Items.GetPropValue
 ```
-GetPropValue(Int32 serial, String name) -> Single
+Items.GetPropValue(serial, name) -> Single
 ```
-- __Int32__ **serial** 
-- __String__ **name**
+- **serial**: Int32 
+- **name**: String
 ### Items.GetPropValue
 ```
-GetPropValue(Item item, String name) -> Single
+Items.GetPropValue(item, name) -> Single
 ```
-- __Item__ **item** 
-- __String__ **name**
+- **item**: Item 
+- **name**: String
 ### Items.GetTotalResistProp
 ```
-GetTotalResistProp(Int32 serial) -> Single
+Items.GetTotalResistProp(serial) -> Single
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Items.GetType
 ```
-GetType() -> Type
+Items.GetType() -> Type
 ```
 ### Items.Hide
 ```
-Hide(Item item) -> Void
+Items.Hide(item) -> Void
 ```
-- __Item__ **item**
+- **item**: Item
 ### Items.Hide
 ```
-Hide(Int32 serial) -> Void
+Items.Hide(serial) -> Void
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Items.Lift
 ```
-Lift(Item item, Int32 amount) -> Void
+Items.Lift(item, amount) -> Void
 ```
-- __Item__ **item** 
-- __Int32__ **amount**
+- **item**: Item 
+- **amount**: Int32
 ### Items.Message
 ```
-Message(Int32 serial, Int32 hue, String message) -> Void
+Items.Message(serial, hue, message) -> Void
 ```
-- __Int32__ **serial** 
-- __Int32__ **hue** 
-- __String__ **message**
+- **serial**: Int32 
+- **hue**: Int32 
+- **message**: String
 ### Items.Message
 ```
-Message(Item item, Int32 hue, String message) -> Void
+Items.Message(item, hue, message) -> Void
 ```
-- __Item__ **item** 
-- __Int32__ **hue** 
-- __String__ **message**
+- **item**: Item 
+- **hue**: Int32 
+- **message**: String
 ### Items.Move
 ```
-Move(Item source, Mobile destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Item__ **source** 
-- __Mobile__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Item 
+- **destination**: Mobile 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Int32 destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Int32__ **source** 
-- __Int32__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Int32 
+- **destination**: Int32 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Item source, Item destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Item__ **source** 
-- __Item__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Item 
+- **destination**: Item 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Item destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Int32__ **source** 
-- __Item__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Int32 
+- **destination**: Item 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Item source, Int32 destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Item__ **source** 
-- __Int32__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Item 
+- **destination**: Int32 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Mobile destination, Int32 amount, Int32 x, Int32 y) -> Void
+Items.Move(source, destination, amount, x, y) -> Void
 ```
-- __Int32__ **source** 
-- __Mobile__ **destination** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y**
+- **source**: Int32 
+- **destination**: Mobile 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32
 ### Items.Move
 ```
-Move(Item source, Mobile destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Item__ **source** 
-- __Mobile__ **destination** 
-- __Int32__ **amount**
+- **source**: Item 
+- **destination**: Mobile 
+- **amount**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Mobile destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Int32__ **source** 
-- __Mobile__ **destination** 
-- __Int32__ **amount**
+- **source**: Int32 
+- **destination**: Mobile 
+- **amount**: Int32
 ### Items.Move
 ```
-Move(Item source, Int32 destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Item__ **source** 
-- __Int32__ **destination** 
-- __Int32__ **amount**
+- **source**: Item 
+- **destination**: Int32 
+- **amount**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Int32 destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Int32__ **source** 
-- __Int32__ **destination** 
-- __Int32__ **amount**
+- **source**: Int32 
+- **destination**: Int32 
+- **amount**: Int32
 ### Items.Move
 ```
-Move(Item source, Item destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Item__ **source** 
-- __Item__ **destination** 
-- __Int32__ **amount**
+- **source**: Item 
+- **destination**: Item 
+- **amount**: Int32
 ### Items.Move
 ```
-Move(Int32 source, Item destination, Int32 amount) -> Void
+Items.Move(source, destination, amount) -> Void
 ```
-- __Int32__ **source** 
-- __Item__ **destination** 
-- __Int32__ **amount**
+- **source**: Int32 
+- **destination**: Item 
+- **amount**: Int32
 ### Items.MoveOnGround
 ```
-MoveOnGround(Item source, Int32 amount, Int32 x, Int32 y, Int32 z) -> Void
+Items.MoveOnGround(source, amount, x, y, z) -> Void
 ```
-- __Item__ **source** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **z**
+- **source**: Item 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32 
+- **z**: Int32
 ### Items.MoveOnGround
 ```
-MoveOnGround(Int32 source, Int32 amount, Int32 x, Int32 y, Int32 z) -> Void
+Items.MoveOnGround(source, amount, x, y, z) -> Void
 ```
-- __Int32__ **source** 
-- __Int32__ **amount** 
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **z**
+- **source**: Int32 
+- **amount**: Int32 
+- **x**: Int32 
+- **y**: Int32 
+- **z**: Int32
 ### Items.Select
 ```
-Select(List`1 items, String selector) -> Item
+Items.Select(items, selector) -> Item
 ```
-- __List`1__ **items** 
-- __String__ **selector**
+- **items**: List`1 
+- **selector**: String
 ### Items.SingleClick
 ```
-SingleClick(Int32 itemserial) -> Void
+Items.SingleClick(itemserial) -> Void
 ```
-- __Int32__ **itemserial**
+- **itemserial**: Int32
 ### Items.SingleClick
 ```
-SingleClick(Item item) -> Void
+Items.SingleClick(item) -> Void
 ```
-- __Item__ **item**
+- **item**: Item
 ### Items.ToString
 ```
-ToString() -> String
+Items.ToString() -> String
 ```
 ### Items.UseItem
 ```
-UseItem(Int32 itemSerial, Int32 targetSerial) -> Void
+Items.UseItem(itemSerial, targetSerial) -> Void
 ```
-- __Int32__ **itemSerial** 
-- __Int32__ **targetSerial**
+- **itemSerial**: Int32 
+- **targetSerial**: Int32
 ### Items.UseItem
 ```
-UseItem(Int32 itemserial) -> Void
+Items.UseItem(itemserial) -> Void
 ```
-- __Int32__ **itemserial**
+- **itemserial**: Int32
 ### Items.UseItem
 ```
-UseItem(Int32 itemSerial, Int32 targetSerial, Boolean wait) -> Void
+Items.UseItem(itemSerial, targetSerial, wait) -> Void
 ```
-- __Int32__ **itemSerial** 
-- __Int32__ **targetSerial** 
-- __Boolean__ **wait**
+- **itemSerial**: Int32 
+- **targetSerial**: Int32 
+- **wait**: Boolean
 ### Items.UseItem
 ```
-UseItem(Item item, Int32 target) -> Void
+Items.UseItem(item, target) -> Void
 ```
-- __Item__ **item** 
-- __Int32__ **target**
+- **item**: Item 
+- **target**: Int32
 ### Items.UseItem
 ```
-UseItem(Int32 item, EnhancedEntity target) -> Void
+Items.UseItem(item, target) -> Void
 ```
-- __Int32__ **item** 
-- __EnhancedEntity__ **target**
+- **item**: Int32 
+- **target**: EnhancedEntity
 ### Items.UseItem
 ```
-UseItem(Item item, EnhancedEntity target) -> Void
+Items.UseItem(item, target) -> Void
 ```
-- __Item__ **item** 
-- __EnhancedEntity__ **target**
+- **item**: Item 
+- **target**: EnhancedEntity
 ### Items.UseItem
 ```
-UseItem(Item item) -> Void
+Items.UseItem(item) -> Void
 ```
-- __Item__ **item**
+- **item**: Item
 ### Items.UseItemByID
 ```
-UseItemByID(Int32 itemid, Int32 color) -> Boolean
+Items.UseItemByID(itemid, color) -> Boolean
 ```
-- __Int32__ **itemid** 
-- __Int32__ **color** -1
+- **itemid**: Int32 
+- **color**: Int32 -1
 ### Items.WaitForContents
 ```
-WaitForContents(Item bag, Int32 delay) -> Void
+Items.WaitForContents(bag, delay) -> Void
 ```
-- __Item__ **bag** 
-- __Int32__ **delay**
+- **bag**: Item 
+- **delay**: Int32
 ### Items.WaitForContents
 ```
-WaitForContents(Int32 serialbag, Int32 delay) -> Void
+Items.WaitForContents(serialbag, delay) -> Void
 ```
-- __Int32__ **serialbag** 
-- __Int32__ **delay**
+- **serialbag**: Int32 
+- **delay**: Int32
 ### Items.WaitForProps
 ```
-WaitForProps(Item i, Int32 delay) -> Void
+Items.WaitForProps(i, delay) -> Void
 ```
-- __Item__ **i** 
-- __Int32__ **delay**
+- **i**: Item 
+- **delay**: Int32
 ### Items.WaitForProps
 ```
-WaitForProps(Int32 itemserial, Int32 delay) -> Void
+Items.WaitForProps(itemserial, delay) -> Void
 ```
-- __Int32__ **itemserial** 
-- __Int32__ **delay**
+- **itemserial**: Int32 
+- **delay**: Int32

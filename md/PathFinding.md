@@ -5,44 +5,44 @@
 ## Methods  
 ### PathFinding.Equals
 ```
-Equals(Object obj) -> Boolean
+PathFinding.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### PathFinding.GetHashCode
 ```
-GetHashCode() -> Int32
+PathFinding.GetHashCode() -> Int32
 ```
 ### PathFinding.GetPath
 ```
-GetPath(Int32 x, Int32 y, Boolean ignoremob) -> List`1
+PathFinding.GetPath(x, y, ignoremob) -> List`1
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Boolean__ **ignoremob**
+- **x**: Int32 
+- **y**: Int32 
+- **ignoremob**: Boolean
 ### PathFinding.GetType
 ```
-GetType() -> Type
+PathFinding.GetType() -> Type
 ```
 ### PathFinding.Go
 ```
-Go(Route r) -> Boolean
+PathFinding.Go(r) -> Boolean
 ```
-- __Route__ **r**
+- **r**: Route
 ### PathFinding.RunPath
 ```
-RunPath(List`1 path, Single timeout, Boolean debugMessage, Boolean useResync) -> Boolean
+PathFinding.RunPath(path, timeout, debugMessage, useResync) -> Boolean
 ```
-- __List`1__ **path** 
-- __Single__ **timeout** -1
-- __Boolean__ **debugMessage** False
-- __Boolean__ **useResync** True
+- **path**: List`1 
+- **timeout**: Single -1
+- **debugMessage**: Boolean False
+- **useResync**: Boolean True
 ### PathFinding.Tile
 ```
-Tile(Int32 x, Int32 y) -> Tile
+PathFinding.Tile(x, y) -> Tile
 ```
-- __Int32__ **x** 
-- __Int32__ **y**
+- **x**: Int32 
+- **y**: Int32
 ### PathFinding.ToString
 ```
-ToString() -> String
+PathFinding.ToString() -> String
 ```

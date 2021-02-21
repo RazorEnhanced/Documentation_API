@@ -5,60 +5,60 @@
 ## Methods  
 ### AutoLoot.ChangeList
 ```
-ChangeList(String listName) -> Void
+AutoLoot.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### AutoLoot.Equals
 ```
-Equals(Object obj) -> Boolean
+AutoLoot.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### AutoLoot.GetHashCode
 ```
-GetHashCode() -> Int32
+AutoLoot.GetHashCode() -> Int32
 ```
 ### AutoLoot.GetList
 ```
-GetList(String lootListName) -> List`1
+AutoLoot.GetList(lootListName) -> List`1
 ```
-- __String__ **lootListName**
+- **lootListName**: String
 ### AutoLoot.GetLootBag
 ```
-GetLootBag() -> UInt32
+AutoLoot.GetLootBag() -> UInt32
 ```
 ### AutoLoot.GetType
 ```
-GetType() -> Type
+AutoLoot.GetType() -> Type
 ```
 ### AutoLoot.ResetIgnore
 ```
-ResetIgnore() -> Void
+AutoLoot.ResetIgnore() -> Void
 ```
 ### AutoLoot.RunOnce
 ```
-RunOnce(String lootListName, Int32 mseconds, Filter filter) -> Void
+AutoLoot.RunOnce(lootListName, mseconds, filter) -> Void
 ```
-- __String__ **lootListName** 
-- __Int32__ **mseconds** 
-- __Filter__ **filter**
+- **lootListName**: String 
+- **mseconds**: Int32 
+- **filter**: Filter
 ### AutoLoot.SetNoOpenCorpse
 ```
-SetNoOpenCorpse(Boolean value) -> Boolean
+AutoLoot.SetNoOpenCorpse(value) -> Boolean
 ```
-- __Boolean__ **value**
+- **value**: Boolean
 ### AutoLoot.Start
 ```
-Start() -> Void
+AutoLoot.Start() -> Void
 ```
 ### AutoLoot.Status
 ```
-Status() -> Boolean
+AutoLoot.Status() -> Boolean
 ```
 ### AutoLoot.Stop
 ```
-Stop() -> Void
+AutoLoot.Stop() -> Void
 ```
 ### AutoLoot.ToString
 ```
-ToString() -> String
+AutoLoot.ToString() -> String
 ```

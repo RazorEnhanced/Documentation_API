@@ -5,283 +5,283 @@
 ## Methods  
 ### Spells.CastBushido
 ```
-CastBushido(String SpellName) -> Void
+Spells.CastBushido(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastChivalry
 ```
-CastChivalry(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastChivalry(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastChivalry
 ```
-CastChivalry(String SpellName) -> Void
+Spells.CastChivalry(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastChivalry
 ```
-CastChivalry(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastChivalry(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastCleric
 ```
-CastCleric(String SpellName) -> Void
+Spells.CastCleric(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastCleric
 ```
-CastCleric(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastCleric(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastCleric
 ```
-CastCleric(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastCleric(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastDruid
 ```
-CastDruid(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastDruid(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastDruid
 ```
-CastDruid(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastDruid(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastDruid
 ```
-CastDruid(String SpellName) -> Void
+Spells.CastDruid(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastLastSpell
 ```
-CastLastSpell(UInt32 target, Boolean wait) -> Void
+Spells.CastLastSpell(target, wait) -> Void
 ```
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastLastSpell
 ```
-CastLastSpell(Mobile m, Boolean wait) -> Void
+Spells.CastLastSpell(m, wait) -> Void
 ```
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastLastSpell
 ```
-CastLastSpell() -> Void
+Spells.CastLastSpell() -> Void
 ```
 ### Spells.CastLastSpellInternal
 ```
-CastLastSpellInternal(Boolean wait) -> Void
+Spells.CastLastSpellInternal(wait) -> Void
 ```
-- __Boolean__ **wait**
+- **wait**: Boolean
 ### Spells.CastLastSpellLastTarget
 ```
-CastLastSpellLastTarget() -> Void
+Spells.CastLastSpellLastTarget() -> Void
 ```
 ### Spells.CastMagery
 ```
-CastMagery(String SpellName) -> Void
+Spells.CastMagery(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastMagery
 ```
-CastMagery(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastMagery(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastMagery
 ```
-CastMagery(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastMagery(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastMastery
 ```
-CastMastery(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastMastery(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastMastery
 ```
-CastMastery(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastMastery(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastMastery
 ```
-CastMastery(String SpellName) -> Void
+Spells.CastMastery(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastMysticism
 ```
-CastMysticism(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastMysticism(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastMysticism
 ```
-CastMysticism(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastMysticism(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastMysticism
 ```
-CastMysticism(String SpellName) -> Void
+Spells.CastMysticism(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastNecro
 ```
-CastNecro(String SpellName) -> Void
+Spells.CastNecro(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastNecro
 ```
-CastNecro(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastNecro(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastNecro
 ```
-CastNecro(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastNecro(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastNinjitsu
 ```
-CastNinjitsu(String SpellName) -> Void
+Spells.CastNinjitsu(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastNinjitsu
 ```
-CastNinjitsu(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastNinjitsu(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastNinjitsu
 ```
-CastNinjitsu(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastNinjitsu(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.CastOnlyBushido
 ```
-CastOnlyBushido(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyBushido(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyChivalry
 ```
-CastOnlyChivalry(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyChivalry(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyCleric
 ```
-CastOnlyCleric(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyCleric(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyDruid
 ```
-CastOnlyDruid(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyDruid(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyMagery
 ```
-CastOnlyMagery(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyMagery(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait**
+- **SpellName**: String 
+- **wait**: Boolean
 ### Spells.CastOnlyMastery
 ```
-CastOnlyMastery(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyMastery(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyMysticism
 ```
-CastOnlyMysticism(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyMysticism(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyNecro
 ```
-CastOnlyNecro(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyNecro(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlyNinjitsu
 ```
-CastOnlyNinjitsu(String SpellName, Boolean wait) -> Void
+Spells.CastOnlyNinjitsu(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastOnlySpellweaving
 ```
-CastOnlySpellweaving(String SpellName, Boolean wait) -> Void
+Spells.CastOnlySpellweaving(SpellName, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **wait**: Boolean True
 ### Spells.CastSpellweaving
 ```
-CastSpellweaving(String SpellName) -> Void
+Spells.CastSpellweaving(SpellName) -> Void
 ```
-- __String__ **SpellName**
+- **SpellName**: String
 ### Spells.CastSpellweaving
 ```
-CastSpellweaving(String SpellName, Mobile m, Boolean wait) -> Void
+Spells.CastSpellweaving(SpellName, m, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __Mobile__ **m** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **m**: Mobile 
+- **wait**: Boolean True
 ### Spells.CastSpellweaving
 ```
-CastSpellweaving(String SpellName, UInt32 target, Boolean wait) -> Void
+Spells.CastSpellweaving(SpellName, target, wait) -> Void
 ```
-- __String__ **SpellName** 
-- __UInt32__ **target** 
-- __Boolean__ **wait** True
+- **SpellName**: String 
+- **target**: UInt32 
+- **wait**: Boolean True
 ### Spells.Equals
 ```
-Equals(Object obj) -> Boolean
+Spells.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Spells.GetHashCode
 ```
-GetHashCode() -> Int32
+Spells.GetHashCode() -> Int32
 ```
 ### Spells.GetType
 ```
-GetType() -> Type
+Spells.GetType() -> Type
 ```
 ### Spells.Interrupt
 ```
-Interrupt() -> Void
+Spells.Interrupt() -> Void
 ```
 ### Spells.ToString
 ```
-ToString() -> String
+Spells.ToString() -> String
 ```

@@ -5,151 +5,151 @@
 ## Methods  
 ### Target.AttackTargetFromList
 ```
-AttackTargetFromList(String targetid) -> Void
+Target.AttackTargetFromList(targetid) -> Void
 ```
-- __String__ **targetid**
+- **targetid**: String
 ### Target.Cancel
 ```
-Cancel() -> Void
+Target.Cancel() -> Void
 ```
 ### Target.ClearLast
 ```
-ClearLast() -> Void
+Target.ClearLast() -> Void
 ```
 ### Target.ClearLastandQueue
 ```
-ClearLastandQueue() -> Void
+Target.ClearLastandQueue() -> Void
 ```
 ### Target.ClearQueue
 ```
-ClearQueue() -> Void
+Target.ClearQueue() -> Void
 ```
 ### Target.Equals
 ```
-Equals(Object obj) -> Boolean
+Target.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Target.GetHashCode
 ```
-GetHashCode() -> Int32
+Target.GetHashCode() -> Int32
 ```
 ### Target.GetLast
 ```
-GetLast() -> Int32
+Target.GetLast() -> Int32
 ```
 ### Target.GetLastAttack
 ```
-GetLastAttack() -> Int32
+Target.GetLastAttack() -> Int32
 ```
 ### Target.GetTargetFromList
 ```
-GetTargetFromList(String targetid) -> Mobile
+Target.GetTargetFromList(targetid) -> Mobile
 ```
-- __String__ **targetid**
+- **targetid**: String
 ### Target.GetType
 ```
-GetType() -> Type
+Target.GetType() -> Type
 ```
 ### Target.HasTarget
 ```
-HasTarget() -> Boolean
+Target.HasTarget() -> Boolean
 ```
 ### Target.Last
 ```
-Last() -> Void
+Target.Last() -> Void
 ```
 ### Target.LastQueued
 ```
-LastQueued() -> Void
+Target.LastQueued() -> Void
 ```
 ### Target.PerformTargetFromList
 ```
-PerformTargetFromList(String targetid) -> Void
+Target.PerformTargetFromList(targetid) -> Void
 ```
-- __String__ **targetid**
+- **targetid**: String
 ### Target.PromptGroundTarget
 ```
-PromptGroundTarget(String message) -> Point3D
+Target.PromptGroundTarget(message) -> Point3D
 ```
-- __String__ **message** Select Ground Position
+- **message**: String Select Ground Position
 ### Target.PromptTarget
 ```
-PromptTarget(String message) -> Int32
+Target.PromptTarget(message) -> Int32
 ```
-- __String__ **message** Select Item or Mobile
+- **message**: String Select Item or Mobile
 ### Target.Self
 ```
-Self() -> Void
+Target.Self() -> Void
 ```
 ### Target.SelfQueued
 ```
-SelfQueued() -> Void
+Target.SelfQueued() -> Void
 ```
 ### Target.SetLast
 ```
-SetLast(Int32 serial, Boolean wait) -> Void
+Target.SetLast(serial, wait) -> Void
 ```
-- __Int32__ **serial** 
-- __Boolean__ **wait** True
+- **serial**: Int32 
+- **wait**: Boolean True
 ### Target.SetLast
 ```
-SetLast(Mobile mob) -> Void
+Target.SetLast(mob) -> Void
 ```
-- __Mobile__ **mob**
+- **mob**: Mobile
 ### Target.SetLastTargetFromList
 ```
-SetLastTargetFromList(String targetid) -> Void
+Target.SetLastTargetFromList(targetid) -> Void
 ```
-- __String__ **targetid**
+- **targetid**: String
 ### Target.TargetExecute
 ```
-TargetExecute(Int32 x, Int32 y, Int32 z) -> Void
+Target.TargetExecute(x, y, z) -> Void
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **z**
+- **x**: Int32 
+- **y**: Int32 
+- **z**: Int32
 ### Target.TargetExecute
 ```
-TargetExecute(Int32 x, Int32 y, Int32 z, Int32 gfx) -> Void
+Target.TargetExecute(x, y, z, gfx) -> Void
 ```
-- __Int32__ **x** 
-- __Int32__ **y** 
-- __Int32__ **z** 
-- __Int32__ **gfx**
+- **x**: Int32 
+- **y**: Int32 
+- **z**: Int32 
+- **gfx**: Int32
 ### Target.TargetExecute
 ```
-TargetExecute(Mobile mobile) -> Void
+Target.TargetExecute(mobile) -> Void
 ```
-- __Mobile__ **mobile**
+- **mobile**: Mobile
 ### Target.TargetExecute
 ```
-TargetExecute(Item item) -> Void
+Target.TargetExecute(item) -> Void
 ```
-- __Item__ **item**
+- **item**: Item
 ### Target.TargetExecute
 ```
-TargetExecute(Int32 serial) -> Void
+Target.TargetExecute(serial) -> Void
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Target.TargetExecuteRelative
 ```
-TargetExecuteRelative(Mobile m, Int32 offset) -> Void
+Target.TargetExecuteRelative(m, offset) -> Void
 ```
-- __Mobile__ **m** 
-- __Int32__ **offset**
+- **m**: Mobile 
+- **offset**: Int32
 ### Target.TargetExecuteRelative
 ```
-TargetExecuteRelative(Int32 serial, Int32 offset) -> Void
+Target.TargetExecuteRelative(serial, offset) -> Void
 ```
-- __Int32__ **serial** 
-- __Int32__ **offset**
+- **serial**: Int32 
+- **offset**: Int32
 ### Target.ToString
 ```
-ToString() -> String
+Target.ToString() -> String
 ```
 ### Target.WaitForTarget
 ```
-WaitForTarget(Int32 delay, Boolean noshow) -> Void
+Target.WaitForTarget(delay, noshow) -> Void
 ```
-- __Int32__ **delay** 
-- __Boolean__ **noshow** False
+- **delay**: Int32 
+- **noshow**: Boolean False

@@ -5,44 +5,44 @@
 ## Methods  
 ### Friend.AddFriendTarget
 ```
-AddFriendTarget() -> Void
+Friend.AddFriendTarget() -> Void
 ```
 ### Friend.AddPlayer
 ```
-AddPlayer(String selection, String name, Int32 serial) -> Void
+Friend.AddPlayer(selection, name, serial) -> Void
 ```
-- __String__ **selection** 
-- __String__ **name** 
-- __Int32__ **serial**
+- **selection**: String 
+- **name**: String 
+- **serial**: Int32
 ### Friend.ChangeList
 ```
-ChangeList(String nameList) -> Void
+Friend.ChangeList(nameList) -> Void
 ```
-- __String__ **nameList**
+- **nameList**: String
 ### Friend.Equals
 ```
-Equals(Object obj) -> Boolean
+Friend.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Friend.GetHashCode
 ```
-GetHashCode() -> Int32
+Friend.GetHashCode() -> Int32
 ```
 ### Friend.GetList
 ```
-GetList(String nameList) -> List`1
+Friend.GetList(nameList) -> List`1
 ```
-- __String__ **nameList**
+- **nameList**: String
 ### Friend.GetType
 ```
-GetType() -> Type
+Friend.GetType() -> Type
 ```
 ### Friend.IsFriend
 ```
-IsFriend(Int32 serial) -> Boolean
+Friend.IsFriend(serial) -> Boolean
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Friend.ToString
 ```
-ToString() -> String
+Friend.ToString() -> String
 ```

@@ -39,5 +39,5 @@ theme:
   name: readthedocs
 markdown_extensions:
   - codehilite:
-      linenums: True
+      linenums: False
       use_pygments: True

@@ -5,41 +5,41 @@
 ## Methods  
 ### Timer.Check
 ```
-Check(String name) -> Boolean
+Timer.Check(name) -> Boolean
 ```
-- __String__ **name**
+- **name**: String
 ### Timer.Create
 ```
-Create(String name, Int32 delay) -> Void
+Timer.Create(name, delay) -> Void
 ```
-- __String__ **name** 
-- __Int32__ **delay**
+- **name**: String 
+- **delay**: Int32
 ### Timer.Create
 ```
-Create(String name, Int32 delay, String message) -> Void
+Timer.Create(name, delay, message) -> Void
 ```
-- __String__ **name** 
-- __Int32__ **delay** 
-- __String__ **message**
+- **name**: String 
+- **delay**: Int32 
+- **message**: String
 ### Timer.Equals
 ```
-Equals(Object obj) -> Boolean
+Timer.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Timer.GetHashCode
 ```
-GetHashCode() -> Int32
+Timer.GetHashCode() -> Int32
 ```
 ### Timer.GetType
 ```
-GetType() -> Type
+Timer.GetType() -> Type
 ```
 ### Timer.Remaining
 ```
-Remaining(String name) -> Int32
+Timer.Remaining(name) -> Int32
 ```
-- __String__ **name**
+- **name**: String
 ### Timer.ToString
 ```
-ToString() -> String
+Timer.ToString() -> String
 ```

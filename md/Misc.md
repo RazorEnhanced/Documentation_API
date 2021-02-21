@@ -5,165 +5,165 @@
 ## Methods  
 ### Misc.Beep
 ```
-Beep() -> Void
+Misc.Beep() -> Void
 ```
 ### Misc.CancelPrompt
 ```
-CancelPrompt() -> Void
+Misc.CancelPrompt() -> Void
 ```
 ### Misc.CaptureNow
 ```
-CaptureNow() -> Void
+Misc.CaptureNow() -> Void
 ```
 ### Misc.CheckIgnoreObject
 ```
-CheckIgnoreObject(Int32 s) -> Boolean
+Misc.CheckIgnoreObject(s) -> Boolean
 ```
-- __Int32__ **s**
+- **s**: Int32
 ### Misc.CheckIgnoreObject
 ```
-CheckIgnoreObject(Mobile m) -> Boolean
+Misc.CheckIgnoreObject(m) -> Boolean
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Misc.CheckIgnoreObject
 ```
-CheckIgnoreObject(Item i) -> Boolean
+Misc.CheckIgnoreObject(i) -> Boolean
 ```
-- __Item__ **i**
+- **i**: Item
 ### Misc.CheckSharedValue
 ```
-CheckSharedValue(String name) -> Boolean
+Misc.CheckSharedValue(name) -> Boolean
 ```
-- __String__ **name**
+- **name**: String
 ### Misc.ClearIgnore
 ```
-ClearIgnore() -> Void
+Misc.ClearIgnore() -> Void
 ```
 ### Misc.CloseBackpack
 ```
-CloseBackpack() -> Void
+Misc.CloseBackpack() -> Void
 ```
 ### Misc.CloseMenu
 ```
-CloseMenu() -> Void
+Misc.CloseMenu() -> Void
 ```
 ### Misc.ContextReply
 ```
-ContextReply(Int32 serial, String menuname) -> Void
+Misc.ContextReply(serial, menuname) -> Void
 ```
-- __Int32__ **serial** 
-- __String__ **menuname**
+- **serial**: Int32 
+- **menuname**: String
 ### Misc.ContextReply
 ```
-ContextReply(Item item, String menuname) -> Void
+Misc.ContextReply(item, menuname) -> Void
 ```
-- __Item__ **item** 
-- __String__ **menuname**
+- **item**: Item 
+- **menuname**: String
 ### Misc.ContextReply
 ```
-ContextReply(Mobile mob, String menuname) -> Void
+Misc.ContextReply(mob, menuname) -> Void
 ```
-- __Mobile__ **mob** 
-- __String__ **menuname**
+- **mob**: Mobile 
+- **menuname**: String
 ### Misc.ContextReply
 ```
-ContextReply(Item item, Int32 idx) -> Void
+Misc.ContextReply(item, idx) -> Void
 ```
-- __Item__ **item** 
-- __Int32__ **idx**
+- **item**: Item 
+- **idx**: Int32
 ### Misc.ContextReply
 ```
-ContextReply(Mobile mob, Int32 idx) -> Void
+Misc.ContextReply(mob, idx) -> Void
 ```
-- __Mobile__ **mob** 
-- __Int32__ **idx**
+- **mob**: Mobile 
+- **idx**: Int32
 ### Misc.ContextReply
 ```
-ContextReply(Int32 serial, Int32 idx) -> Void
+Misc.ContextReply(serial, idx) -> Void
 ```
-- __Int32__ **serial** 
-- __Int32__ **idx**
+- **serial**: Int32 
+- **idx**: Int32
 ### Misc.CurrentScriptDirectory
 ```
-CurrentScriptDirectory() -> String
+Misc.CurrentScriptDirectory() -> String
 ```
 ### Misc.Disconnect
 ```
-Disconnect() -> Void
+Misc.Disconnect() -> Void
 ```
 ### Misc.DistanceSqrt
 ```
-DistanceSqrt(Point3D a, Point3D b) -> Double
+Misc.DistanceSqrt(a, b) -> Double
 ```
-- __Point3D__ **a** 
-- __Point3D__ **b**
+- **a**: Point3D 
+- **b**: Point3D
 ### Misc.Equals
 ```
-Equals(Object obj) -> Boolean
+Misc.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Misc.ExportPythonAPI
 ```
-ExportPythonAPI(String path, Boolean pretty) -> Void
+Misc.ExportPythonAPI(path, pretty) -> Void
 ```
-- __String__ **path** 
-- __Boolean__ **pretty** True
+- **path**: String 
+- **pretty**: Boolean True
 Return a string containing list RE Python API list in JSON format.
 ### Misc.FocusUOWindow
 ```
-FocusUOWindow() -> Void
+Misc.FocusUOWindow() -> Void
 ```
 ### Misc.GetContPosition
 ```
-GetContPosition() -> Point
+Misc.GetContPosition() -> Point
 ```
 ### Misc.GetHashCode
 ```
-GetHashCode() -> Int32
+Misc.GetHashCode() -> Int32
 ```
 ### Misc.GetMapInfo
 ```
-GetMapInfo(UInt32 serial) -> MapInfo
+Misc.GetMapInfo(serial) -> MapInfo
 ```
-- __UInt32__ **serial**
+- **serial**: UInt32
 ### Misc.GetMenuTitle
 ```
-GetMenuTitle() -> String
+Misc.GetMenuTitle() -> String
 ```
 ### Misc.GetType
 ```
-GetType() -> Type
+Misc.GetType() -> Type
 ```
 ### Misc.HasMenu
 ```
-HasMenu() -> Boolean
+Misc.HasMenu() -> Boolean
 ```
 ### Misc.HasPrompt
 ```
-HasPrompt() -> Boolean
+Misc.HasPrompt() -> Boolean
 ```
 ### Misc.HasQueryString
 ```
-HasQueryString() -> Boolean
+Misc.HasQueryString() -> Boolean
 ```
 ### Misc.IgnoreObject
 ```
-IgnoreObject(Item i) -> Void
+Misc.IgnoreObject(i) -> Void
 ```
-- __Item__ **i**
+- **i**: Item
 ### Misc.IgnoreObject
 ```
-IgnoreObject(Mobile m) -> Void
+Misc.IgnoreObject(m) -> Void
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Misc.IgnoreObject
 ```
-IgnoreObject(Int32 s) -> Void
+Misc.IgnoreObject(s) -> Void
 ```
-- __Int32__ **s**
+- **s**: Int32
 ### Misc.LastHotKey
 ```
-LastHotKey() -> HotKeyEvent
+Misc.LastHotKey() -> HotKeyEvent
 ```
 Returns the latest HotKeyEvent recorded by razor.
 The HotKeyEvent has 2 properties:
@@ -171,238 +171,238 @@ hke.Key: enum System.Windows.Forms.Keys
 hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's time.time()
 ### Misc.MenuContain
 ```
-MenuContain(String submenu) -> Boolean
+Misc.MenuContain(submenu) -> Boolean
 ```
-- __String__ **submenu**
+- **submenu**: String
 ### Misc.MenuResponse
 ```
-MenuResponse(String submenu) -> Void
+Misc.MenuResponse(submenu) -> Void
 ```
-- __String__ **submenu**
+- **submenu**: String
 ### Misc.MouseLocation
 ```
-MouseLocation() -> Point
+Misc.MouseLocation() -> Point
 ```
 ### Misc.MouseMove
 ```
-MouseMove(Int32 posX, Int32 posY) -> Void
+Misc.MouseMove(posX, posY) -> Void
 ```
-- __Int32__ **posX** 
-- __Int32__ **posY**
+- **posX**: Int32 
+- **posY**: Int32
 ### Misc.NextContPosition
 ```
-NextContPosition(Int32 x, Int32 y) -> Void
+Misc.NextContPosition(x, y) -> Void
 ```
-- __Int32__ **x** 
-- __Int32__ **y**
+- **x**: Int32 
+- **y**: Int32
 ### Misc.NoOperation
 ```
-NoOperation() -> Void
+Misc.NoOperation() -> Void
 ```
 ### Misc.NoRunStealthStatus
 ```
-NoRunStealthStatus() -> Boolean
+Misc.NoRunStealthStatus() -> Boolean
 ```
 ### Misc.NoRunStealthToggle
 ```
-NoRunStealthToggle(Boolean enable) -> Void
+Misc.NoRunStealthToggle(enable) -> Void
 ```
-- __Boolean__ **enable**
+- **enable**: Boolean
 ### Misc.Pause
 ```
-Pause(Int32 mseconds) -> Void
+Misc.Pause(mseconds) -> Void
 ```
-- __Int32__ **mseconds**
+- **mseconds**: Int32
 ### Misc.PetRename
 ```
-PetRename(Int32 serial, String name) -> Void
+Misc.PetRename(serial, name) -> Void
 ```
-- __Int32__ **serial** 
-- __String__ **name**
+- **serial**: Int32 
+- **name**: String
 ### Misc.PetRename
 ```
-PetRename(Mobile mob, String name) -> Void
+Misc.PetRename(mob, name) -> Void
 ```
-- __Mobile__ **mob** 
-- __String__ **name**
+- **mob**: Mobile 
+- **name**: String
 ### Misc.QueryStringResponse
 ```
-QueryStringResponse(Boolean okcancel, String response) -> Void
+Misc.QueryStringResponse(okcancel, response) -> Void
 ```
-- __Boolean__ **okcancel** 
-- __String__ **response**
+- **okcancel**: Boolean 
+- **response**: String
 ### Misc.ReadSharedValue
 ```
-ReadSharedValue(String name) -> Object
+Misc.ReadSharedValue(name) -> Object
 ```
-- __String__ **name**
+- **name**: String
 ### Misc.RemoveSharedValue
 ```
-RemoveSharedValue(String name) -> Void
+Misc.RemoveSharedValue(name) -> Void
 ```
-- __String__ **name**
+- **name**: String
 ### Misc.ResetPrompt
 ```
-ResetPrompt() -> Void
+Misc.ResetPrompt() -> Void
 ```
 ### Misc.ResponsePrompt
 ```
-ResponsePrompt(String text) -> Void
+Misc.ResponsePrompt(text) -> Void
 ```
-- __String__ **text**
+- **text**: String
 ### Misc.Resync
 ```
-Resync() -> Void
+Misc.Resync() -> Void
 ```
 ### Misc.ScriptRun
 ```
-ScriptRun(String scriptfile) -> Void
+Misc.ScriptRun(scriptfile) -> Void
 ```
-- __String__ **scriptfile**
+- **scriptfile**: String
 ### Misc.ScriptStatus
 ```
-ScriptStatus(String scriptfile) -> Boolean
+Misc.ScriptStatus(scriptfile) -> Boolean
 ```
-- __String__ **scriptfile**
+- **scriptfile**: String
 ### Misc.ScriptStop
 ```
-ScriptStop(String scriptfile) -> Void
+Misc.ScriptStop(scriptfile) -> Void
 ```
-- __String__ **scriptfile**
+- **scriptfile**: String
 ### Misc.ScriptStopAll
 ```
-ScriptStopAll() -> Void
+Misc.ScriptStopAll() -> Void
 ```
 ### Misc.SendMessage
 ```
-SendMessage(Double msg) -> Void
+Misc.SendMessage(msg) -> Void
 ```
-- __Double__ **msg**
+- **msg**: Double
 ### Misc.SendMessage
 ```
-SendMessage(Int32 num, Int32 color) -> Void
+Misc.SendMessage(num, color) -> Void
 ```
-- __Int32__ **num** 
-- __Int32__ **color**
+- **num**: Int32 
+- **color**: Int32
 ### Misc.SendMessage
 ```
-SendMessage(String msg, Boolean wait) -> Void
+Misc.SendMessage(msg, wait) -> Void
 ```
-- __String__ **msg** 
-- __Boolean__ **wait** True
+- **msg**: String 
+- **wait**: Boolean True
 ### Misc.SendMessage
 ```
-SendMessage(Boolean msg, Int32 color) -> Void
+Misc.SendMessage(msg, color) -> Void
 ```
-- __Boolean__ **msg** 
-- __Int32__ **color**
+- **msg**: Boolean 
+- **color**: Int32
 ### Misc.SendMessage
 ```
-SendMessage(UInt32 num, Int32 color) -> Void
+Misc.SendMessage(num, color) -> Void
 ```
-- __UInt32__ **num** 
-- __Int32__ **color**
+- **num**: UInt32 
+- **color**: Int32
 ### Misc.SendMessage
 ```
-SendMessage(Boolean msg) -> Void
+Misc.SendMessage(msg) -> Void
 ```
-- __Boolean__ **msg**
+- **msg**: Boolean
 ### Misc.SendMessage
 ```
-SendMessage(UInt32 num) -> Void
+Misc.SendMessage(num) -> Void
 ```
-- __UInt32__ **num**
+- **num**: UInt32
 ### Misc.SendMessage
 ```
-SendMessage(Object obj) -> Void
+Misc.SendMessage(obj) -> Void
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Misc.SendMessage
 ```
-SendMessage(Int32 num) -> Void
+Misc.SendMessage(num) -> Void
 ```
-- __Int32__ **num**
+- **num**: Int32
 ### Misc.SendMessage
 ```
-SendMessage(Double msg, Int32 color) -> Void
+Misc.SendMessage(msg, color) -> Void
 ```
-- __Double__ **msg** 
-- __Int32__ **color**
+- **msg**: Double 
+- **color**: Int32
 ### Misc.SendMessage
 ```
-SendMessage(Single num) -> Void
+Misc.SendMessage(num) -> Void
 ```
-- __Single__ **num**
+- **num**: Single
 ### Misc.SendMessage
 ```
-SendMessage(Object obj, Int32 color) -> Void
+Misc.SendMessage(obj, color) -> Void
 ```
-- __Object__ **obj** 
-- __Int32__ **color**
+- **obj**: Object 
+- **color**: Int32
 ### Misc.SendToClient
 ```
-SendToClient(String keys) -> Void
+Misc.SendToClient(keys) -> Void
 ```
-- __String__ **keys**
+- **keys**: String
 ### Misc.SetSharedValue
 ```
-SetSharedValue(String name, Object value) -> Void
+Misc.SetSharedValue(name, value) -> Void
 ```
-- __String__ **name** 
-- __Object__ **value**
+- **name**: String 
+- **value**: Object
 ### Misc.ShardName
 ```
-ShardName() -> String
+Misc.ShardName() -> String
 ```
 ### Misc.ToString
 ```
-ToString() -> String
+Misc.ToString() -> String
 ```
 ### Misc.UnIgnoreObject
 ```
-UnIgnoreObject(Item i) -> Void
+Misc.UnIgnoreObject(i) -> Void
 ```
-- __Item__ **i**
+- **i**: Item
 ### Misc.UnIgnoreObject
 ```
-UnIgnoreObject(Int32 s) -> Void
+Misc.UnIgnoreObject(s) -> Void
 ```
-- __Int32__ **s**
+- **s**: Int32
 ### Misc.UnIgnoreObject
 ```
-UnIgnoreObject(Mobile m) -> Void
+Misc.UnIgnoreObject(m) -> Void
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Misc.WaitForContext
 ```
-WaitForContext(Item i, Int32 delay) -> List`1
+Misc.WaitForContext(i, delay) -> List`1
 ```
-- __Item__ **i** 
-- __Int32__ **delay**
+- **i**: Item 
+- **delay**: Int32
 ### Misc.WaitForContext
 ```
-WaitForContext(Mobile mob, Int32 delay) -> List`1
+Misc.WaitForContext(mob, delay) -> List`1
 ```
-- __Mobile__ **mob** 
-- __Int32__ **delay**
+- **mob**: Mobile 
+- **delay**: Int32
 ### Misc.WaitForContext
 ```
-WaitForContext(Int32 ser, Int32 delay) -> List`1
+Misc.WaitForContext(ser, delay) -> List`1
 ```
-- __Int32__ **ser** 
-- __Int32__ **delay**
+- **ser**: Int32 
+- **delay**: Int32
 ### Misc.WaitForMenu
 ```
-WaitForMenu(Int32 delay) -> Void
+Misc.WaitForMenu(delay) -> Void
 ```
-- __Int32__ **delay**
+- **delay**: Int32
 ### Misc.WaitForPrompt
 ```
-WaitForPrompt(Int32 delay) -> Void
+Misc.WaitForPrompt(delay) -> Void
 ```
-- __Int32__ **delay**
+- **delay**: Int32
 ### Misc.WaitForQueryString
 ```
-WaitForQueryString(Int32 delay) -> Void
+Misc.WaitForQueryString(delay) -> Void
 ```
-- __Int32__ **delay**
+- **delay**: Int32

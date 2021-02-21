@@ -6,18 +6,18 @@
 ## Methods  
 ### Point2D.Equals
 ```
-Equals(Object obj) -> Boolean
+Point2D.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Point2D.GetHashCode
 ```
-GetHashCode() -> Int32
+Point2D.GetHashCode() -> Int32
 ```
 ### Point2D.GetType
 ```
-GetType() -> Type
+Point2D.GetType() -> Type
 ```
 ### Point2D.ToString
 ```
-ToString() -> String
+Point2D.ToString() -> String
 ```

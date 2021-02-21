@@ -37,28 +37,28 @@
 ## Methods  
 ### Mobile.DistanceTo
 ```
-DistanceTo(Mobile m) -> Int32
+Mobile.DistanceTo(m) -> Int32
 ```
-- __Mobile__ **m**
+- **m**: Mobile
 ### Mobile.Equals
 ```
-Equals(Object obj) -> Boolean
+Mobile.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Mobile.GetHashCode
 ```
-GetHashCode() -> Int32
+Mobile.GetHashCode() -> Int32
 ```
 ### Mobile.GetItemOnLayer
 ```
-GetItemOnLayer(String layer) -> Item
+Mobile.GetItemOnLayer(layer) -> Item
 ```
-- __String__ **layer**
+- **layer**: String
 ### Mobile.GetType
 ```
-GetType() -> Type
+Mobile.GetType() -> Type
 ```
 ### Mobile.ToString
 ```
-ToString() -> String
+Mobile.ToString() -> String
 ```

@@ -5,43 +5,43 @@
 ## Methods  
 ### Organizer.ChangeList
 ```
-ChangeList(String listName) -> Void
+Organizer.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### Organizer.Equals
 ```
-Equals(Object obj) -> Boolean
+Organizer.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Organizer.FStart
 ```
-FStart() -> Void
+Organizer.FStart() -> Void
 ```
 ### Organizer.FStop
 ```
-FStop() -> Void
+Organizer.FStop() -> Void
 ```
 ### Organizer.GetHashCode
 ```
-GetHashCode() -> Int32
+Organizer.GetHashCode() -> Int32
 ```
 ### Organizer.GetType
 ```
-GetType() -> Type
+Organizer.GetType() -> Type
 ```
 ### Organizer.RunOnce
 ```
-RunOnce(String organizerName, Int32 sourceBag, Int32 destBag, Int32 dragDelay) -> Void
+Organizer.RunOnce(organizerName, sourceBag, destBag, dragDelay) -> Void
 ```
-- __String__ **organizerName** 
-- __Int32__ **sourceBag** 
-- __Int32__ **destBag** 
-- __Int32__ **dragDelay**
+- **organizerName**: String 
+- **sourceBag**: Int32 
+- **destBag**: Int32 
+- **dragDelay**: Int32
 ### Organizer.Status
 ```
-Status() -> Boolean
+Organizer.Status() -> Boolean
 ```
 ### Organizer.ToString
 ```
-ToString() -> String
+Organizer.ToString() -> String
 ```

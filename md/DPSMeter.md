@@ -5,39 +5,39 @@
 ## Methods  
 ### DPSMeter.Equals
 ```
-Equals(Object obj) -> Boolean
+DPSMeter.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### DPSMeter.GetDamage
 ```
-GetDamage(Int32 serial) -> Int32
+DPSMeter.GetDamage(serial) -> Int32
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### DPSMeter.GetHashCode
 ```
-GetHashCode() -> Int32
+DPSMeter.GetHashCode() -> Int32
 ```
 ### DPSMeter.GetType
 ```
-GetType() -> Type
+DPSMeter.GetType() -> Type
 ```
 ### DPSMeter.Pause
 ```
-Pause() -> Void
+DPSMeter.Pause() -> Void
 ```
 ### DPSMeter.Start
 ```
-Start() -> Void
+DPSMeter.Start() -> Void
 ```
 ### DPSMeter.Status
 ```
-Status() -> Boolean
+DPSMeter.Status() -> Boolean
 ```
 ### DPSMeter.Stop
 ```
-Stop() -> Void
+DPSMeter.Stop() -> Void
 ```
 ### DPSMeter.ToString
 ```
-ToString() -> String
+DPSMeter.ToString() -> String
 ```

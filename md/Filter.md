@@ -36,35 +36,35 @@
 ## Methods  
 ### Filter.Equals
 ```
-Equals(Object obj) -> Boolean
+Filter.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Filter.Equals
 ```
-Equals(Object obj) -> Boolean
+Filter.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Filter.GetHashCode
 ```
-GetHashCode() -> Int32
+Filter.GetHashCode() -> Int32
 ```
 ### Filter.GetHashCode
 ```
-GetHashCode() -> Int32
+Filter.GetHashCode() -> Int32
 ```
 ### Filter.GetType
 ```
-GetType() -> Type
+Filter.GetType() -> Type
 ```
 ### Filter.GetType
 ```
-GetType() -> Type
+Filter.GetType() -> Type
 ```
 ### Filter.ToString
 ```
-ToString() -> String
+Filter.ToString() -> String
 ```
 ### Filter.ToString
 ```
-ToString() -> String
+Filter.ToString() -> String
 ```

@@ -5,50 +5,50 @@
 ## Methods  
 ### Scavenger.ChangeList
 ```
-ChangeList(String listName) -> Void
+Scavenger.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### Scavenger.Equals
 ```
-Equals(Object obj) -> Boolean
+Scavenger.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Scavenger.GetHashCode
 ```
-GetHashCode() -> Int32
+Scavenger.GetHashCode() -> Int32
 ```
 ### Scavenger.GetScavengerBag
 ```
-GetScavengerBag() -> UInt32
+Scavenger.GetScavengerBag() -> UInt32
 ```
 ### Scavenger.GetType
 ```
-GetType() -> Type
+Scavenger.GetType() -> Type
 ```
 ### Scavenger.ResetIgnore
 ```
-ResetIgnore() -> Void
+Scavenger.ResetIgnore() -> Void
 ```
 ### Scavenger.RunOnce
 ```
-RunOnce(List`1 scavengerList, Int32 mseconds, Filter filter) -> Void
+Scavenger.RunOnce(scavengerList, mseconds, filter) -> Void
 ```
-- __List`1__ **scavengerList** 
-- __Int32__ **mseconds** 
-- __Filter__ **filter**
+- **scavengerList**: List`1 
+- **mseconds**: Int32 
+- **filter**: Filter
 ### Scavenger.Start
 ```
-Start() -> Void
+Scavenger.Start() -> Void
 ```
 ### Scavenger.Status
 ```
-Status() -> Boolean
+Scavenger.Status() -> Boolean
 ```
 ### Scavenger.Stop
 ```
-Stop() -> Void
+Scavenger.Stop() -> Void
 ```
 ### Scavenger.ToString
 ```
-ToString() -> String
+Scavenger.ToString() -> String
 ```

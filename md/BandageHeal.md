@@ -5,30 +5,30 @@
 ## Methods  
 ### BandageHeal.Equals
 ```
-Equals(Object obj) -> Boolean
+BandageHeal.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### BandageHeal.GetHashCode
 ```
-GetHashCode() -> Int32
+BandageHeal.GetHashCode() -> Int32
 ```
 ### BandageHeal.GetType
 ```
-GetType() -> Type
+BandageHeal.GetType() -> Type
 ```
 ### BandageHeal.Start
 ```
-Start() -> Void
+BandageHeal.Start() -> Void
 ```
 ### BandageHeal.Status
 ```
-Status() -> Boolean
+BandageHeal.Status() -> Boolean
 ```
 ### BandageHeal.Stop
 ```
-Stop() -> Void
+BandageHeal.Stop() -> Void
 ```
 ### BandageHeal.ToString
 ```
-ToString() -> String
+BandageHeal.ToString() -> String
 ```

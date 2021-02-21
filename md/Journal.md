@@ -5,95 +5,95 @@
 ## Methods  
 ### Journal.Clear
 ```
-Clear() -> Void
+Journal.Clear() -> Void
 ```
 ### Journal.Equals
 ```
-Equals(Object obj) -> Boolean
+Journal.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Journal.GetHashCode
 ```
-GetHashCode() -> Int32
+Journal.GetHashCode() -> Int32
 ```
 ### Journal.GetLineText
 ```
-GetLineText(String text, Boolean addname) -> String
+Journal.GetLineText(text, addname) -> String
 ```
-- __String__ **text** 
-- __Boolean__ **addname** False
+- **text**: String 
+- **addname**: Boolean False
 ### Journal.GetSpeechName
 ```
-GetSpeechName() -> List`1
+Journal.GetSpeechName() -> List`1
 ```
 ### Journal.GetTextByColor
 ```
-GetTextByColor(Int32 color, Boolean addname) -> List`1
+Journal.GetTextByColor(color, addname) -> List`1
 ```
-- __Int32__ **color** 
-- __Boolean__ **addname** False
+- **color**: Int32 
+- **addname**: Boolean False
 ### Journal.GetTextByName
 ```
-GetTextByName(String name) -> List`1
+Journal.GetTextByName(name) -> List`1
 ```
-- __String__ **name**
+- **name**: String
 ### Journal.GetTextBySerial
 ```
-GetTextBySerial(Int32 serial) -> List`1
+Journal.GetTextBySerial(serial) -> List`1
 ```
-- __Int32__ **serial**
+- **serial**: Int32
 ### Journal.GetTextByType
 ```
-GetTextByType(String type, Boolean addname) -> List`1
+Journal.GetTextByType(type, addname) -> List`1
 ```
-- __String__ **type** 
-- __Boolean__ **addname** False
+- **type**: String 
+- **addname**: Boolean False
 ### Journal.GetType
 ```
-GetType() -> Type
+Journal.GetType() -> Type
 ```
 ### Journal.Search
 ```
-Search(String text) -> Boolean
+Journal.Search(text) -> Boolean
 ```
-- __String__ **text**
+- **text**: String
 ### Journal.SearchByColor
 ```
-SearchByColor(String text, Int32 color) -> Boolean
+Journal.SearchByColor(text, color) -> Boolean
 ```
-- __String__ **text** 
-- __Int32__ **color**
+- **text**: String 
+- **color**: Int32
 ### Journal.SearchByName
 ```
-SearchByName(String text, String name) -> Boolean
+Journal.SearchByName(text, name) -> Boolean
 ```
-- __String__ **text** 
-- __String__ **name**
+- **text**: String 
+- **name**: String
 ### Journal.SearchByType
 ```
-SearchByType(String text, String type) -> Boolean
+Journal.SearchByType(text, type) -> Boolean
 ```
-- __String__ **text** 
-- __String__ **type**
+- **text**: String 
+- **type**: String
 ### Journal.ToString
 ```
-ToString() -> String
+Journal.ToString() -> String
 ```
 ### Journal.WaitByName
 ```
-WaitByName(String name, Int32 delay) -> Boolean
+Journal.WaitByName(name, delay) -> Boolean
 ```
-- __String__ **name** 
-- __Int32__ **delay**
+- **name**: String 
+- **delay**: Int32
 ### Journal.WaitJournal
 ```
-WaitJournal(String text, Int32 delay) -> Void
+Journal.WaitJournal(text, delay) -> Void
 ```
-- __String__ **text** 
-- __Int32__ **delay**
+- **text**: String 
+- **delay**: Int32
 ### Journal.WaitJournal
 ```
-WaitJournal(List`1 msgs, Int32 delay) -> String
+Journal.WaitJournal(msgs, delay) -> String
 ```
-- __List`1__ **msgs** 
-- __Int32__ **delay**
+- **msgs**: List`1 
+- **delay**: Int32

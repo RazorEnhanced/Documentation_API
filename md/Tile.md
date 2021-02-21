@@ -6,18 +6,18 @@
 ## Methods  
 ### Tile.Equals
 ```
-Equals(Object obj) -> Boolean
+Tile.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Tile.GetHashCode
 ```
-GetHashCode() -> Int32
+Tile.GetHashCode() -> Int32
 ```
 ### Tile.GetType
 ```
-GetType() -> Type
+Tile.GetType() -> Type
 ```
 ### Tile.ToString
 ```
-ToString() -> String
+Tile.ToString() -> String
 ```

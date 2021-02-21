@@ -12,18 +12,18 @@
 ## Methods  
 ### Route.Equals
 ```
-Equals(Object obj) -> Boolean
+Route.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### Route.GetHashCode
 ```
-GetHashCode() -> Int32
+Route.GetHashCode() -> Int32
 ```
 ### Route.GetType
 ```
-GetType() -> Type
+Route.GetType() -> Type
 ```
 ### Route.ToString
 ```
-ToString() -> String
+Route.ToString() -> String
 ```

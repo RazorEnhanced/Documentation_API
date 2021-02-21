@@ -5,35 +5,35 @@
 ## Methods  
 ### SellAgent.ChangeList
 ```
-ChangeList(String listName) -> Void
+SellAgent.ChangeList(listName) -> Void
 ```
-- __String__ **listName**
+- **listName**: String
 ### SellAgent.Disable
 ```
-Disable() -> Void
+SellAgent.Disable() -> Void
 ```
 ### SellAgent.Enable
 ```
-Enable() -> Void
+SellAgent.Enable() -> Void
 ```
 ### SellAgent.Equals
 ```
-Equals(Object obj) -> Boolean
+SellAgent.Equals(obj) -> Boolean
 ```
-- __Object__ **obj**
+- **obj**: Object
 ### SellAgent.GetHashCode
 ```
-GetHashCode() -> Int32
+SellAgent.GetHashCode() -> Int32
 ```
 ### SellAgent.GetType
 ```
-GetType() -> Type
+SellAgent.GetType() -> Type
 ```
 ### SellAgent.Status
 ```
-Status() -> Boolean
+SellAgent.Status() -> Boolean
 ```
 ### SellAgent.ToString
 ```
-ToString() -> String
+SellAgent.ToString() -> String
 ```
