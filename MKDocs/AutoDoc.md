@@ -20,6 +20,11 @@
 AutoDoc.Equals(obj) -> Boolean
 ```
 - **obj**: Object
+### AutoDoc.ExportHTML
+```
+AutoDoc.ExportHTML(path) -> Void
+```
+- **path**: String
 ### AutoDoc.ExportMKDocs
 ```
 AutoDoc.ExportMKDocs(path) -> Void
@@ -60,7 +65,7 @@ AutoDoc.GetProperties(withClass) -> List`1
 - **withClass**: Boolean False
 ### AutoDoc.GetPythonAPI
 ```
-AutoDoc.GetPythonAPI() -> List`1
+AutoDoc.GetPythonAPI() -> DocContainer
 ```
 Use reflection to generete the Python API List
 ### AutoDoc.GetType
@@ -73,6 +78,15 @@ AutoDoc.HasTag(tag, text) -> Boolean
 ```
 - **tag**: String 
 - **text**: String
+### AutoDoc.ImportPythonAPI
+```
+AutoDoc.ImportPythonAPI(path) -> Void
+```
+- **path**: String
+### AutoDoc.JsonDocExists
+```
+AutoDoc.JsonDocExists() -> Boolean
+```
 ### AutoDoc.ParamType
 ```
 AutoDoc.ParamType(param) -> String
@@ -80,7 +94,7 @@ AutoDoc.ParamType(param) -> String
 - **param**: ParameterInfo
 ### AutoDoc.ReadClass
 ```
-AutoDoc.ReadClass(type, flags) -> List`1
+AutoDoc.ReadClass(type, flags) -> DocContainer
 ```
 - **type**: Type 
 - **flags**: BindingFlags

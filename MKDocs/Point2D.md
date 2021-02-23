@@ -2,6 +2,8 @@
 
 ## Properties  
 ### Point2D.X __Int32__
+### Point2D.X __Int32__
+### Point2D.Y __Int32__
 ### Point2D.Y __Int32__ 
 ## Methods  
 ### Point2D.Equals

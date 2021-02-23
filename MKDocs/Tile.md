@@ -2,6 +2,8 @@
 
 ## Properties  
 ### Tile.X __Int32__
+### Tile.X __Int32__
+### Tile.Y __Int32__
 ### Tile.Y __Int32__ 
 ## Methods  
 ### Tile.Equals

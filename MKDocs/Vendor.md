@@ -2,6 +2,8 @@
 
 ## Properties  
 ### Vendor.LastBuyList __List`1__
+### Vendor.LastBuyList __List`1__
+### Vendor.LastVendor __Mobile__
 ### Vendor.LastVendor __Mobile__ 
 ## Methods  
 ### Vendor.Buy

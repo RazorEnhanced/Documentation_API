@@ -1,6 +1,7 @@
 # Misc    
 
 ## Properties  
+### Misc.SharedScriptData __ConcurrentDictionary`2__
 ### Misc.SharedScriptData __ConcurrentDictionary`2__ 
 ## Methods  
 ### Misc.Beep

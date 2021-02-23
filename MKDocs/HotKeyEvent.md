@@ -2,8 +2,12 @@
 
 ## Properties  
 ### HotKeyEvent.HotKey __Keys__
+### HotKeyEvent.HotKey __Keys__
+### HotKeyEvent.LastEvent __HotKeyEvent__
 ### HotKeyEvent.LastEvent __HotKeyEvent__
 ### HotKeyEvent.Timestamp __Double__
+### HotKeyEvent.Timestamp __Double__
+### HotKeyEvent.UnixTimeBegin __DateTime__
 ### HotKeyEvent.UnixTimeBegin __DateTime__ 
 ## Methods  
 ### HotKeyEvent.AddEvent

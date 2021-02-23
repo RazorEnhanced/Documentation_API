@@ -2,7 +2,10 @@
 
 ## Properties  
 ### Point3D.X __Int32__
+### Point3D.X __Int32__
 ### Point3D.Y __Int32__
+### Point3D.Y __Int32__
+### Point3D.Z __Int32__
 ### Point3D.Z __Int32__ 
 ## Methods  
 ### Point3D.Equals

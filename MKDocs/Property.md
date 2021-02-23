@@ -2,6 +2,8 @@
 
 ## Properties  
 ### Property.Args __String__
+### Property.Args __String__
+### Property.Number __Int32__
 ### Property.Number __Int32__ 
 ## Methods  
 ### Property.Equals
