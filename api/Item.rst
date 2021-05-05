@@ -25,6 +25,8 @@ Properties
 
 * Item.Hue :mod:`Int32`
 
+* Item.Image :mod:`Bitmap`
+
 * Item.IsBagOfSending :mod:`Boolean`
 
 * Item.IsContainer :mod:`Boolean`

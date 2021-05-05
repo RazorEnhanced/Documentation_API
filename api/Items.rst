@@ -24,31 +24,24 @@ Methods
 
 
 
-.. py:function:: Items.ContainerCount(serial, itemid, color) -> Int32
-
-
-* serial: :mod:`Int32` 
-* itemid: :mod:`Int32` 
-* color: :mod:`Int32` 
-
-
-
-
-.. py:function:: Items.ContainerCount(container, itemid, color) -> Int32
+.. py:function:: Items.ContainerCount(container, itemid, color, recursive) -> Int32
 
 
 * container: :mod:`Item` 
 * itemid: :mod:`Int32` 
 * color: :mod:`Int32` 
+* recursive: :mod:`Boolean` 
 
 
 
 
-.. py:function:: Items.ContextExist(serial, name) -> Int32
+.. py:function:: Items.ContainerCount(serial, itemid, color, recursive) -> Int32
 
 
 * serial: :mod:`Int32` 
-* name: :mod:`String` 
+* itemid: :mod:`Int32` 
+* color: :mod:`Int32` 
+* recursive: :mod:`Boolean` 
 
 
 
@@ -57,6 +50,15 @@ Methods
 
 
 * i: :mod:`Item` 
+* name: :mod:`String` 
+
+
+
+
+.. py:function:: Items.ContextExist(serial, name) -> Int32
+
+
+* serial: :mod:`Int32` 
 * name: :mod:`String` 
 
 
@@ -89,12 +91,24 @@ Methods
 
 
 
-.. py:function:: Items.FindByID(itemid, color, container) -> Item
+.. py:function:: Items.FindByID(itemid, color, container, range) -> Item
 
 
 * itemid: :mod:`Int32` 
 * color: :mod:`Int32` 
 * container: :mod:`Int32` 
+* range: :mod:`Int32` 
+
+
+
+
+.. py:function:: Items.FindByID(itemid, color, container, recursive) -> Item
+
+
+* itemid: :mod:`Int32` 
+* color: :mod:`Int32` 
+* container: :mod:`Int32` 
+* recursive: :mod:`Boolean` 
 
 
 
@@ -107,11 +121,11 @@ Methods
 
 
 
-.. py:function:: Items.GetPropStringByIndex(serial, index) -> String
+.. py:function:: Items.GetImage(itemID, hue) -> Bitmap
 
 
-* serial: :mod:`Int32` 
-* index: :mod:`Int32` 
+* itemID: :mod:`Int32` 
+* hue: :mod:`Int32` 
 
 
 
@@ -125,10 +139,11 @@ Methods
 
 
 
-.. py:function:: Items.GetPropStringList(item) -> List[String]
+.. py:function:: Items.GetPropStringByIndex(serial, index) -> String
 
 
-* item: :mod:`Item` 
+* serial: :mod:`Int32` 
+* index: :mod:`Int32` 
 
 
 
@@ -137,6 +152,14 @@ Methods
 
 
 * serial: :mod:`Int32` 
+
+
+
+
+.. py:function:: Items.GetPropStringList(item) -> List[String]
+
+
+* item: :mod:`Item` 
 
 
 
@@ -212,14 +235,12 @@ Methods
 
 
 
-.. py:function:: Items.Move(source, destination, amount, x, y) -> Void
+.. py:function:: Items.Move(source, destination, amount) -> Void
 
 
 * source: :mod:`Item` 
 * destination: :mod:`Mobile` 
 * amount: :mod:`Int32` 
-* x: :mod:`Int32` 
-* y: :mod:`Int32` 
 
 
 
@@ -228,16 +249,6 @@ Methods
 
 
 * source: :mod:`Int32` 
-* destination: :mod:`Int32` 
-* amount: :mod:`Int32` 
-
-
-
-
-.. py:function:: Items.Move(source, destination, amount) -> Void
-
-
-* source: :mod:`Item` 
 * destination: :mod:`Mobile` 
 * amount: :mod:`Int32` 
 
@@ -286,11 +297,21 @@ Methods
 
 
 
+.. py:function:: Items.Move(source, destination, amount) -> Void
+
+
+* source: :mod:`Int32` 
+* destination: :mod:`Int32` 
+* amount: :mod:`Int32` 
+
+
+
+
 .. py:function:: Items.Move(source, destination, amount, x, y) -> Void
 
 
 * source: :mod:`Item` 
-* destination: :mod:`Item` 
+* destination: :mod:`Mobile` 
 * amount: :mod:`Int32` 
 * x: :mod:`Int32` 
 * y: :mod:`Int32` 
@@ -302,7 +323,7 @@ Methods
 
 
 * source: :mod:`Int32` 
-* destination: :mod:`Item` 
+* destination: :mod:`Mobile` 
 * amount: :mod:`Int32` 
 * x: :mod:`Int32` 
 * y: :mod:`Int32` 
@@ -326,7 +347,7 @@ Methods
 
 
 * source: :mod:`Int32` 
-* destination: :mod:`Mobile` 
+* destination: :mod:`Item` 
 * amount: :mod:`Int32` 
 * x: :mod:`Int32` 
 * y: :mod:`Int32` 
@@ -334,12 +355,14 @@ Methods
 
 
 
-.. py:function:: Items.Move(source, destination, amount) -> Void
+.. py:function:: Items.Move(source, destination, amount, x, y) -> Void
 
 
-* source: :mod:`Int32` 
-* destination: :mod:`Mobile` 
+* source: :mod:`Item` 
+* destination: :mod:`Item` 
 * amount: :mod:`Int32` 
+* x: :mod:`Int32` 
+* y: :mod:`Int32` 
 
 
 
@@ -347,7 +370,7 @@ Methods
 .. py:function:: Items.MoveOnGround(source, amount, x, y, z) -> Void
 
 
-* source: :mod:`Int32` 
+* source: :mod:`Item` 
 * amount: :mod:`Int32` 
 * x: :mod:`Int32` 
 * y: :mod:`Int32` 
@@ -359,7 +382,7 @@ Methods
 .. py:function:: Items.MoveOnGround(source, amount, x, y, z) -> Void
 
 
-* source: :mod:`Item` 
+* source: :mod:`Int32` 
 * amount: :mod:`Int32` 
 * x: :mod:`Int32` 
 * y: :mod:`Int32` 
@@ -396,8 +419,8 @@ Methods
 .. py:function:: Items.UseItem(item, target) -> Void
 
 
-* item: :mod:`Int32` 
-* target: :mod:`EnhancedEntity` 
+* item: :mod:`Item` 
+* target: :mod:`Int32` 
 
 
 
@@ -432,8 +455,8 @@ Methods
 .. py:function:: Items.UseItem(item, target) -> Void
 
 
-* item: :mod:`Item` 
-* target: :mod:`Int32` 
+* item: :mod:`Int32` 
+* target: :mod:`EnhancedEntity` 
 
 
 

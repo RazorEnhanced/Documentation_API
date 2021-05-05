@@ -13,14 +13,6 @@
 Methods
 --------------
 
-.. py:function:: AutoDoc.Equals(obj) -> Boolean
-
-
-* obj: :mod:`Object` 
-
-
-
-
 .. py:function:: AutoDoc.GetClasses() -> List[String]
 
 

@@ -173,18 +173,18 @@ Methods
 
 
 
-.. py:function:: Player.ChatAlliance(msg) -> Void
-
-
-* msg: :mod:`String` 
-
-
-
-
 .. py:function:: Player.ChatAlliance(num) -> Void
 
 
 * num: :mod:`Int32` 
+
+
+
+
+.. py:function:: Player.ChatAlliance(msg) -> Void
+
+
+* msg: :mod:`String` 
 
 
 
@@ -205,20 +205,20 @@ Methods
 
 
 
-.. py:function:: Player.ChatEmote(hue, num) -> Void
-
-
-* hue: :mod:`Int32` 
-* num: :mod:`Int32` 
-
-
-
-
 .. py:function:: Player.ChatEmote(hue, msg) -> Void
 
 
 * hue: :mod:`Int32` 
 * msg: :mod:`String` 
+
+
+
+
+.. py:function:: Player.ChatEmote(hue, num) -> Void
+
+
+* hue: :mod:`Int32` 
+* num: :mod:`Int32` 
 
 
 
@@ -248,20 +248,20 @@ Methods
 
 
 
-.. py:function:: Player.ChatSay(hue, num) -> Void
-
-
-* hue: :mod:`Int32` 
-* num: :mod:`Int32` 
-
-
-
-
 .. py:function:: Player.ChatSay(hue, msg) -> Void
 
 
 * hue: :mod:`Int32` 
 * msg: :mod:`String` 
+
+
+
+
+.. py:function:: Player.ChatSay(hue, num) -> Void
+
+
+* hue: :mod:`Int32` 
+* num: :mod:`Int32` 
 
 
 
@@ -284,20 +284,20 @@ Methods
 
 
 
-.. py:function:: Player.ChatYell(hue, num) -> Void
-
-
-* hue: :mod:`Int32` 
-* num: :mod:`Int32` 
-
-
-
-
 .. py:function:: Player.ChatYell(hue, msg) -> Void
 
 
 * hue: :mod:`Int32` 
 * msg: :mod:`String` 
+
+
+
+
+.. py:function:: Player.ChatYell(hue, num) -> Void
+
+
+* hue: :mod:`Int32` 
+* num: :mod:`Int32` 
 
 
 
@@ -326,18 +326,18 @@ Methods
 
 
 
-.. py:function:: Player.EquipItem(serial) -> Void
-
-
-* serial: :mod:`Int32` 
-
-
-
-
 .. py:function:: Player.EquipItem(item) -> Void
 
 
 * item: :mod:`Item` 
+
+
+
+
+.. py:function:: Player.EquipItem(serial) -> Void
+
+
+* serial: :mod:`Int32` 
 
 
 
@@ -438,15 +438,6 @@ Methods
 
 
 
-.. py:function:: Player.HeadMessage(hue, num) -> Void
-
-
-* hue: :mod:`Int32` 
-* num: :mod:`Int32` 
-
-
-
-
 .. py:function:: Player.HeadMessage(hue, message) -> Void
 
 
@@ -456,11 +447,11 @@ Methods
 
 
 
-.. py:function:: Player.InRangeItem(itemserial, range) -> Boolean
+.. py:function:: Player.HeadMessage(hue, num) -> Void
 
 
-* itemserial: :mod:`Int32` 
-* range: :mod:`Int32` 
+* hue: :mod:`Int32` 
+* num: :mod:`Int32` 
 
 
 
@@ -474,10 +465,10 @@ Methods
 
 
 
-.. py:function:: Player.InRangeMobile(mobserial, range) -> Boolean
+.. py:function:: Player.InRangeItem(itemserial, range) -> Boolean
 
 
-* mobserial: :mod:`Int32` 
+* itemserial: :mod:`Int32` 
 * range: :mod:`Int32` 
 
 
@@ -487,6 +478,15 @@ Methods
 
 
 * mob: :mod:`Mobile` 
+* range: :mod:`Int32` 
+
+
+
+
+.. py:function:: Player.InRangeMobile(mobserial, range) -> Boolean
+
+
+* mobserial: :mod:`Int32` 
 * range: :mod:`Int32` 
 
 
@@ -650,15 +650,13 @@ Methods
 
 
 
-.. py:function:: Player.UseSkill(skillname, target, wait) -> Void
+.. py:function:: Player.UseSkill(skillname) -> Void
 
 
 * skillname: :mod:`String` 
-* target: :mod:`EnhancedEntity` 
-* wait: :mod:`Boolean` 
 
 
-//////
+
 
 .. py:function:: Player.UseSkill(skillname, targetSerial, wait) -> Void
 
@@ -670,13 +668,15 @@ Methods
 
 
 
-.. py:function:: Player.UseSkill(skillname) -> Void
+.. py:function:: Player.UseSkill(skillname, target, wait) -> Void
 
 
 * skillname: :mod:`String` 
+* target: :mod:`EnhancedEntity` 
+* wait: :mod:`Boolean` 
 
 
-
+//////
 
 .. py:function:: Player.UseSkill(skillname, wait) -> Void
 

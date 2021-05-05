@@ -35,18 +35,18 @@ Methods
 
 
 
-.. py:function:: Misc.CheckIgnoreObject(s) -> Boolean
-
-
-* s: :mod:`Int32` 
-
-
-
-
 .. py:function:: Misc.CheckIgnoreObject(m) -> Boolean
 
 
 * m: :mod:`Mobile` 
+
+
+
+
+.. py:function:: Misc.CheckIgnoreObject(s) -> Boolean
+
+
+* s: :mod:`Int32` 
 
 
 
@@ -63,6 +63,14 @@ Methods
 
 
 * name: :mod:`String` 
+
+
+
+
+.. py:function:: Misc.ClearDragQueue() -> Void
+
+
+
 
 
 
@@ -91,10 +99,28 @@ Methods
 
 
 
-.. py:function:: Misc.ContextReply(serial, menuname) -> Void
+.. py:function:: Misc.ContextReply(mob, idx) -> Void
 
 
-* serial: :mod:`Int32` 
+* mob: :mod:`Mobile` 
+* idx: :mod:`Int32` 
+
+
+
+
+.. py:function:: Misc.ContextReply(item, idx) -> Void
+
+
+* item: :mod:`Item` 
+* idx: :mod:`Int32` 
+
+
+
+
+.. py:function:: Misc.ContextReply(mob, menuname) -> Void
+
+
+* mob: :mod:`Mobile` 
 * menuname: :mod:`String` 
 
 
@@ -109,29 +135,11 @@ Methods
 
 
 
-.. py:function:: Misc.ContextReply(mob, menuname) -> Void
+.. py:function:: Misc.ContextReply(serial, menuname) -> Void
 
 
-* mob: :mod:`Mobile` 
+* serial: :mod:`Int32` 
 * menuname: :mod:`String` 
-
-
-
-
-.. py:function:: Misc.ContextReply(item, idx) -> Void
-
-
-* item: :mod:`Item` 
-* idx: :mod:`Int32` 
-
-
-
-
-.. py:function:: Misc.ContextReply(mob, idx) -> Void
-
-
-* mob: :mod:`Mobile` 
-* idx: :mod:`Int32` 
 
 
 
@@ -235,14 +243,6 @@ Return a string containing list RE Python API list in JSON format.
 
 
 
-.. py:function:: Misc.IgnoreObject(i) -> Void
-
-
-* i: :mod:`Item` 
-
-
-
-
 .. py:function:: Misc.IgnoreObject(s) -> Void
 
 
@@ -255,6 +255,22 @@ Return a string containing list RE Python API list in JSON format.
 
 
 * m: :mod:`Mobile` 
+
+
+
+
+.. py:function:: Misc.IgnoreObject(i) -> Void
+
+
+* i: :mod:`Item` 
+
+
+
+
+.. py:function:: Misc.Inspect() -> Void
+
+
+
 
 
 
@@ -336,6 +352,14 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
+.. py:function:: Misc.OpenPaperdoll() -> Void
+
+
+
+
+
+
+
 .. py:function:: Misc.Pause(mseconds) -> Void
 
 
@@ -344,19 +368,19 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
-.. py:function:: Misc.PetRename(mob, name) -> Void
+.. py:function:: Misc.PetRename(serial, name) -> Void
 
 
-* mob: :mod:`Mobile` 
+* serial: :mod:`Int32` 
 * name: :mod:`String` 
 
 
 
 
-.. py:function:: Misc.PetRename(serial, name) -> Void
+.. py:function:: Misc.PetRename(mob, name) -> Void
 
 
-* serial: :mod:`Int32` 
+* mob: :mod:`Mobile` 
 * name: :mod:`String` 
 
 
@@ -443,6 +467,23 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
+.. py:function:: Misc.SendMessage(msg, wait) -> Void
+
+
+* msg: :mod:`String` 
+* wait: :mod:`Boolean` 
+
+
+
+
+.. py:function:: Misc.SendMessage(msg) -> Void
+
+
+* msg: :mod:`Boolean` 
+
+
+
+
 .. py:function:: Misc.SendMessage(num) -> Void
 
 
@@ -470,14 +511,6 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 .. py:function:: Misc.SendMessage(msg) -> Void
 
 
-* msg: :mod:`Boolean` 
-
-
-
-
-.. py:function:: Misc.SendMessage(msg) -> Void
-
-
 * msg: :mod:`Double` 
 
 
@@ -487,15 +520,6 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 * num: :mod:`Single` 
-
-
-
-
-.. py:function:: Misc.SendMessage(num, color) -> Void
-
-
-* num: :mod:`Int32` 
-* color: :mod:`Int32` 
 
 
 
@@ -512,7 +536,7 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 .. py:function:: Misc.SendMessage(num, color) -> Void
 
 
-* num: :mod:`UInt32` 
+* num: :mod:`Int32` 
 * color: :mod:`Int32` 
 
 
@@ -527,19 +551,19 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
-.. py:function:: Misc.SendMessage(msg, wait) -> Void
-
-
-* msg: :mod:`String` 
-* wait: :mod:`Boolean` 
-
-
-
-
 .. py:function:: Misc.SendMessage(msg, color) -> Void
 
 
 * msg: :mod:`Double` 
+* color: :mod:`Int32` 
+
+
+
+
+.. py:function:: Misc.SendMessage(num, color) -> Void
+
+
+* num: :mod:`UInt32` 
 * color: :mod:`Int32` 
 
 
@@ -578,14 +602,6 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
-.. py:function:: Misc.UnIgnoreObject(i) -> Void
-
-
-* i: :mod:`Item` 
-
-
-
-
 .. py:function:: Misc.UnIgnoreObject(m) -> Void
 
 
@@ -594,11 +610,10 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 
-.. py:function:: Misc.WaitForContext(mob, delay) -> List[Misc.Context]
+.. py:function:: Misc.UnIgnoreObject(i) -> Void
 
 
-* mob: :mod:`Mobile` 
-* delay: :mod:`Int32` 
+* i: :mod:`Item` 
 
 
 
@@ -607,6 +622,15 @@ hke.Timestamp: double repesenting the UnixTimestamp, compatible with python's ti
 
 
 * ser: :mod:`Int32` 
+* delay: :mod:`Int32` 
+
+
+
+
+.. py:function:: Misc.WaitForContext(mob, delay) -> List[Misc.Context]
+
+
+* mob: :mod:`Mobile` 
 * delay: :mod:`Int32` 
 
 

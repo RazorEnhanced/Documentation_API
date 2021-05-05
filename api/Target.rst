@@ -135,6 +135,14 @@ Methods
 
 
 
+.. py:function:: Target.SetLast(mob) -> Void
+
+
+* mob: :mod:`Mobile` 
+
+
+
+
 .. py:function:: Target.SetLast(serial, wait) -> Void
 
 
@@ -144,18 +152,28 @@ Methods
 
 
 
-.. py:function:: Target.SetLast(mob) -> Void
-
-
-* mob: :mod:`Mobile` 
-
-
-
-
 .. py:function:: Target.SetLastTargetFromList(targetid) -> Void
 
 
 * targetid: :mod:`String` 
+
+
+
+
+.. py:function:: Target.TargetExecute(x, y, z) -> Void
+
+
+* x: :mod:`Int32` 
+* y: :mod:`Int32` 
+* z: :mod:`Int32` 
+
+
+
+
+.. py:function:: Target.TargetExecute(serial) -> Void
+
+
+* serial: :mod:`Int32` 
 
 
 
@@ -187,24 +205,6 @@ Methods
 
 
 
-.. py:function:: Target.TargetExecute(serial) -> Void
-
-
-* serial: :mod:`Int32` 
-
-
-
-
-.. py:function:: Target.TargetExecute(x, y, z) -> Void
-
-
-* x: :mod:`Int32` 
-* y: :mod:`Int32` 
-* z: :mod:`Int32` 
-
-
-
-
 .. py:function:: Target.TargetExecuteRelative(serial, offset) -> Void
 
 
@@ -219,6 +219,44 @@ Methods
 
 * m: :mod:`Mobile` 
 * offset: :mod:`Int32` 
+
+
+
+
+.. py:function:: Target.TargetResource(SerialItem, ResourceNameTarget) -> Void
+
+
+* SerialItem: :mod:`Int32` 
+* ResourceNameTarget: :mod:`String` 
+
+
+shovel = Items.FindByID(0x0F39, 0, Player.Backpack.Serial)
+    if shovel != None:
+        Target.TargetResource(shovel, 6)
+
+.. py:function:: Target.TargetResource(SerialItem, ResourceNumber) -> Void
+
+
+* SerialItem: :mod:`Int32` 
+* ResourceNumber: :mod:`Int32` 
+
+
+
+
+.. py:function:: Target.TargetResource(item, ResourceNumber) -> Void
+
+
+* item: :mod:`Item` 
+* ResourceNumber: :mod:`Int32` 
+
+
+
+
+.. py:function:: Target.TargetResource(item, ResourceNameTarget) -> Void
+
+
+* item: :mod:`Item` 
+* ResourceNameTarget: :mod:`String` 
 
 
 
