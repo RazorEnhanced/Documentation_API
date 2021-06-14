@@ -1,19 +1,24 @@
 :mod:`Target`
 ========================================
 .. py:module:: Target
+   :synopsis: 
+            <summary>
+            The Target class provides various method for targeting Land, Items and Mobiles in game.
+            </summary>
+        
 
 
 
 Methods
 --------------
 
-.. py:function:: Target.AttackTargetFromList(targetid) -> Void
+.. py:function:: Target.AttackTargetFromList(target_name) -> Void
 
 
-* targetid: :mod:`String` 
+* target_name: :mod:`String` 
 
 
-
+Attack Target from gui filter selector, in Targetting tab.
 
 .. py:function:: Target.Cancel() -> Void
 
@@ -21,7 +26,7 @@ Methods
 
 
 
-
+Cancel the current target.
 
 .. py:function:: Target.ClearLast() -> Void
 
@@ -29,7 +34,7 @@ Methods
 
 
 
-
+Clear the last target.
 
 .. py:function:: Target.ClearLastandQueue() -> Void
 
@@ -37,7 +42,7 @@ Methods
 
 
 
-
+Clear last target and target queue.
 
 .. py:function:: Target.ClearQueue() -> Void
 
@@ -45,7 +50,7 @@ Methods
 
 
 
-
+Clear Queue Target.
 
 .. py:function:: Target.GetLast() -> Int32
 
@@ -53,7 +58,7 @@ Methods
 
 
 
-
+Get serial number of last target
 
 .. py:function:: Target.GetLastAttack() -> Int32
 
@@ -61,15 +66,15 @@ Methods
 
 
 
+Get serial number of last attack target
+
+.. py:function:: Target.GetTargetFromList(target_name) -> Mobile
 
 
-.. py:function:: Target.GetTargetFromList(targetid) -> Mobile
+* target_name: :mod:`String` Name of the target filter.
 
 
-* targetid: :mod:`String` 
-
-
-
+Get Mobile object from GUI filter selector, in Targetting tab.
 
 .. py:function:: Target.HasTarget() -> Boolean
 
@@ -77,7 +82,7 @@ Methods
 
 
 
-
+Get status if have in-game cursor has target shape.
 
 .. py:function:: Target.Last() -> Void
 
@@ -85,7 +90,7 @@ Methods
 
 
 
-
+Execute the target on the last Item or Mobile targeted.
 
 .. py:function:: Target.LastQueued() -> Void
 
@@ -93,31 +98,33 @@ Methods
 
 
 
+Enqueue the next target on the last Item or Mobile targeted.
+
+.. py:function:: Target.PerformTargetFromList(target_name) -> Void
 
 
-.. py:function:: Target.PerformTargetFromList(targetid) -> Void
+* target_name: :mod:`String` Name of the target filter.
 
 
-* targetid: :mod:`String` 
+Execute Target from GUI filter selector, in Targetting tab.
+
+.. py:function:: Target.PromptGroundTarget(message, color) -> Point3D
 
 
+* message: :mod:`String` Hint on what to select.
+* color: :mod:`Int32` Color of the message. (default: 945, gray)
 
 
-.. py:function:: Target.PromptGroundTarget(message) -> Point3D
+Prompt a target in-game, wait for the Player to select the ground. Can also specific a text message for prompt.
+
+.. py:function:: Target.PromptTarget(message, color) -> Int32
 
 
-* message: :mod:`String` 
+* message: :mod:`String` Hint on what to select.
+* color: :mod:`Int32` Color of the message. (default: 945, gray)
 
 
-
-
-.. py:function:: Target.PromptTarget(message) -> Int32
-
-
-* message: :mod:`String` 
-
-
-
+Prompt a target in-game, wait for the Player to select an Item or a Mobile. Can also specific a text message for prompt.
 
 .. py:function:: Target.Self() -> Void
 
@@ -125,7 +132,7 @@ Methods
 
 
 
-
+Execute the target on the Player.
 
 .. py:function:: Target.SelfQueued() -> Void
 
@@ -133,7 +140,16 @@ Methods
 
 
 
+Enqueue the next target on the Player.
 
+.. py:function:: Target.SetLast(serial, wait) -> Void
+
+
+* serial: :mod:`Int32` Serial of the Mobile.
+* wait: :mod:`Boolean` Wait confirmation from the server.
+
+
+Set the last target to specific mobile, using the serial.
 
 .. py:function:: Target.SetLast(mob) -> Void
 
@@ -143,19 +159,26 @@ Methods
 
 
 
-.. py:function:: Target.SetLast(serial, wait) -> Void
+.. py:function:: Target.SetLastTargetFromList(target_name) -> Void
 
 
-* serial: :mod:`Int32` 
-* wait: :mod:`Boolean` 
+* target_name: :mod:`String` Name of the target filter.
+
+
+Set Last Target from GUI filter selector, in Targetting tab.
+
+.. py:function:: Target.TargetExecute(item) -> Void
+
+
+* item: :mod:`Item` Item object to Target.
 
 
 
 
-.. py:function:: Target.SetLastTargetFromList(targetid) -> Void
+.. py:function:: Target.TargetExecute(serial) -> Void
 
 
-* targetid: :mod:`String` 
+* serial: :mod:`Int32` Serial of the Target
 
 
 
@@ -170,102 +193,90 @@ Methods
 
 
 
-.. py:function:: Target.TargetExecute(serial) -> Void
-
-
-* serial: :mod:`Int32` 
-
-
-
-
-.. py:function:: Target.TargetExecute(x, y, z, gfx) -> Void
-
-
-* x: :mod:`Int32` 
-* y: :mod:`Int32` 
-* z: :mod:`Int32` 
-* gfx: :mod:`Int32` 
-
-
-
-
 .. py:function:: Target.TargetExecute(mobile) -> Void
 
 
-* mobile: :mod:`Mobile` 
+* mobile: :mod:`Mobile` Mobile object to Target.
 
 
 
 
-.. py:function:: Target.TargetExecute(item) -> Void
+.. py:function:: Target.TargetExecute(x, y, z, StaticID) -> Void
 
 
-* item: :mod:`Item` 
+* x: :mod:`Int32` X coordinate.
+* y: :mod:`Int32` Y coordinate.
+* z: :mod:`Int32` Z coordinate.
+* StaticID: :mod:`Int32` ID of Land/Tile
 
 
-
+Execute target on specific serial, item, mobile, X Y Z point.
 
 .. py:function:: Target.TargetExecuteRelative(serial, offset) -> Void
 
 
-* serial: :mod:`Int32` 
+* serial: :mod:`Int32` Serial of the mobile
 * offset: :mod:`Int32` 
 
 
 
 
-.. py:function:: Target.TargetExecuteRelative(m, offset) -> Void
+.. py:function:: Target.TargetExecuteRelative(mobile, offset) -> Void
 
 
-* m: :mod:`Mobile` 
-* offset: :mod:`Int32` 
+* mobile: :mod:`Mobile` Mobile object to target.
+* offset: :mod:`Int32` Distance from the target.
 
 
+Execute target on specific land point with offset distance from Mobile. Distance is calculated by target Mobile.Direction.
+
+.. py:function:: Target.TargetResource(item_serial, resource_number) -> Void
 
 
-.. py:function:: Target.TargetResource(SerialItem, ResourceNameTarget) -> Void
+* item_serial: :mod:`Int32` Item object to use.
+* resource_number: :mod:`Int32` Resource as standard name or custom number
+               0: ore
+               1: sand
+               2: wood
+               3: graves
+               4: red_mushrooms
+               n: custom
 
 
-* SerialItem: :mod:`Int32` 
-* ResourceNameTarget: :mod:`String` 
+Find and target a resource using the specified item.
+
+.. py:function:: Target.TargetResource(item, resouce_name) -> Void
 
 
-shovel = Items.FindByID(0x0F39, 0, Player.Backpack.Serial)
-    if shovel != None:
-        Target.TargetResource(shovel, 6)
-
-.. py:function:: Target.TargetResource(SerialItem, ResourceNumber) -> Void
-
-
-* SerialItem: :mod:`Int32` 
-* ResourceNumber: :mod:`Int32` 
-
-
-
-
-.. py:function:: Target.TargetResource(item, ResourceNumber) -> Void
-
-
-* item: :mod:`Item` 
-* ResourceNumber: :mod:`Int32` 
+* item: :mod:`Item` Item object to use.
+* resouce_name: :mod:`String` 
 
 
 
 
-.. py:function:: Target.TargetResource(item, ResourceNameTarget) -> Void
+.. py:function:: Target.TargetResource(item, resoruce_number) -> Void
 
 
 * item: :mod:`Item` 
-* ResourceNameTarget: :mod:`String` 
+* resoruce_number: :mod:`Int32` 
 
 
 
 
-.. py:function:: Target.WaitForTarget(delay, noshow) -> Void
+.. py:function:: Target.TargetResource(item_serial, resource_name) -> Void
 
 
-* delay: :mod:`Int32` 
-* noshow: :mod:`Boolean` 
+* item_serial: :mod:`Int32` 
+* resource_name: :mod:`String` 
 
 
 
+
+.. py:function:: Target.WaitForTarget(delay, noshow) -> Boolean
+
+
+* delay: :mod:`Int32` Maximum amount to wait, in milliseconds
+* noshow: :mod:`Boolean` Pevent the cursor to display the target.
+
+
+Wait for the cursor to show the target, pause the script for a maximum amount of time. and optional flag True or False. True Not show cursor, false show it

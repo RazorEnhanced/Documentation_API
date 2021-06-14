@@ -7,13 +7,13 @@
 Methods
 --------------
 
-.. py:function:: Dress.ChangeList(listName) -> Void
+.. py:function:: Dress.ChangeList(dresslist) -> Void
 
 
-* listName: :mod:`String` 
+* dresslist: :mod:`String` Name of the list of friend.
 
 
-
+Change dress list, List must be exist in dress/undress Agent tab.
 
 .. py:function:: Dress.DressFStart() -> Void
 
@@ -21,7 +21,7 @@ Methods
 
 
 
-
+Start Dress engine.
 
 .. py:function:: Dress.DressFStop() -> Void
 
@@ -29,7 +29,7 @@ Methods
 
 
 
-
+Stop Dress engine.
 
 .. py:function:: Dress.DressStatus() -> Boolean
 
@@ -37,7 +37,7 @@ Methods
 
 
 
-
+Check Dress Agent status, returns a bool value.
 
 .. py:function:: Dress.UnDressFStart() -> Void
 
@@ -45,7 +45,7 @@ Methods
 
 
 
-
+Start UnDress engine.
 
 .. py:function:: Dress.UnDressFStop() -> Void
 
@@ -53,7 +53,7 @@ Methods
 
 
 
-
+Stop UnDress engine.
 
 .. py:function:: Dress.UnDressStatus() -> Boolean
 
@@ -61,4 +61,4 @@ Methods
 
 
 
-
+Check UnDress Agent status, returns a bool value.

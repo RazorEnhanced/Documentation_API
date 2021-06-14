@@ -1,6 +1,11 @@
 :mod:`BuyAgent`
 ========================================
 .. py:module:: BuyAgent
+   :synopsis: 
+            <summary>
+            The BuyAgent class allow you to interect with the BuyAgent, via scripting.
+            </summary>
+        
 
 
 
@@ -10,10 +15,10 @@ Methods
 .. py:function:: BuyAgent.ChangeList(listName) -> Void
 
 
-* listName: :mod:`String` 
+* listName: :mod:`String` Name of an existing buy list.
 
 
-
+Change the BuyAgent's active list.
 
 .. py:function:: BuyAgent.Disable() -> Void
 
@@ -21,7 +26,7 @@ Methods
 
 
 
-
+Disable BuyAgent Agent.
 
 .. py:function:: BuyAgent.Enable() -> Void
 
@@ -29,7 +34,7 @@ Methods
 
 
 
-
+Enable BuyAgent on the currently active list.
 
 .. py:function:: BuyAgent.Status() -> Boolean
 
@@ -37,4 +42,4 @@ Methods
 
 
 
-
+Check BuyAgent Agent status

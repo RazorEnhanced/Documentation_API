@@ -13,7 +13,7 @@ Methods
 
 
 
-
+Start BandageHeal Agent.
 
 .. py:function:: BandageHeal.Status() -> Boolean
 
@@ -21,7 +21,7 @@ Methods
 
 
 
-
+Check BandageHeal Agent status, returns a bool value.
 
 .. py:function:: BandageHeal.Stop() -> Void
 
@@ -29,4 +29,4 @@ Methods
 
 
 
-
+Stop BandageHeal Agent.

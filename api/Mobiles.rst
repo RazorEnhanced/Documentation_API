@@ -1,6 +1,11 @@
 :mod:`Mobiles`
 ========================================
 .. py:module:: Mobiles
+   :synopsis: 
+            <summary>
+            The Mobiles class provides a wide range of functions to search and interact with Mobile.
+            </summary>
+        
 
 
 
@@ -36,7 +41,16 @@ Methods
 .. py:function:: Mobiles.FindBySerial(serial) -> Mobile
 
 
+* serial: :mod:`Int32` Serial of the Mobile.
+
+
+Find the Mobile with a specific Serial.
+
+.. py:function:: Mobiles.GetPropStringByIndex(serial, index) -> String
+
+
 * serial: :mod:`Int32` 
+* index: :mod:`Int32` 
 
 
 
@@ -45,15 +59,6 @@ Methods
 
 
 * mob: :mod:`Mobile` 
-* index: :mod:`Int32` 
-
-
-
-
-.. py:function:: Mobiles.GetPropStringByIndex(serial, index) -> String
-
-
-* serial: :mod:`Int32` 
 * index: :mod:`Int32` 
 
 
@@ -93,13 +98,13 @@ Methods
 
 
 
-.. py:function:: Mobiles.GetTrackingInfo() -> Mobiles.LastTrackingInfo
+.. py:function:: Mobiles.GetTrackingInfo() -> Mobiles.TrackingInfo
 
 
 
 
 
-
+Get the most updated information about tracking.
 
 .. py:function:: Mobiles.Message(mobile, hue, message, wait) -> Void
 
@@ -164,15 +169,6 @@ Methods
 
 
 
-.. py:function:: Mobiles.WaitForProps(mobileserial, delay) -> Void
-
-
-* mobileserial: :mod:`Int32` 
-* delay: :mod:`Int32` 
-
-
-
-
 .. py:function:: Mobiles.WaitForProps(m, delay) -> Void
 
 
@@ -182,10 +178,10 @@ Methods
 
 
 
-.. py:function:: Mobiles.WaitForStats(m, delay) -> Void
+.. py:function:: Mobiles.WaitForProps(mobileserial, delay) -> Void
 
 
-* m: :mod:`Mobile` 
+* mobileserial: :mod:`Int32` 
 * delay: :mod:`Int32` 
 
 
@@ -195,6 +191,15 @@ Methods
 
 
 * mobileserial: :mod:`Int32` 
+* delay: :mod:`Int32` 
+
+
+
+
+.. py:function:: Mobiles.WaitForStats(m, delay) -> Void
+
+
+* m: :mod:`Mobile` 
 * delay: :mod:`Int32` 
 
 

@@ -11,8 +11,6 @@ Properties
 
 * HotKeyEvent.Timestamp :mod:`Double`
 
-* HotKeyEvent.UnixTimeBegin :mod:`DateTime`
-
 
 Methods
 --------------

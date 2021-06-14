@@ -1,41 +1,23 @@
 :mod:`Vendor`
 ========================================
 .. py:module:: Vendor
+   :synopsis: 
+            <summary>
+            @nodoc
+            @experimental
+            The Vendor class allow you to read the list items purchased last.
+            </summary>
+        
 
-
-Properties
-----------------
-* Vendor.LastBuyList :mod:`List[Item]`
-
-* Vendor.LastVendor :mod:`Mobile`
 
 
 Methods
 --------------
 
-.. py:function:: Vendor.Buy(vendorSerial, itemID, amount) -> Void
-
-
-* vendorSerial: :mod:`Int32` 
-* itemID: :mod:`Int32` 
-* amount: :mod:`Int32` 
-
-
-
-
 .. py:function:: Vendor.BuyList(vendorSerial) -> List[Vendor.BuyItem]
 
 
-* vendorSerial: :mod:`Int32` 
+* vendorSerial: :mod:`Int32` Serial of the Vendor (default: -1 - most recent trade)
 
 
-
-
-.. py:function:: Vendor.StoreBuyList(p, args) -> Void
-
-
-* p: :mod:`PacketReader` 
-* args: :mod:`PacketHandlerEventArgs` 
-
-
-
+Get the list of items purchased in the last trade, with a specific Vendor.

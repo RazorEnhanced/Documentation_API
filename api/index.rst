@@ -4,36 +4,42 @@ Python API
    :maxdepth: 2
    :caption: Contents:
 
-   AutoDoc
-   Misc
-   Item
-   Items
-   Mobile
-   Mobiles
-   Player
-   Spells
-   Gumps
-   Journal
-   Target
-   Statics
    AutoLoot
-   Scavenger
-   SellAgent
+   AutoLoot_AutoLootItem
+   BandageHeal
    BuyAgent
-   Organizer
+   DPSMeter
    Dress
    Friend
-   Restock
-   BandageHeal
+   Gumps
+   HotKeyEvent
+   Item
+   Items
+   Items_Filter
+   Journal
+   Journal_JournalEntry
+   Misc
+   Misc_Context
+   Misc_MapInfo
+   Mobile
+   Mobiles
+   Mobiles_Filter
+   Mobiles_TrackingInfo
+   Organizer
    PathFinding
-   DPSMeter
-   Timer
-   Vendor
+   PathFinding_Route
+   Player
    Point2D
    Point3D
-   Tile
    Property
-   PathFinding_Route
-   Items_Filter
-   Mobiles_Filter
-   HotKeyEvent
+   Restock
+   Scavenger
+   SellAgent
+   Spells
+   Statics
+   Statics_TileInfo
+   Target
+   Tile
+   Timer
+   Vendor
+   Vendor_BuyItem

@@ -1,6 +1,11 @@
 :mod:`SellAgent`
 ========================================
 .. py:module:: SellAgent
+   :synopsis: 
+            <summary>
+            The SellAgent class allow you to interect with the SellAgent, via scripting.
+            </summary>
+        
 
 
 
